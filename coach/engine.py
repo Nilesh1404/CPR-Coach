@@ -33,6 +33,7 @@ class Engine:
         self.stop_ev = threading.Event()
         self.thread = None
         self.lock = threading.Lock()
+        self.load_lock = threading.Lock()
         self._last_level = 0.0
 
     # ---------------- events ----------------
@@ -120,14 +121,48 @@ class Engine:
     def set_ptt(self, down):
         self.ptt_down = bool(down)
 
+    # ---------------- model loading ----------------
+    def preload(self, stt="indic@10", lang="auto3"):
+        """Load and warm up the speech models in the background when the server starts, so
+        pressing Start is instant and the first sentence is not the slow one."""
+        try:
+            with self.load_lock:
+                if self.stt is not None and self.stt_spec == stt and self.stt_lang == lang:
+                    return
+                from .stt import make_stt
+                t0 = time.perf_counter()
+                self.stt = make_stt(stt, lang=lang)
+                self.stt_spec, self.stt_lang = stt, lang
+                warm = np.zeros(16000, np.float32)            # 1 s of silence through every model
+                for m in getattr(self.stt, "models", {}).values():
+                    list(m.transcribe(warm, beam_size=1, without_timestamps=True)[0])
+                self.emit("system", text=f"Speech models ready ({time.perf_counter() - t0:.1f} s).")
+        except Exception as e:
+            self.emit("system", text=f"Could not preload speech models: {e}", error=True)
+
     # ---------------- main loop ----------------
     def _run(self, stt, lang):
         try:
             self.set_status("loading")
             from .audio import Mic, Player, Voices
-            if self.stt is None or self.stt_spec != stt or self.stt_lang != lang:
+            self.load_lock.acquire()          # waits here if the background preload is still running
+            try:
+                need = self.stt is None or self.stt_spec != stt or self.stt_lang != lang
+            finally:
+                self.load_lock.release()
+            if need:
                 self.emit("system", text=f"Loading {stt} …")
                 from .stt import make_stt
+                if self.stt is not None:              # free the old models first: each set is ~0.7 GB,
+                    old, self.stt = self.stt, None    # and keeping old ones filled 8 GB laptops
+                    for m in getattr(old, "models", {}).values():
+                        try:
+                            m.model.unload_model()
+                        except Exception:
+                            pass
+                    del old
+                    import gc
+                    gc.collect()
                 t0 = time.perf_counter()
                 self.stt = make_stt(stt, lang=lang)
                 self.stt_spec, self.stt_lang = stt, lang
@@ -147,6 +182,7 @@ class Engine:
         else:
             self.player.beat_on = self.beat_on()
         self.set_status("listening")
+        threading.Thread(target=self._nudger, daemon=True).start()
         while not self.stop_ev.is_set():
             try:
                 audio = (self.mic.listen_vad(self.player, stop=self.stop_ev, level_cb=self._level)
@@ -200,7 +236,26 @@ class Engine:
         self._reply(r["reply"], r, source="dialog")
         return r
 
+    NUDGE_S = 20          # silent this long during CPR -> encourage (first-timers stopped pushing)
+    NUDGE_LINES = ["L07", "L13", "L05"]
+
+    def _nudger(self):
+        """First-timers mostly stopped pushing in the 2nd minute once the coach went quiet.
+        While pushing, a short keep-going line every NUDGE_S seconds of silence."""
+        k = 0
+        while not self.stop_ev.wait(1.0):
+            try:
+                quiet = time.time() - getattr(self, "last_said_t", time.time())
+                if (self.dialog.state == "compressions" and quiet >= self.NUDGE_S and self.player
+                        and not self.player.speaking(0) and self.status in ("listening", "speaking")):
+                    with self.lock:
+                        self._reply([self.NUDGE_LINES[k % len(self.NUDGE_LINES)]], None, source="nudge")
+                    k += 1
+            except Exception:
+                pass
+
     def _reply(self, ids, r, source):
+        self.last_said_t = time.time()
         lang = self.dialog.lang
         lines = [{"id": i, "text": self.dialog.line_text(i), "en": self.script["lines"][i]["en"]}
                  for i in ids]

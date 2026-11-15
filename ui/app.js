@@ -178,6 +178,41 @@ $("t-file").onchange = async ev => {
   a.hidden = false;
 };
 
+/* ---------- recordings ---------- */
+const recResults = [];
+function recRow(i, f, r){
+  const lines = r ? r.lines.map(l => `<div class="line"><span class="lid ${l.id==="L10"?"stop":r.escalate&&l.id==="L11"?"esc":""}">${l.id}</span><span class="tx">${esc(l.text)}${l.text!==l.en?`<span class="en">${esc(l.en)}</span>`:""}</span></div>`).join("") : "";
+  return `<tr id="r-row-${i}">
+    <td><div class="mono">${esc(f.name)}</div><audio controls preload="none" src="${URL.createObjectURL(f)}" style="width:220px;height:32px;margin-top:6px"></audio></td>
+    <td>${r ? (r.heard ? esc(r.heard) : `<span class="muted">nothing heard</span>`) : `<span class="muted">listening…</span>`}${r && r.error ? `<div class="small muted">error: ${esc(r.error)}</div>` : ""}</td>
+    <td class="mono">${r ? esc(r.lang || "") : ""}</td>
+    <td class="mono">${r ? esc(r.intent) : ""}</td>
+    <td>${lines}</td>
+    <td class="mono">${r ? (r.ms / 1000).toFixed(1) + " s" : ""}</td></tr>`;
+}
+$("r-files").onchange = async ev => {
+  const files = [...ev.target.files]; if (!files.length) return;
+  const lang = $("r-lang").value, state = $("r-state").value;
+  recResults.length = 0; $("r-download").hidden = true;
+  $("r-table").innerHTML = `<thead><tr><th>Recording</th><th>Heard</th><th>Lang</th><th>Intent</th><th>Coach says</th><th>Time</th></tr></thead><tbody>` +
+    files.map((f, i) => recRow(i, f, null)).join("") + "</tbody>";
+  for (const [i, f] of files.entries()) {
+    $("r-status").textContent = `Listening to ${i + 1} of ${files.length}: ${f.name}`;
+    let r;
+    try {
+      const q = new URLSearchParams({name: f.name, lang, state});
+      r = await fetch("/api/audio?" + q, {method: "POST", body: f}).then(x => x.json());
+    } catch (e) { r = {file: f.name, heard: "", intent: "unclear", reply: ["L15"], lines: [], escalate: false, error: String(e), ms: 0}; }
+    $("r-row-" + i).outerHTML = recRow(i, f, r);
+    recResults.push({file: r.file, heard: r.heard, lang: r.lang, intent: r.intent, reply: r.reply, escalate: r.escalate, ms: r.ms});
+  }
+  $("r-status").textContent = `Done: ${files.length} recording${files.length > 1 ? "s" : ""}.`;
+  const a = $("r-download");
+  a.href = URL.createObjectURL(new Blob([JSON.stringify({results: recResults}, null, 2)], {type: "application/json"}));
+  a.hidden = false;
+  ev.target.value = "";
+};
+
 /* ---------- boot ---------- */
 (async function boot(){
   cfg = await fetch("/api/config").then(r => r.json());

@@ -34,6 +34,25 @@ def load_wav(path):
     return a
 
 
+AUDIO_EXT = {".wav", ".ogg", ".opus", ".mp3", ".m4a", ".aac", ".flac", ".webm", ".amr", ".3gp"}
+
+
+def load_any(path):
+    """WAV directly; anything else (WhatsApp .ogg/.opus, phone .m4a, .mp3) through ffmpeg -> 16 kHz mono."""
+    import subprocess
+    import tempfile
+    path = Path(path)
+    if path.suffix.lower() == ".wav":
+        try:
+            return load_wav(path)
+        except Exception:
+            pass                                   # odd WAV encodings: let ffmpeg read it
+    tmp = Path(tempfile.mkdtemp()) / "a.wav"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(path), "-ac", "1", "-ar", str(SR), str(tmp)],
+                   check=True)
+    return load_wav(tmp)
+
+
 def save_wav(path, audio, sr=SR):
     Path(path).parent.mkdir(parents=True, exist_ok=True)
     a = (np.clip(audio, -1, 1) * 32767).astype(np.int16)

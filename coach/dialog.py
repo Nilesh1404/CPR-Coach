@@ -96,6 +96,11 @@ class Dialog:
                 return self._go_cpr(), False
             if i == "gasping":
                 return ["L12"] + self._go_cpr(), False
+            if i == "breathing_normal" and self.asked != "breathing-again":
+                # Noise can swallow "nahi" ("shwas ghet nahi" heard as "shwas ghetoy" at a station).
+                # Ask once more before giving up on CPR.
+                self.asked = "breathing-again"
+                return ["L02"], False
             if i in ("responding", "breathing_normal", "help_arrived", "tired"):
                 # Not covered by the CPR script -> escalate, still keep-pushing wording.
                 return ["L11"], True

@@ -2977,267 +2977,267 @@
  },
  "indic@10|auto3|clips/man_20/man_20_hi_quiet_01_not_breathing.wav": {
   "text": "सांस नहीं ले रहा",
-  "logprob": -0.024,
+  "logprob": -0.023,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 2,
-  "ms": 5001.7
+  "ms": 4324.2
  },
  "indic@10|auto3|clips/man_20/man_20_hi_quiet_02_breathing_normal.wav": {
   "text": "हाँ साथ ले रहा है",
-  "logprob": -0.075,
+  "logprob": -0.1,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2568.5
+  "ms": 2155.3
  },
  "indic@10|auto3|clips/man_20/man_20_hi_quiet_03_gasping.wav": {
-  "text": "अजीब साँस अफराई",
-  "logprob": -0.232,
+  "text": "अजीब साँस",
+  "logprob": -0.219,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2492.6
+  "ms": 1994.7
  },
  "indic@10|auto3|clips/man_28/man_28_hi_quiet_01_not_breathing.wav": {
   "text": "यह आदमी तो सांस नहीं ले रहा है",
-  "logprob": -0.068,
+  "logprob": -0.07,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 2,
-  "ms": 5277.8
+  "ms": 5113.7
  },
  "indic@10|auto3|clips/man_28/man_28_hi_quiet_02_breathing_normal.wav": {
-  "text": "हाँ मुझे लग रहा है कि थोड़ा थोड़ा साश ले रहा है",
-  "logprob": -0.051,
+  "text": "हाँ मुझे लग रहा है कि थोड़ा थोड़ा साथ ले रहा है",
+  "logprob": -0.058,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2924.1
+  "ms": 3671.7
  },
  "indic@10|auto3|clips/man_28/man_28_hi_quiet_03_gasping.wav": {
   "text": "अरे ये आदमी तो अजीब तरह से साथ ले रहा है",
-  "logprob": -0.079,
+  "logprob": -0.078,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2786.7
+  "ms": 3468.0
  },
  "indic@10|auto3|clips/man_40/man_40_mix_quiet_01_not_breathing.wav": {
   "text": "प्रेडिंग नहीं कर रहा है",
-  "logprob": -0.195,
+  "logprob": -0.194,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 2,
-  "ms": 5456.5
+  "ms": 6115.2
  },
  "indic@10|auto3|clips/man_40/man_40_mix_quiet_02_breathing_normal.wav": {
-  "text": "हाँ ब्रेडिंग तो नॉर्मल है",
-  "logprob": -0.105,
+  "text": "हाँ ब्रीडिंग तो नॉर्मल है",
+  "logprob": -0.106,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2842.9
+  "ms": 3493.2
  },
  "indic@10|auto3|clips/man_40/man_40_mix_quiet_03_gasping.wav": {
   "text": "गैस पिंडेसा कर रहा है",
+  "logprob": -0.265,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3131.3
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_quiet_01_not_breathing.wav": {
+  "text": "शासकीयत नहीं है",
+  "logprob": -0.261,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5832.1
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_quiet_02_breathing_normal.wav": {
+  "text": "ओ, शास केतोय.",
+  "logprob": -0.042,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5728.0
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_quiet_03_gasping.wav": {
+  "text": "भापाटाख तोए",
+  "logprob": -0.469,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 10671.3
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_01_not_breathing.wav": {
+  "text": "श्राश्ट गेट नहीं",
+  "logprob": -0.403,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 5855.1
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_02_breathing_normal.wav": {
+  "text": "फोशास दूधय.",
+  "logprob": -0.194,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 12017.7
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_03_gasping.wav": {
+  "text": "पटाप",
+  "logprob": -0.549,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 9397.2
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_04_not_breathing.wav": {
+  "text": "नाहीप आजून नाही.",
+  "logprob": -0.055,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 6138.3
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_05_not_responding.wav": {
+  "text": "काहीच प्रतिसाद नाही, हलत नाही.",
+  "logprob": -0.004,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3214.0
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_06_responding.wav": {
+  "text": "एम्बुलेंस",
+  "logprob": -0.288,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 6608.2
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_07_tired.wav": {
+  "text": "खाद दुबताए",
+  "logprob": -0.469,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2956.9
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_08_where_hands.wav": {
+  "text": "हाथ कोटेटू",
+  "logprob": -0.201,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2881.4
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_09_how_deep.wav": {
+  "text": "किती जोरात दाबू?",
+  "logprob": -0.053,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5795.9
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_quiet_01_not_breathing.wav": {
+  "text": "स्वास्थ्य गीत नहीं है",
+  "logprob": -0.165,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5948.2
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_quiet_02_breathing_normal.wav": {
+  "text": "हो स्वास्थ्य की तो",
+  "logprob": -0.162,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2979.9
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_quiet_03_gasping.wav": {
+  "text": "दापा का विचित रावा जवे",
+  "logprob": -0.493,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3070.6
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_01_not_breathing.wav": {
+  "text": "स्वास्थ्य",
+  "logprob": -0.263,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2804.4
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_02_breathing_normal.wav": {
+  "text": "थो स्वास्थ्य",
+  "logprob": -0.411,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2863.9
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_03_gasping.wav": {
+  "text": "दबाऊँ",
+  "logprob": -0.387,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2841.1
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_04_not_breathing.wav": {
+  "text": "अजीब नहीं",
+  "logprob": -0.381,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2983.5
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_05_not_responding.wav": {
+  "text": "प्रतिशत",
   "logprob": -0.284,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2780.8
- },
- "indic@10|auto3|clips/man_60/man_60_mr_quiet_01_not_breathing.wav": {
-  "text": "शासकीयत नहीं है",
-  "logprob": -0.258,
-  "lang": "hi",
-  "lang_p": null,
-  "models_tried": 2,
-  "ms": 5396.0
- },
- "indic@10|auto3|clips/man_60/man_60_mr_quiet_02_breathing_normal.wav": {
-  "text": "ओ, शास केतोय.",
-  "logprob": -0.061,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 2,
-  "ms": 5372.1
- },
- "indic@10|auto3|clips/man_60/man_60_mr_quiet_03_gasping.wav": {
-  "text": "भापाटाख तोए",
-  "logprob": -0.478,
-  "lang": "hi",
-  "lang_p": null,
-  "models_tried": 2,
-  "ms": 6454.0
- },
- "indic@10|auto3|clips/man_60/man_60_mr_station_01_not_breathing.wav": {
-  "text": "शास घेत नाहीळ.",
-  "logprob": -0.062,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 2,
-  "ms": 6745.5
- },
- "indic@10|auto3|clips/man_60/man_60_mr_station_02_breathing_normal.wav": {
-  "text": "फोशास दूधय.",
-  "logprob": -0.183,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 3114.4
- },
- "indic@10|auto3|clips/man_60/man_60_mr_station_03_gasping.wav": {
-  "text": "नापाटाकतोय, विचित्र आवाज येतोय.",
-  "logprob": -0.036,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 3186.0
- },
- "indic@10|auto3|clips/man_60/man_60_mr_station_04_not_breathing.wav": {
-  "text": "नाहीप आजून नाही.",
-  "logprob": -0.041,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 2885.7
- },
- "indic@10|auto3|clips/man_60/man_60_mr_station_05_not_responding.wav": {
-  "text": "काहीच प्रतिसाद नाही, हलत नाही.",
-  "logprob": -0.003,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 3159.7
- },
- "indic@10|auto3|clips/man_60/man_60_mr_station_06_responding.wav": {
-  "text": "वेळू वैळू घेट रावर्वखे. खो, हात तोय.",
-  "logprob": -0.242,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 4002.0
- },
- "indic@10|auto3|clips/man_60/man_60_mr_station_07_tired.wav": {
-  "text": "हात दुखताय, मी थकलो.",
-  "logprob": -0.012,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 3387.1
- },
- "indic@10|auto3|clips/man_60/man_60_mr_station_08_where_hands.wav": {
-  "text": "हात कुठे चिऊ.",
-  "logprob": -0.071,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 8870.9
- },
- "indic@10|auto3|clips/man_60/man_60_mr_station_09_how_deep.wav": {
-  "text": "किती जोरात दाबू?",
-  "logprob": -0.065,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 4335.3
- },
- "indic@10|auto3|clips/woman_45/woman_45_mr_quiet_01_not_breathing.wav": {
-  "text": "स्वास्थ्य गेट नहीं है",
-  "logprob": -0.164,
-  "lang": "hi",
-  "lang_p": null,
-  "models_tried": 2,
-  "ms": 8437.3
- },
- "indic@10|auto3|clips/woman_45/woman_45_mr_quiet_02_breathing_normal.wav": {
-  "text": "हो स्वास्थ्य की तो",
-  "logprob": -0.171,
-  "lang": "hi",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 3916.6
- },
- "indic@10|auto3|clips/woman_45/woman_45_mr_quiet_03_gasping.wav": {
-  "text": "दापा का विचित रावा",
-  "logprob": -0.444,
-  "lang": "hi",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 2824.9
- },
- "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_01_not_breathing.wav": {
-  "text": "स्वास्थ्य भी नहीं है",
-  "logprob": -0.253,
-  "lang": "hi",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 3012.2
- },
- "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_02_breathing_normal.wav": {
-  "text": "फोळ श्रास विठ तोय.",
-  "logprob": -0.172,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 2,
-  "ms": 5503.8
- },
- "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_03_gasping.wav": {
-  "text": "नाहापा टाकतोय, विचित्र आवाज येत आहे.",
-  "logprob": -0.067,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 3146.9
- },
- "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_04_not_breathing.wav": {
-  "text": "नाही, अजून नाही.",
-  "logprob": -0.03,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 2721.0
- },
- "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_05_not_responding.wav": {
-  "text": "काहीस प्रतिसाद नाही, हलत नाही.",
-  "logprob": -0.012,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 4816.1
+  "ms": 2783.2
  },
  "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_06_responding.wav": {
   "text": "वो, ठालतोय.",
-  "logprob": -0.139,
+  "logprob": -0.138,
   "lang": "mr",
   "lang_p": null,
-  "models_tried": 1,
-  "ms": 4012.1
+  "models_tried": 2,
+  "ms": 5672.7
  },
  "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_07_tired.wav": {
-  "text": "हात दुखतायत, विचित मोठ.",
-  "logprob": -0.028,
+  "text": "हात दुखतायत, विचित् मोठ.",
+  "logprob": -0.049,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 4173.0
+  "ms": 3060.4
  },
  "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_08_where_hands.wav": {
-  "text": "दूखता. हात कुठे चे होओ?",
-  "logprob": -0.186,
+  "text": "दुख. हात कुठे चिऊ?",
+  "logprob": -0.099,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3949.2
+  "ms": 2930.8
  },
  "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_09_help_called.wav": {
-  "text": "अबून्सला फोन केला.",
-  "logprob": -0.087,
+  "text": "अंबून्सला फोन केला.",
+  "logprob": -0.091,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2906.3
+  "ms": 3077.7
  },
  "indic@10|auto3|clips/man_35/man_35_mr_station_01_not_breathing.wav": {
   "text": "श्वास गेतोय.",
@@ -3245,55 +3245,55 @@
   "lang": "mr",
   "lang_p": null,
   "models_tried": 2,
-  "ms": 5994.2
+  "ms": 5733.2
  },
  "indic@10|auto3|clips/man_35/man_35_mr_station_02_not_breathing.wav": {
   "text": "श्वास भूत नाही आही.",
-  "logprob": -0.057,
+  "logprob": -0.068,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2862.0
+  "ms": 3017.6
  },
  "indic@10|auto3|clips/man_35/man_35_mr_station_03_gasping.wav": {
-  "text": "धापा टाकतले, विचित्र आवाज चेळ.",
-  "logprob": -0.069,
+  "text": "धापाटाकतले, विचित्र आवाज चेऽ.",
+  "logprob": -0.094,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2855.4
+  "ms": 3246.9
  },
  "indic@10|auto3|clips/man_35/man_35_mr_station_04_not_breathing.wav": {
   "text": "नाही, आजोन नाही.",
-  "logprob": -0.017,
+  "logprob": -0.039,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2727.5
+  "ms": 2924.8
  },
  "indic@10|auto3|clips/man_35/man_35_mr_station_05_not_responding.wav": {
   "text": "काहीच प्रतिसाद नाही, हलत नाही.",
-  "logprob": -0.0,
+  "logprob": -0.001,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3820.8
+  "ms": 3174.8
  },
  "indic@10|auto3|clips/man_35/man_35_mr_station_06_responding.wav": {
   "text": "हो, हलतोय.",
-  "logprob": -0.086,
+  "logprob": -0.092,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 8076.7
+  "ms": 2819.1
  },
  "indic@10|auto3|clips/man_35/man_35_mr_station_07_tired.wav": {
   "text": "उपन दुखतायत, मी खपलो.",
-  "logprob": -0.165,
+  "logprob": -0.157,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 4892.7
+  "ms": 3047.9
  },
  "indic@10|auto3|clips/man_35/man_35_mr_station_08_where_hands.wav": {
   "text": "हात कुठे ठेवू?",
@@ -3301,191 +3301,191 @@
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 4519.0
+  "ms": 2968.7
  },
  "indic@10|auto3|clips/man_35/man_35_mr_station_09_help_called.wav": {
   "text": "फोन किला",
-  "logprob": -0.319,
+  "logprob": -0.278,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 2,
-  "ms": 10015.2
+  "ms": 6434.6
  },
  "indic@10|auto3|clips/man_35/man_35_mr_quiet_01_not_breathing.wav": {
   "text": "श्वास घेट नहीं है",
-  "logprob": -0.137,
+  "logprob": -0.134,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3866.1
+  "ms": 2930.9
  },
  "indic@10|auto3|clips/man_35/man_35_mr_quiet_02_breathing_normal.wav": {
-  "text": "हो स्वास्थ्य",
-  "logprob": -0.221,
+  "text": "हो श्वास खितने",
+  "logprob": -0.394,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2807.4
+  "ms": 2875.2
  },
  "indic@10|auto3|clips/man_35/man_35_mr_quiet_03_gasping.wav": {
-  "text": "धापाटक तो विचित रावजे तो",
-  "logprob": -0.252,
+  "text": "धापाटक तो विचित रावज",
+  "logprob": -0.237,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2936.0
+  "ms": 3201.1
  },
  "indic@10|auto3|clips/man_75/man_75_mr_quiet_01_not_breathing.wav": {
   "text": "श्वास घेत नाही.",
-  "logprob": -0.028,
+  "logprob": -0.042,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 2,
-  "ms": 5541.3
+  "ms": 5829.1
  },
  "indic@10|auto3|clips/man_75/man_75_mr_quiet_02_breathing_normal.wav": {
-  "text": "फोळ च्वाच घेतोय.",
-  "logprob": -0.085,
+  "text": "फोळ च्वास घेतोय.",
+  "logprob": -0.1,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3194.0
+  "ms": 3046.1
  },
  "indic@10|auto3|clips/man_75/man_75_mr_quiet_03_gasping.wav": {
   "text": "धापाटाक तोय, विचित्र आवाज येतोय.",
-  "logprob": -0.021,
+  "logprob": -0.02,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 5333.6
+  "ms": 3151.3
  },
  "indic@10|auto3|clips/man_75/man_75_mr_traffic_01_not_breathing.wav": {
-  "text": "चाच निही. नाही आहे.",
-  "logprob": -0.171,
+  "text": "चाश नीत नाही आहे.",
+  "logprob": -0.107,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 4111.4
+  "ms": 3434.8
  },
  "indic@10|auto3|clips/man_75/man_75_mr_traffic_02_breathing_normal.wav": {
   "text": "ओ, चात गेतोय.",
-  "logprob": -0.073,
+  "logprob": -0.066,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3073.4
+  "ms": 3031.6
  },
  "indic@10|auto3|clips/man_75/man_75_mr_traffic_03_gasping.wav": {
-  "text": "नापा टाकतोय, विचित्र आवाज येतोय.",
+  "text": "नापाटाकतोय, विचित्र आवाज येतोय.",
+  "logprob": -0.008,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3428.4
+ },
+ "indic@10|auto3|clips/man_75/man_75_mr_traffic_04_not_breathing.wav": {
+  "text": "नाही, अजून नाही.",
+  "logprob": -0.002,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2979.0
+ },
+ "indic@10|auto3|clips/man_75/man_75_mr_traffic_05_not_responding.wav": {
+  "text": "काहीच परतिसाद नाही, हलत नाही.",
   "logprob": -0.017,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3126.3
+  "ms": 3459.9
  },
- "indic@10|auto3|clips/man_75/man_75_mr_traffic_04_not_breathing.wav": {
-  "text": "नाही, अजून नाही.",
-  "logprob": -0.004,
+ "indic@10|auto3|clips/man_75/man_75_mr_traffic_06_responding.wav": {
+  "text": "तो हात्तोय.",
+  "logprob": -0.084,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2885.8
+  "ms": 3374.4
  },
- "indic@10|auto3|clips/man_75/man_75_mr_traffic_05_not_responding.wav": {
-  "text": "काहीच परतिसाद नाही, हलत नाही.",
+ "indic@10|auto3|clips/man_75/man_75_mr_traffic_07_tired.wav": {
+  "text": "हात दुखताय, मी थकलो.",
   "logprob": -0.009,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2855.0
- },
- "indic@10|auto3|clips/man_75/man_75_mr_traffic_06_responding.wav": {
-  "text": "तो हात्तोय.",
-  "logprob": -0.126,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 2700.6
- },
- "indic@10|auto3|clips/man_75/man_75_mr_traffic_07_tired.wav": {
-  "text": "हात दुखताय, मी थकलो.",
-  "logprob": -0.005,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 2809.9
+  "ms": 3577.3
  },
  "indic@10|auto3|clips/man_75/man_75_mr_traffic_08_where_hands.wav": {
-  "text": "हात कुठे देवू?",
-  "logprob": -0.038,
+  "text": "हात कुटे देवू?",
+  "logprob": -0.049,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2716.2
+  "ms": 2987.3
  },
  "indic@10|auto3|clips/man_75/man_75_mr_traffic_09_help_called.wav": {
-  "text": "उम्ब्युलन्सला फोन केला.",
-  "logprob": -0.063,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 2783.6
- },
- "indic@10|auto3|clips/woman_30/woman_30_mr_quiet_01_not_breathing.wav": {
-  "text": "श्वास घेट नहीं है",
-  "logprob": -0.148,
-  "lang": "hi",
-  "lang_p": null,
-  "models_tried": 2,
-  "ms": 5716.1
- },
- "indic@10|auto3|clips/woman_30/woman_30_mr_quiet_02_breathing_normal.wav": {
-  "text": "हो श्वास गीत है",
-  "logprob": -0.311,
-  "lang": "hi",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 2789.1
- },
- "indic@10|auto3|clips/woman_30/woman_30_mr_quiet_03_gasping.wav": {
-  "text": "धपपट अब तो विचित्र आवाज एतु है",
-  "logprob": -0.339,
-  "lang": "hi",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 3013.9
- },
- "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_01_not_breathing.wav": {
-  "text": "स्वास्थ्य गतिविधि नहीं",
-  "logprob": -0.3,
-  "lang": "hi",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 3031.2
- },
- "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_02_breathing_normal.wav": {
-  "text": "चो स्वाज भिखोए.",
-  "logprob": -0.082,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 2,
-  "ms": 5540.3
- },
- "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_03_gasping.wav": {
-  "text": "धापा टाकतोय, विचित्र आवाज देतोय.",
+  "text": "उम्हिवूलन्सला फोन केला.",
   "logprob": -0.028,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3126.9
+  "ms": 3152.5
  },
- "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_04_not_breathing.wav": {
-  "text": "नाही, अजून नाही.",
-  "logprob": -0.015,
+ "indic@10|auto3|clips/woman_30/woman_30_mr_quiet_01_not_breathing.wav": {
+  "text": "श्वास घेट नहीं है",
+  "logprob": -0.141,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 6092.3
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_quiet_02_breathing_normal.wav": {
+  "text": "हो श्वास गीत है",
+  "logprob": -0.313,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3105.9
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_quiet_03_gasping.wav": {
+  "text": "धपपट आप तो ए विचित्र आवाज ए तो ए",
+  "logprob": -0.281,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3320.6
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_01_not_breathing.wav": {
+  "text": "स्वास्थ्य गतिविधि नहीं",
+  "logprob": -0.279,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3593.0
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_02_breathing_normal.wav": {
+  "text": "चो स्वाज भिखोए.",
+  "logprob": -0.079,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 6161.7
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_03_gasping.wav": {
+  "text": "धापा टाकतोय, विचित्र आवाज येतोय.",
+  "logprob": -0.04,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3031.8
+  "ms": 3313.1
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_04_not_breathing.wav": {
+  "text": "नाही, अजून नाही.",
+  "logprob": -0.018,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2850.9
  },
  "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_05_not_responding.wav": {
   "text": "काहीच प्रतिसाद नाही, हलत नाही.",
@@ -3493,7 +3493,7 @@
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3259.7
+  "ms": 3028.1
  },
  "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_06_responding.wav": {
   "text": "तो हलतोय.",
@@ -3501,222 +3501,222 @@
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3104.7
+  "ms": 2974.5
  },
  "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_07_tired.wav": {
   "text": "हात दुखताय, मी ठकले.",
-  "logprob": -0.023,
+  "logprob": -0.037,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3004.3
+  "ms": 3119.1
  },
  "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_08_where_hands.wav": {
   "text": "हात कुठे ठेवू?",
-  "logprob": -0.022,
+  "logprob": -0.015,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2857.4
+  "ms": 3310.0
  },
  "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_09_help_called.wav": {
   "text": "अण्भूलसला फोन केला आहे.",
-  "logprob": -0.102,
+  "logprob": -0.062,
   "lang": "mr",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2918.9
+  "ms": 3044.4
  },
  "indic@10|auto3|clips/woman_22/woman_22_mix_quiet_01_not_breathing.wav": {
   "text": "मृतिंग नहीं कर रहा है",
-  "logprob": -0.071,
+  "logprob": -0.078,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 2,
-  "ms": 5888.4
+  "ms": 6453.0
  },
  "indic@10|auto3|clips/woman_22/woman_22_mix_quiet_02_breathing_normal.wav": {
-  "text": "हाँ ब्रीथिंग नॉर्मल है",
-  "logprob": -0.11,
+  "text": "हाँ ब्रीटिंग नॉर्मल है",
+  "logprob": -0.104,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2897.8
+  "ms": 3437.0
  },
  "indic@10|auto3|clips/woman_22/woman_22_mix_quiet_03_gasping.wav": {
   "text": "गास्पिंग जैसा कर रहा है",
-  "logprob": -0.123,
+  "logprob": -0.127,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2964.6
+  "ms": 3626.2
  },
  "indic@10|auto3|clips/woman_22/woman_22_mix_market_01_not_breathing.wav": {
-  "text": "ब्रिटिंग नहीं कर रहा है",
-  "logprob": -0.123,
+  "text": "ब्रिटिंग नहीं कर रहा है यार",
+  "logprob": -0.109,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3144.8
+  "ms": 3230.2
  },
  "indic@10|auto3|clips/woman_22/woman_22_mix_market_02_breathing_normal.wav": {
-  "text": "हाँ रीचिंग नॉर्मल है",
-  "logprob": -0.22,
+  "text": "हाथ रुकिंग नॉर्मल है",
+  "logprob": -0.214,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2991.2
+  "ms": 3007.3
  },
  "indic@10|auto3|clips/woman_22/woman_22_mix_market_03_gasping.wav": {
-  "text": "दस पिंड जैसा कर रहा है",
-  "logprob": -0.278,
+  "text": "गास्केन जैसा कर रहा है",
+  "logprob": -0.229,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3333.2
+  "ms": 3038.0
  },
  "indic@10|auto3|clips/woman_22/woman_22_mix_market_04_not_breathing.wav": {
   "text": "अभी भी नहीं",
+  "logprob": -0.108,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2901.3
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_market_05_not_responding.wav": {
+  "text": "कोई रिस्पॉन्स नहीं नहीं रहा",
+  "logprob": -0.112,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3132.6
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_market_06_responding.wav": {
+  "text": "हीदा है",
+  "logprob": -0.443,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2715.3
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_market_07_tired.wav": {
+  "text": "आईएम टायर यार खद्दत कर रहा है",
+  "logprob": -0.245,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3276.4
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_market_08_where_hands.wav": {
+  "text": "कहाँ पूछ करूँ",
+  "logprob": -0.257,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2928.3
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_market_09_pushing.wav": {
+  "text": "ओके ओके कुछ कर रही हूँ",
+  "logprob": -0.099,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2957.2
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_hi_traffic_01_not_breathing.wav": {
+  "text": "साथ नहीं ले रहा",
+  "logprob": -0.145,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5920.0
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_hi_traffic_02_breathing_normal.wav": {
+  "text": "हाथ ले रहा है",
+  "logprob": -0.098,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2962.5
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_hi_traffic_03_gasping.wav": {
+  "text": "अजीब साथ रहा है",
+  "logprob": -0.206,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2935.2
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_hi_traffic_04_not_breathing.wav": {
+  "text": "नो अभी भी नहीं",
   "logprob": -0.103,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2977.1
- },
- "indic@10|auto3|clips/woman_22/woman_22_mix_market_05_not_responding.wav": {
-  "text": "कोई रिस्पॉस नहीं नहीं रहा",
-  "logprob": -0.133,
-  "lang": "hi",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 2912.1
- },
- "indic@10|auto3|clips/woman_22/woman_22_mix_market_06_responding.wav": {
-  "text": "हीच वूबिंग हीणाही.",
-  "logprob": -0.065,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 2,
-  "ms": 6083.9
- },
- "indic@10|auto3|clips/woman_22/woman_22_mix_market_07_tired.wav": {
-  "text": "आयाम तायट यार खाद्दत करण्या आहेत. बहुजा.",
-  "logprob": -0.079,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 3321.9
- },
- "indic@10|auto3|clips/woman_22/woman_22_mix_market_08_where_hands.wav": {
-  "text": "काहा पूष करू?",
-  "logprob": -0.022,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 2814.2
- },
- "indic@10|auto3|clips/woman_22/woman_22_mix_market_09_pushing.wav": {
-  "text": "अचावरी नाचावर. अके, उष कर रहीहू.",
-  "logprob": -0.142,
-  "lang": "mr",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 3202.8
- },
- "indic@10|auto3|clips/woman_19/woman_19_hi_traffic_01_not_breathing.wav": {
-  "text": "साथ नहीं ले रहा",
-  "logprob": -0.17,
-  "lang": "hi",
-  "lang_p": null,
-  "models_tried": 2,
-  "ms": 5770.2
- },
- "indic@10|auto3|clips/woman_19/woman_19_hi_traffic_02_breathing_normal.wav": {
-  "text": "हाथ ले रहा है",
-  "logprob": -0.095,
-  "lang": "hi",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 2785.5
- },
- "indic@10|auto3|clips/woman_19/woman_19_hi_traffic_03_gasping.wav": {
-  "text": "अजीब साथ रहा है",
-  "logprob": -0.233,
-  "lang": "hi",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 3001.6
- },
- "indic@10|auto3|clips/woman_19/woman_19_hi_traffic_04_not_breathing.wav": {
-  "text": "ना अभी भी नहीं",
-  "logprob": -0.132,
-  "lang": "hi",
-  "lang_p": null,
-  "models_tried": 1,
-  "ms": 2797.2
+  "ms": 2874.1
  },
  "indic@10|auto3|clips/woman_19/woman_19_mix_traffic_05_not_responding.wav": {
   "text": "कोई रिस्पॉन्स नहीं",
-  "logprob": -0.107,
+  "logprob": -0.112,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2966.0
+  "ms": 3016.5
  },
  "indic@10|auto3|clips/woman_19/woman_19_mix_traffic_06_responding.wav": {
   "text": "फिर रहा है",
-  "logprob": -0.404,
+  "logprob": -0.357,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2774.4
+  "ms": 3150.5
  },
  "indic@10|auto3|clips/woman_19/woman_19_mix_traffic_07_tired.wav": {
-  "text": "आई टाइट यार हाथ दर्ज कर रहा है",
-  "logprob": -0.274,
+  "text": "आयाम टायर यार हाथ दर्ज कर रहा है",
+  "logprob": -0.207,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3066.1
+  "ms": 6144.5
  },
  "indic@10|auto3|clips/woman_19/woman_19_mix_traffic_08_where_hands.wav": {
-  "text": "कहा कुछ करूँ",
-  "logprob": -0.228,
+  "text": "कहाँ कुछ करूँ",
+  "logprob": -0.203,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2793.2
+  "ms": 4949.6
  },
  "indic@10|auto3|clips/woman_19/woman_19_mix_traffic_09_pushing.wav": {
   "text": "ओके ओके उसके रही",
-  "logprob": -0.249,
+  "logprob": -0.278,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2795.7
+  "ms": 4976.4
  },
  "indic@10|auto3|clips/woman_19/woman_19_mix_quiet_01_not_breathing.wav": {
   "text": "वृत्ति नहीं कर रहा है",
-  "logprob": -0.208,
+  "logprob": -0.203,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3155.8
+  "ms": 4646.6
  },
  "indic@10|auto3|clips/woman_19/woman_19_mix_quiet_02_breathing_normal.wav": {
   "text": "हाँ ब्रीटिंग नॉर्मल है",
-  "logprob": -0.096,
+  "logprob": -0.108,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 3313.8
+  "ms": 4771.2
  },
  "indic@10|auto3|clips/woman_19/woman_19_mix_quiet_03_gasping.wav": {
   "text": "गास्पेटिस्ट कर रहा है",
-  "logprob": -0.233,
+  "logprob": -0.255,
   "lang": "hi",
   "lang_p": null,
   "models_tried": 1,
-  "ms": 2994.1
+  "ms": 5054.5
  }
 }

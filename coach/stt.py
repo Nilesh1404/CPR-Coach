@@ -13,6 +13,10 @@ import time
 import numpy as np
 
 os.environ.setdefault("HF_HUB_OFFLINE", "1")    # never touch the network during a session
+# Intel MKL reserves ~2.7 GB of Windows commit memory PER model (only ~0.35 GB is used). Two models
+# then reserve ~5 GB and loading fails on an 8 GB laptop ("mkl_malloc: failed to allocate memory").
+# Without MKL: ~1.1 GB for both models, about 20% slower decoding. Must be set before ctranslate2 loads.
+os.environ.setdefault("CT2_USE_MKL", "0")
 
 # Biases the decoder towards the words that change the instruction.
 PROMPT = "साँस नहीं ले रहा। श्वास घेत नाही। थांबा। हिल रहा। breathing, not breathing."

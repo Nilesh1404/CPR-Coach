@@ -38,14 +38,21 @@ LEX = {
             # Whisper merges "घेत नाहीये" into one word: "गेतने ये", "घेतनाही"
             "घेतन*", "गेतन*", "घेतना*", "गेतना*", "गितना*", "गीतना*", "ना ये", "नाये", "नाहिये", "नहिये", "नगे"],
     "doubt": ["shayad", "शायद", "maybe", "lagta", "लगता", "pata", "पता", "think", "sure",
-              "kadachit", "कदाचित", "vatat", "वाटत*", "kya pata", "malum", "मालूम", "thoda thoda", "थोडा थोडा"],
+              "kadachit", "कदाचित", "vatat", "वाटत*", "kya pata", "malum", "मालूम", "thoda thoda", "थोडा थोडा",
+              # "yes, but a little" is not a clear yes ("ho pan thoda" once reached L10)
+              "thoda", "thodi", "thoda sa", "थोडा", "थोडी", "थोडं", "थोडे", "pan", "पण", "but", "lekin", "लेकिन",
+              "par", "kami", "कमी", "little", "bit", "slightly", "kind of", "sort of",
+              "*थोडा", "*थोडं", "*थोडी", "*थोडे", "*thoda", "पंथोडा*", "पणथोडा*"],
     "gasp": ["haanf*", "hanf*", "hamf*", "gasp*", "हांफ*", "हाफ*", "धाप*", "ukhd*", "ukhad*", "उखड*",
              "ghargh*", "घरघर*", "अजिव*", "अजीव*", "अजिब*", "आजिब*", "अजब*", "धापा*", "दापा*", "ruk ruk", "रुक रुक", "kabhi kabhi", "कभी कभी", "ajeeb", "अजीब",
              "khar khar", "snor*", "jhatke", "झटके"],
+    # Marathi spellings of श्वास from the Marathi model; "स्वास" whole word only, because
+    # "स्वास्थ्य" (health) is a common mishearing and must not count as "breathing".
     "breath": ["saans", "sans", "saas", "saans*", "सांस*", "सास", "श्वास*", "shwas*", "swas*", "shvas*",
-               "breath*", "ब्रीद*", "ब्रेथ*", "दम"],
+               "breath*", "ब्रीद*", "ब्रेथ*", "दम",
+               "शास*", "शुवास*", "शॉस*", "च्वास*", "स्वास", "शाश*", "श्राश*", "ब्रिथ*", "ब्रिट*", "ब्रेड*", "ब्रीड*"],
     "yes": ["haan", "han", "haa", "ha", "ho", "hoy", "haanji", "yes", "yeah", "yep", "ji",
-            "हां", "हा", "हो", "होय", "जी", "हांजी", "येस"],
+            "हां", "हा", "हो", "होय", "जी", "हांजी", "येस", "ओ"],
     "no": ["nahi", "nahin", "nai", "no", "नहीं", "नही", "नाही", "नो"],
     # Positive evidence needed before L10 (stop): a yes word or a "is breathing" verb.
     # A garbled transcript with only "साँस" in it must not stop CPR.
@@ -57,10 +64,11 @@ LEX = {
 
 
 def _compile(pats):
+    """"x" whole token, "x*" prefix, "*x" suffix (merged words), "a b" phrase."""
     out = []
     for p in pats:
-        star = p.endswith("*")
-        p = normalize(p.rstrip("*"))
+        star = "suf" if p.startswith("*") else bool(p.endswith("*"))
+        p = normalize(p.strip("*"))
         out.append((p, star))
     return out
 
@@ -73,6 +81,9 @@ def has(norm_text, tokens, kind):
     for p, star in LEXC[kind]:
         if " " in p:
             if f" {p} " in padded:
+                return True
+        elif star == "suf":
+            if any(t.endswith(p) and len(t) > len(p) for t in tokens):
                 return True
         elif star:
             if any(t.startswith(p) for t in tokens):
@@ -277,6 +288,10 @@ class NLU:
             return out
         f = {k: has(t, toks, k) for k in ("neg", "doubt", "gasp", "breath", "affirm")}
         f["yes_first"] = has(toks[0], toks[:1], "yes")
+        if toks[0] == "ओ" and f["breath"]:
+            f["affirm"] = True                     # "ओ, शास केतोय" = "हो, श्वास घेतोय"
+        elif toks == ["ओ"]:
+            f["affirm"] = False                    # a lone "o" may be a sound: ask again
         f["no_first"] = has(toks[0], toks[:1], "no")
 
         intent, score, nearest = self.knn.predict(t)
@@ -295,6 +310,17 @@ class NLU:
             intent = "not_breathing"
         elif intent == "responding" and f["neg"]:
             intent = "not_responding"
+        elif intent == "not_responding" and not f["neg"] and f["yes_first"]:
+            intent = "responding"
+        elif intent == "help_arrived" and f["neg"]:       # "ambulance nahi aayi" = not here yet
+            intent = "help_called"
+
+        # A bare "ho" / "haan" / "ok" while pushing answers the instruction, it is not a report
+        # that they are breathing.
+        okw = {"ok", "okay", "ओके", "theek", "thik", "ठीक"}
+        if (state == "compressions" and len(toks) <= 2 and not f["breath"] and not f["neg"]
+                and all(has(tk, [tk], "yes") or tk in okw for tk in toks)):
+            intent = "pushing"
 
         # In the confirming state the question is "yes or no?"
         if state == "confirming" and len(toks) <= 4 and not f["gasp"]:

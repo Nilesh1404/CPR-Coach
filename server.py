@@ -47,6 +47,47 @@ def text_test(text, state):
                 "lines": line_info(reply, "hi"), "ms": round((time.perf_counter() - t0) * 1000, 2)}
 
 
+_rec = {"stt": None, "lang": None, "lock": threading.Lock()}
+
+
+def recording_test(data, name, lang, state):
+    """One uploaded recording -> heard text, intent, reply. Own speech model (loaded once, kept),
+    so testing recordings never disturbs a live call; freed when the language setting changes."""
+    import tempfile
+    from coach.audio import load_any
+    from coach.stt import make_stt
+    t0 = time.perf_counter()
+    with _rec["lock"]:
+        try:
+            if lang == "auto3" and engine.stt is not None and engine.stt_spec == "indic@10"                     and engine.stt_lang == "auto3" and not engine.running:
+                _rec["stt"], _rec["lang"], _rec["shared"] = engine.stt, lang, True  # share (memory)
+            elif _rec["stt"] is None or _rec["lang"] != lang or _rec.get("shared"):
+                _rec["stt"], _rec["shared"] = None, False      # never keep borrowed, maybe freed models
+                import gc
+                gc.collect()
+                _rec["stt"] = make_stt("indic@10", lang=lang)
+                _rec["lang"] = lang
+            stt = _rec["stt"]
+            suffix = Path(name).suffix or ".wav"
+            tmp = Path(tempfile.mkdtemp()) / f"rec{suffix}"
+            tmp.write_bytes(data)
+            audio = load_any(tmp)
+            if hasattr(stt, "reset"):
+                stt.reset()                                   # each recording = a new caller
+            s = stt.transcribe(audio)
+            d = Dialog(nlu=engine.nlu, script=engine.script, lang=s.get("lang") or "hi")
+            r = d.handle(s["text"], stt_logprob=s["logprob"], state=state)
+            return {"file": name, "heard": s["text"], "lang": r["lang"], "intent": r["intent"],
+                    "reply": r["reply"], "escalate": r["escalate"], "lines": line_info(r["reply"], r["lang"]),
+                    "audio_s": round(len(audio) / 16000, 1), "stt_ms": s["ms"],
+                    "ms": round((time.perf_counter() - t0) * 1000)}
+        except Exception as e:                               # every file gets a result; unsure -> keep pushing
+            reply = START_CPR if state == "checking" else ["L15"]
+            return {"file": name, "heard": "", "lang": None, "intent": "unclear", "reply": reply,
+                    "escalate": False, "lines": line_info(reply, "hi"), "error": str(e),
+                    "ms": round((time.perf_counter() - t0) * 1000)}
+
+
 def config():
     langs = ["en", "hi", "mr"]
     voices = {}
@@ -128,7 +169,17 @@ class Handler(BaseHTTPRequestHandler):
             return
 
     def do_POST(self):
-        u = urlparse(self.path).path
+        full = urlparse(self.path)
+        u = full.path
+        if u == "/api/audio":                      # raw audio bytes; name, lang, state in the query
+            q = parse_qs(full.query)
+            n = int(self.headers.get("Content-Length") or 0)
+            data = self.rfile.read(n) if n else b""
+            lang = q.get("lang", ["auto3"])[0]
+            lang = lang if lang in ("auto3", "hi", "mr", "en") else "auto3"
+            state = q.get("state", ["compressions"])[0]
+            state = state if state in ("checking", "compressions", "confirming") else "compressions"
+            return self._json(recording_test(data, q.get("name", ["recording.wav"])[0], lang, state))
         b = self._body()
         if u == "/api/start":
             known = [m[0] for m in config()["models"]]
@@ -169,7 +220,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--port", type=int, default=8765)
     ap.add_argument("--no-open", action="store_true")
+    ap.add_argument("--no-preload", action="store_true", help="load speech models only when Start is pressed")
     args = ap.parse_args()
+    if not args.no_preload:                 # models load while you open the page
+        threading.Thread(target=engine.preload, daemon=True).start()
     srv = ThreadingHTTPServer(("127.0.0.1", args.port), Handler)
     srv.daemon_threads = True
     url = f"http://127.0.0.1:{args.port}"

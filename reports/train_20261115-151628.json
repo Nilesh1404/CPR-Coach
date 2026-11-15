@@ -1,0 +1,81 @@
+[
+  {
+    "name": "indic@10 + knn/rules",
+    "n": 93,
+    "correct": 80,
+    "unsafe": 1,
+    "by_place": {
+      "quiet": [
+        28,
+        30
+      ],
+      "station": [
+        13,
+        18
+      ],
+      "traffic": [
+        30,
+        36
+      ],
+      "market": [
+        9,
+        9
+      ]
+    },
+    "confusions": [
+      [
+        "breathing_normal",
+        "not_breathing",
+        3
+      ],
+      [
+        "gasping",
+        "unclear",
+        2
+      ],
+      [
+        "not_breathing",
+        "breathing_normal",
+        1
+      ],
+      [
+        "breathing_normal",
+        "unclear",
+        1
+      ],
+      [
+        "responding",
+        "help_called",
+        1
+      ],
+      [
+        "tired",
+        "unclear",
+        1
+      ],
+      [
+        "responding",
+        "repeat",
+        1
+      ],
+      [
+        "gasping",
+        "pushing",
+        1
+      ],
+      [
+        "not_breathing",
+        "gasping",
+        1
+      ],
+      [
+        "responding",
+        "breathing_normal",
+        1
+      ]
+    ],
+    "load_s": 1.7,
+    "mem_mb": 561,
+    "nlu_mem_mb": 3
+  }
+]

@@ -2,7 +2,8 @@
 
   python run.py --text utterances.json results.json   # batch text test
   python run.py --chat [--beat]                        # type sentences, see replies
-  python run.py --voice [--ptt] [--stt whisper:small@10]  # the real thing, mic + speaker
+  python run.py --voice [--ptt] [--stt indic@10]       # the real thing, mic + speaker
+  python run.py --audio new_clips/ --out results.json  # recordings (wav/ogg/opus/mp3/m4a) -> replies
 """
 import argparse
 import json
@@ -86,6 +87,41 @@ def say(d, ids, player, voices, quiet=False):
         player.play(audio)
 
 
+def audio_mode(args):
+    """New recordings -> what was heard, intent, reply. Each file is judged on its own, starting
+    in --state, like the text mode. Folders are read in name order."""
+    from coach.audio import AUDIO_EXT, load_any
+    from coach.stt import make_stt
+    files = []
+    for a in args.audio:
+        a = Path(a)
+        files += sorted(f for f in a.rglob("*") if f.suffix.lower() in AUDIO_EXT) if a.is_dir() else [a]
+    if not files:
+        sys.exit("no audio files found")
+    print(f"loading {args.stt} ...")
+    stt = make_stt(args.stt, lang=args.lang, threads=args.threads)
+    nlu, script = NLU(engine=args.nlu), load_script()
+    results = []
+    for f in files:
+        try:
+            if hasattr(stt, "reset"):
+                stt.reset()                      # each recording = a new caller
+            s = stt.transcribe(load_any(f))
+            d = Dialog(nlu=nlu, script=script, lang=s.get("lang") or "hi")
+            r = d.handle(s["text"], stt_logprob=s["logprob"], state=args.state)
+            res = {"file": f.name, "heard": s["text"], "lang": r["lang"], "intent": r["intent"],
+                   "reply": r["reply"], "escalate": r["escalate"], "stt_ms": s["ms"], "logprob": s["logprob"]}
+        except Exception as e:                   # every file gets a result; unsure -> keep pushing
+            res = {"file": f.name, "heard": "", "lang": None, "intent": "unclear", "reply": ["L15"],
+                   "escalate": False, "error": repr(e)}
+        results.append(res)
+        say_txt = " ".join(res["reply"])
+        print(f"{f.name}: heard {res['heard']!r} -> {res['intent']} -> {say_txt}  ({res.get('stt_ms', 0) / 1000:.1f} s)")
+    if args.out:
+        Path(args.out).write_text(json.dumps({"results": results}, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"wrote {len(results)} results to {args.out}")
+
+
 def voice_mode(args):
     from coach.audio import Mic, Player, Voices, save_wav
     from coach.stt import make_stt
@@ -141,7 +177,7 @@ def main():
     ap.add_argument("--chat", action="store_true")
     ap.add_argument("--voice", action="store_true")
     ap.add_argument("--beat", action="store_true", help="chat mode: also play beat + voices")
-    ap.add_argument("--stt", default="whisper:small@10")
+    ap.add_argument("--stt", default="indic@10")
     ap.add_argument("--lang", default="auto3", help="STT language: auto3 (best of hi/mr/en), hi, mr, en, auto")
     ap.add_argument("--lang-reply", default="hi", help="starting reply language")
     ap.add_argument("--nlu", default="knn", choices=["knn", "embed"], help="line chooser")
@@ -153,8 +189,14 @@ def main():
     ap.add_argument("--duck", type=float, default=None, help="beat volume factor while listening")
     ap.add_argument("--beat-vol", type=float, default=0.35)
     ap.add_argument("--save-audio", action="store_true", help="keep utterance WAVs (consent!)")
+    ap.add_argument("--audio", nargs="+", metavar="FILE_OR_FOLDER", help="run on recordings instead of the mic")
+    ap.add_argument("--out", help="audio mode: write results JSON here")
+    ap.add_argument("--state", default="compressions", choices=["checking", "compressions", "confirming"],
+                    help="audio mode: state each recording is judged in")
     args = ap.parse_args()
-    if args.text:
+    if args.audio:
+        audio_mode(args)
+    elif args.text:
         text_mode(*args.text, engine=args.nlu)
     elif args.chat:
         chat_mode(args)

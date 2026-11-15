@@ -15,6 +15,7 @@
   <nav class="tabs" role="tablist">
     <button role="tab" id="tab-coach" aria-selected="true" data-view="coach">Live coach</button>
     <button role="tab" id="tab-test" aria-selected="false" data-view="test">Text test</button>
+    <button role="tab" id="tab-rec" aria-selected="false" data-view="rec">Recordings</button>
   </nav>
   <div class="pills">
     <span class="pill" id="net" title="Browser network status">checking network…</span>
@@ -136,6 +137,32 @@
   </section>
 </main>
 
+
+<!-- ================= RECORDINGS ================= -->
+<main class="view" id="view-rec" hidden>
+  <section class="card wide">
+    <h2>Test recordings</h2>
+    <p class="muted">Choose one or more audio files (WhatsApp .ogg/.opus, phone .m4a, .mp3, .wav). Each file is treated as a new caller: the coach listens, then shows what it heard and what it would say. Works with Wi-Fi off. The first file takes a few extra seconds while the speech models load.</p>
+    <div class="row">
+      <input type="file" id="r-files" accept="audio/*,.ogg,.opus,.m4a,.amr,.3gp" multiple>
+      <label class="muted" for="r-lang">Language</label>
+      <select id="r-lang">
+        <option value="auto3">Auto</option>
+        <option value="mr">Marathi</option>
+        <option value="hi">Hindi</option>
+      </select>
+      <label class="muted" for="r-state">Judge as</label>
+      <select id="r-state">
+        <option value="checking">checking (before CPR)</option>
+        <option value="compressions" selected>compressions</option>
+        <option value="confirming">confirming (asked “breathing?”)</option>
+      </select>
+      <a class="btn" id="r-download" hidden download="results.json">Save results.json</a>
+    </div>
+    <p class="small muted" id="r-status"></p>
+    <div class="tablewrap"><table class="grid" id="r-table"></table></div>
+  </section>
+</main>
 
 <script src="/app.js"></script>
 </body>

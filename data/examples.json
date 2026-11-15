@@ -1,143 +1,825 @@
 {
-  "_note": "Seed examples, hand-written. train.py adds real transcribed clips into data/learned_examples.json.",
-  "examples": [
-    {"intent": "not_responding", "text": "koi jawab nahi de raha"},
-    {"intent": "not_responding", "text": "hil nahi raha hai"},
-    {"intent": "not_responding", "text": "he is not responding"},
-    {"intent": "not_responding", "text": "no response at all"},
-    {"intent": "not_responding", "text": "kuch bol nahi raha bhai"},
-    {"intent": "not_responding", "text": "jawab det nahi"},
-    {"intent": "not_responding", "text": "kahi pratisad nahi"},
-    {"intent": "not_responding", "text": "हिल नहीं रहा है"},
-    {"intent": "not_responding", "text": "कोई जवाब नहीं दे रहा"},
-    {"intent": "not_responding", "text": "काहीच प्रतिसाद देत नाहीये"},
-    {"intent": "not_responding", "text": "हलत नाही"},
-    {"intent": "not_responding", "text": "behosh hai"},
-    {"intent": "not_responding", "text": "बेहोश है"},
-
-    {"intent": "responding", "text": "haan jawab de raha hai"},
-    {"intent": "responding", "text": "aankh khol raha hai"},
-    {"intent": "responding", "text": "he is moving now"},
-    {"intent": "responding", "text": "he opened his eyes"},
-    {"intent": "responding", "text": "hil raha hai"},
-    {"intent": "responding", "text": "हिल रहा है"},
-    {"intent": "responding", "text": "आँख खोल रहा है"},
-    {"intent": "responding", "text": "तो हलतोय"},
-    {"intent": "responding", "text": "बोलतोय तो"},
-    {"intent": "responding", "text": "bol raha hai"},
-
-    {"intent": "not_breathing", "text": "saans nahi le raha"},
-    {"intent": "not_breathing", "text": "saans nahi chal rahi"},
-    {"intent": "not_breathing", "text": "not breathing"},
-    {"intent": "not_breathing", "text": "he is not breathing"},
-    {"intent": "not_breathing", "text": "breathing nahi kar raha"},
-    {"intent": "not_breathing", "text": "shwas ghet nahi"},
-    {"intent": "not_breathing", "text": "साँस नहीं ले रहा"},
-    {"intent": "not_breathing", "text": "सांस नहीं चल रही"},
-    {"intent": "not_breathing", "text": "श्वास घेत नाहीये"},
-    {"intent": "not_breathing", "text": "श्वास बंद आहे"},
-    {"intent": "not_breathing", "text": "chhati hil nahi rahi"},
-
-    {"intent": "breathing_normal", "text": "saans le raha hai"},
-    {"intent": "breathing_normal", "text": "haan saans aa rahi hai"},
-    {"intent": "breathing_normal", "text": "yes he is breathing normally"},
-    {"intent": "breathing_normal", "text": "breathing normal"},
-    {"intent": "breathing_normal", "text": "shwas ghet ahe"},
-    {"intent": "breathing_normal", "text": "साँस ले रहा है"},
-    {"intent": "breathing_normal", "text": "हाँ सांस आ रही है"},
-    {"intent": "breathing_normal", "text": "श्वास घेतोय"},
-    {"intent": "breathing_normal", "text": "हो श्वास घेत आहे"},
-    {"intent": "breathing_normal", "text": "theek se saans le raha"},
-
-    {"intent": "gasping", "text": "haanf raha hai"},
-    {"intent": "gasping", "text": "ajeeb tarah se saans le raha"},
-    {"intent": "gasping", "text": "gasping"},
-    {"intent": "gasping", "text": "he is gasping"},
-    {"intent": "gasping", "text": "ruk ruk ke saans"},
-    {"intent": "gasping", "text": "ukhdi ukhdi saans"},
-    {"intent": "gasping", "text": "हाँफ रहा है"},
-    {"intent": "gasping", "text": "धापा टाकतोय"},
-    {"intent": "gasping", "text": "घरघर आवाज़ आ रही है"},
-
-    {"intent": "help_called", "text": "ambulance ko phone kar diya"},
-    {"intent": "help_called", "text": "108 call kiya"},
-    {"intent": "help_called", "text": "i called the ambulance"},
-    {"intent": "help_called", "text": "someone called for help"},
-    {"intent": "help_called", "text": "phone kela"},
-    {"intent": "help_called", "text": "एम्बुलेंस को फोन कर दिया"},
-    {"intent": "help_called", "text": "ॲम्ब्युलन्सला फोन केला"},
-    {"intent": "help_called", "text": "कॉल कर दिया"},
-
-    {"intent": "where_hands", "text": "haath kahan rakhu"},
-    {"intent": "where_hands", "text": "kahan dabana hai"},
-    {"intent": "where_hands", "text": "where do i put my hands"},
-    {"intent": "where_hands", "text": "where should i push"},
-    {"intent": "where_hands", "text": "kuthe dabu"},
-    {"intent": "where_hands", "text": "हाथ कहाँ रखूँ"},
-    {"intent": "where_hands", "text": "कहाँ दबाना है"},
-    {"intent": "where_hands", "text": "हात कुठे ठेवू"},
-    {"intent": "where_hands", "text": "कुठे दाबायचं"},
-
-    {"intent": "how_deep", "text": "kitna zor se dabana hai"},
-    {"intent": "how_deep", "text": "kitna andar dabau"},
-    {"intent": "how_deep", "text": "how hard should i push"},
-    {"intent": "how_deep", "text": "how deep"},
-    {"intent": "how_deep", "text": "kiti jorat dabu"},
-    {"intent": "how_deep", "text": "कितना ज़ोर से दबाना है"},
-    {"intent": "how_deep", "text": "कितना गहरा"},
-    {"intent": "how_deep", "text": "किती जोरात दाबायचं"},
-    {"intent": "how_deep", "text": "kya main sahi daba raha hoon"},
-
-    {"intent": "tired", "text": "haath thak gaye bhai"},
-    {"intent": "tired", "text": "main thak gaya"},
-    {"intent": "tired", "text": "i am tired"},
-    {"intent": "tired", "text": "my arms hurt"},
-    {"intent": "tired", "text": "thaklo me"},
-    {"intent": "tired", "text": "हाथ थक गए"},
-    {"intent": "tired", "text": "मैं थक गया हूँ"},
-    {"intent": "tired", "text": "मी थकलो"},
-    {"intent": "tired", "text": "हात दुखतायत"},
-    {"intent": "tired", "text": "aur nahi ho raha"},
-
-    {"intent": "pushing", "text": "theek hai daba raha hoon"},
-    {"intent": "pushing", "text": "ok"},
-    {"intent": "pushing", "text": "okay i am pushing"},
-    {"intent": "pushing", "text": "started"},
-    {"intent": "pushing", "text": "chalu kela"},
-    {"intent": "pushing", "text": "ठीक है"},
-    {"intent": "pushing", "text": "दबा रहा हूँ"},
-    {"intent": "pushing", "text": "दाबतोय"},
-    {"intent": "pushing", "text": "बरं"},
-    {"intent": "pushing", "text": "kar raha hoon"},
-
-    {"intent": "help_arrived", "text": "ambulance aa gayi"},
-    {"intent": "help_arrived", "text": "doctor aa gaye"},
-    {"intent": "help_arrived", "text": "the ambulance is here"},
-    {"intent": "help_arrived", "text": "help has arrived"},
-    {"intent": "help_arrived", "text": "ambulance aali"},
-    {"intent": "help_arrived", "text": "एम्बुलेंस आ गई"},
-    {"intent": "help_arrived", "text": "डॉक्टर आ गए"},
-    {"intent": "help_arrived", "text": "ॲम्ब्युलन्स आली"},
-
-    {"intent": "repeat", "text": "kya bola phir se bolo"},
-    {"intent": "repeat", "text": "samajh nahi aaya"},
-    {"intent": "repeat", "text": "say that again"},
-    {"intent": "repeat", "text": "repeat please"},
-    {"intent": "repeat", "text": "parat sang"},
-    {"intent": "repeat", "text": "फिर से बोलो"},
-    {"intent": "repeat", "text": "क्या बोला"},
-    {"intent": "repeat", "text": "पुन्हा सांगा"},
-    {"intent": "repeat", "text": "काय म्हणालात"},
-
-    {"intent": "out_of_scope", "text": "paani pila du kya"},
-    {"intent": "out_of_scope", "text": "khoon nikal raha hai"},
-    {"intent": "out_of_scope", "text": "should i give him water"},
-    {"intent": "out_of_scope", "text": "he is bleeding"},
-    {"intent": "out_of_scope", "text": "kya main usko utha ke le jau"},
-    {"intent": "out_of_scope", "text": "पानी पिला दूँ क्या"},
-    {"intent": "out_of_scope", "text": "खून निकल रहा है"},
-    {"intent": "out_of_scope", "text": "पाणी देऊ का"},
-    {"intent": "out_of_scope", "text": "रक्त येतंय"},
-    {"intent": "out_of_scope", "text": "kaun sa hospital paas hai"}
-  ]
+ "_note": "Seed examples, hand-written. train.py adds real transcribed clips into data/learned_examples.json.",
+ "examples": [
+  {
+   "intent": "not_responding",
+   "text": "koi jawab nahi de raha"
+  },
+  {
+   "intent": "not_responding",
+   "text": "hil nahi raha hai"
+  },
+  {
+   "intent": "not_responding",
+   "text": "he is not responding"
+  },
+  {
+   "intent": "not_responding",
+   "text": "no response at all"
+  },
+  {
+   "intent": "not_responding",
+   "text": "kuch bol nahi raha bhai"
+  },
+  {
+   "intent": "not_responding",
+   "text": "jawab det nahi"
+  },
+  {
+   "intent": "not_responding",
+   "text": "kahi pratisad nahi"
+  },
+  {
+   "intent": "not_responding",
+   "text": "हिल नहीं रहा है"
+  },
+  {
+   "intent": "not_responding",
+   "text": "कोई जवाब नहीं दे रहा"
+  },
+  {
+   "intent": "not_responding",
+   "text": "काहीच प्रतिसाद देत नाहीये"
+  },
+  {
+   "intent": "not_responding",
+   "text": "हलत नाही"
+  },
+  {
+   "intent": "not_responding",
+   "text": "behosh hai"
+  },
+  {
+   "intent": "not_responding",
+   "text": "बेहोश है"
+  },
+  {
+   "intent": "responding",
+   "text": "haan jawab de raha hai"
+  },
+  {
+   "intent": "responding",
+   "text": "aankh khol raha hai"
+  },
+  {
+   "intent": "responding",
+   "text": "he is moving now"
+  },
+  {
+   "intent": "responding",
+   "text": "he opened his eyes"
+  },
+  {
+   "intent": "responding",
+   "text": "hil raha hai"
+  },
+  {
+   "intent": "responding",
+   "text": "हिल रहा है"
+  },
+  {
+   "intent": "responding",
+   "text": "आँख खोल रहा है"
+  },
+  {
+   "intent": "responding",
+   "text": "तो हलतोय"
+  },
+  {
+   "intent": "responding",
+   "text": "बोलतोय तो"
+  },
+  {
+   "intent": "responding",
+   "text": "bol raha hai"
+  },
+  {
+   "intent": "not_breathing",
+   "text": "saans nahi le raha"
+  },
+  {
+   "intent": "not_breathing",
+   "text": "saans nahi chal rahi"
+  },
+  {
+   "intent": "not_breathing",
+   "text": "not breathing"
+  },
+  {
+   "intent": "not_breathing",
+   "text": "he is not breathing"
+  },
+  {
+   "intent": "not_breathing",
+   "text": "breathing nahi kar raha"
+  },
+  {
+   "intent": "not_breathing",
+   "text": "shwas ghet nahi"
+  },
+  {
+   "intent": "not_breathing",
+   "text": "साँस नहीं ले रहा"
+  },
+  {
+   "intent": "not_breathing",
+   "text": "सांस नहीं चल रही"
+  },
+  {
+   "intent": "not_breathing",
+   "text": "श्वास घेत नाहीये"
+  },
+  {
+   "intent": "not_breathing",
+   "text": "श्वास बंद आहे"
+  },
+  {
+   "intent": "not_breathing",
+   "text": "chhati hil nahi rahi"
+  },
+  {
+   "intent": "breathing_normal",
+   "text": "saans le raha hai"
+  },
+  {
+   "intent": "breathing_normal",
+   "text": "haan saans aa rahi hai"
+  },
+  {
+   "intent": "breathing_normal",
+   "text": "yes he is breathing normally"
+  },
+  {
+   "intent": "breathing_normal",
+   "text": "breathing normal"
+  },
+  {
+   "intent": "breathing_normal",
+   "text": "shwas ghet ahe"
+  },
+  {
+   "intent": "breathing_normal",
+   "text": "साँस ले रहा है"
+  },
+  {
+   "intent": "breathing_normal",
+   "text": "हाँ सांस आ रही है"
+  },
+  {
+   "intent": "breathing_normal",
+   "text": "श्वास घेतोय"
+  },
+  {
+   "intent": "breathing_normal",
+   "text": "हो श्वास घेत आहे"
+  },
+  {
+   "intent": "breathing_normal",
+   "text": "theek se saans le raha"
+  },
+  {
+   "intent": "gasping",
+   "text": "haanf raha hai"
+  },
+  {
+   "intent": "gasping",
+   "text": "ajeeb tarah se saans le raha"
+  },
+  {
+   "intent": "gasping",
+   "text": "gasping"
+  },
+  {
+   "intent": "gasping",
+   "text": "he is gasping"
+  },
+  {
+   "intent": "gasping",
+   "text": "ruk ruk ke saans"
+  },
+  {
+   "intent": "gasping",
+   "text": "ukhdi ukhdi saans"
+  },
+  {
+   "intent": "gasping",
+   "text": "हाँफ रहा है"
+  },
+  {
+   "intent": "gasping",
+   "text": "धापा टाकतोय"
+  },
+  {
+   "intent": "gasping",
+   "text": "घरघर आवाज़ आ रही है"
+  },
+  {
+   "intent": "help_called",
+   "text": "ambulance ko phone kar diya"
+  },
+  {
+   "intent": "help_called",
+   "text": "108 call kiya"
+  },
+  {
+   "intent": "help_called",
+   "text": "i called the ambulance"
+  },
+  {
+   "intent": "help_called",
+   "text": "someone called for help"
+  },
+  {
+   "intent": "help_called",
+   "text": "phone kela"
+  },
+  {
+   "intent": "help_called",
+   "text": "एम्बुलेंस को फोन कर दिया"
+  },
+  {
+   "intent": "help_called",
+   "text": "ॲम्ब्युलन्सला फोन केला"
+  },
+  {
+   "intent": "help_called",
+   "text": "कॉल कर दिया"
+  },
+  {
+   "intent": "where_hands",
+   "text": "haath kahan rakhu"
+  },
+  {
+   "intent": "where_hands",
+   "text": "kahan dabana hai"
+  },
+  {
+   "intent": "where_hands",
+   "text": "where do i put my hands"
+  },
+  {
+   "intent": "where_hands",
+   "text": "where should i push"
+  },
+  {
+   "intent": "where_hands",
+   "text": "kuthe dabu"
+  },
+  {
+   "intent": "where_hands",
+   "text": "हाथ कहाँ रखूँ"
+  },
+  {
+   "intent": "where_hands",
+   "text": "कहाँ दबाना है"
+  },
+  {
+   "intent": "where_hands",
+   "text": "हात कुठे ठेवू"
+  },
+  {
+   "intent": "where_hands",
+   "text": "कुठे दाबायचं"
+  },
+  {
+   "intent": "how_deep",
+   "text": "kitna zor se dabana hai"
+  },
+  {
+   "intent": "how_deep",
+   "text": "kitna andar dabau"
+  },
+  {
+   "intent": "how_deep",
+   "text": "how hard should i push"
+  },
+  {
+   "intent": "how_deep",
+   "text": "how deep"
+  },
+  {
+   "intent": "how_deep",
+   "text": "kiti jorat dabu"
+  },
+  {
+   "intent": "how_deep",
+   "text": "कितना ज़ोर से दबाना है"
+  },
+  {
+   "intent": "how_deep",
+   "text": "कितना गहरा"
+  },
+  {
+   "intent": "how_deep",
+   "text": "किती जोरात दाबायचं"
+  },
+  {
+   "intent": "how_deep",
+   "text": "kya main sahi daba raha hoon"
+  },
+  {
+   "intent": "tired",
+   "text": "haath thak gaye bhai"
+  },
+  {
+   "intent": "tired",
+   "text": "main thak gaya"
+  },
+  {
+   "intent": "tired",
+   "text": "i am tired"
+  },
+  {
+   "intent": "tired",
+   "text": "my arms hurt"
+  },
+  {
+   "intent": "tired",
+   "text": "thaklo me"
+  },
+  {
+   "intent": "tired",
+   "text": "हाथ थक गए"
+  },
+  {
+   "intent": "tired",
+   "text": "मैं थक गया हूँ"
+  },
+  {
+   "intent": "tired",
+   "text": "मी थकलो"
+  },
+  {
+   "intent": "tired",
+   "text": "हात दुखतायत"
+  },
+  {
+   "intent": "tired",
+   "text": "aur nahi ho raha"
+  },
+  {
+   "intent": "pushing",
+   "text": "theek hai daba raha hoon"
+  },
+  {
+   "intent": "pushing",
+   "text": "ok"
+  },
+  {
+   "intent": "pushing",
+   "text": "okay i am pushing"
+  },
+  {
+   "intent": "pushing",
+   "text": "started"
+  },
+  {
+   "intent": "pushing",
+   "text": "chalu kela"
+  },
+  {
+   "intent": "pushing",
+   "text": "ठीक है"
+  },
+  {
+   "intent": "pushing",
+   "text": "दबा रहा हूँ"
+  },
+  {
+   "intent": "pushing",
+   "text": "दाबतोय"
+  },
+  {
+   "intent": "pushing",
+   "text": "बरं"
+  },
+  {
+   "intent": "pushing",
+   "text": "kar raha hoon"
+  },
+  {
+   "intent": "help_arrived",
+   "text": "ambulance aa gayi"
+  },
+  {
+   "intent": "help_arrived",
+   "text": "doctor aa gaye"
+  },
+  {
+   "intent": "help_arrived",
+   "text": "the ambulance is here"
+  },
+  {
+   "intent": "help_arrived",
+   "text": "help has arrived"
+  },
+  {
+   "intent": "help_arrived",
+   "text": "ambulance aali"
+  },
+  {
+   "intent": "help_arrived",
+   "text": "एम्बुलेंस आ गई"
+  },
+  {
+   "intent": "help_arrived",
+   "text": "डॉक्टर आ गए"
+  },
+  {
+   "intent": "help_arrived",
+   "text": "ॲम्ब्युलन्स आली"
+  },
+  {
+   "intent": "repeat",
+   "text": "kya bola phir se bolo"
+  },
+  {
+   "intent": "repeat",
+   "text": "samajh nahi aaya"
+  },
+  {
+   "intent": "repeat",
+   "text": "say that again"
+  },
+  {
+   "intent": "repeat",
+   "text": "repeat please"
+  },
+  {
+   "intent": "repeat",
+   "text": "parat sang"
+  },
+  {
+   "intent": "repeat",
+   "text": "फिर से बोलो"
+  },
+  {
+   "intent": "repeat",
+   "text": "क्या बोला"
+  },
+  {
+   "intent": "repeat",
+   "text": "पुन्हा सांगा"
+  },
+  {
+   "intent": "repeat",
+   "text": "काय म्हणालात"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "paani pila du kya"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "khoon nikal raha hai"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "should i give him water"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "he is bleeding"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "kya main usko utha ke le jau"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "पानी पिला दूँ क्या"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "खून निकल रहा है"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "पाणी देऊ का"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "रक्त येतंय"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "kaun sa hospital paas hai"
+  },
+  {
+   "intent": "pushing",
+   "text": "dabat ahe"
+  },
+  {
+   "intent": "pushing",
+   "text": "dabtoy"
+  },
+  {
+   "intent": "pushing",
+   "text": "mi dabtoy"
+  },
+  {
+   "intent": "pushing",
+   "text": "me dabat ahe"
+  },
+  {
+   "intent": "pushing",
+   "text": "दाबत आहे"
+  },
+  {
+   "intent": "pushing",
+   "text": "दाबते आहे"
+  },
+  {
+   "intent": "pushing",
+   "text": "dabat aahe"
+  },
+  {
+   "intent": "pushing",
+   "text": "ho dabtoy"
+  },
+  {
+   "intent": "pushing",
+   "text": "haan daba raha hoon"
+  },
+  {
+   "intent": "pushing",
+   "text": "push kar raha"
+  },
+  {
+   "intent": "pushing",
+   "text": "okay pushing"
+  },
+  {
+   "intent": "pushing",
+   "text": "theek hai"
+  },
+  {
+   "intent": "pushing",
+   "text": "thik aahe"
+  },
+  {
+   "intent": "pushing",
+   "text": "bara"
+  },
+  {
+   "intent": "pushing",
+   "text": "ठीक आहे"
+  },
+  {
+   "intent": "pushing",
+   "text": "ok ok"
+  },
+  {
+   "intent": "tired",
+   "text": "haath dukhtayat"
+  },
+  {
+   "intent": "tired",
+   "text": "haat dukhtat"
+  },
+  {
+   "intent": "tired",
+   "text": "हात दुखतात"
+  },
+  {
+   "intent": "tired",
+   "text": "mala jamat nahi"
+  },
+  {
+   "intent": "tired",
+   "text": "मला जमत नाही"
+  },
+  {
+   "intent": "tired",
+   "text": "ata jamat nahi"
+  },
+  {
+   "intent": "tired",
+   "text": "majhe haat thakle"
+  },
+  {
+   "intent": "tired",
+   "text": "haath dard ho raha"
+  },
+  {
+   "intent": "tired",
+   "text": "haath dard kar rahe"
+  },
+  {
+   "intent": "tired",
+   "text": "main thak gayi"
+  },
+  {
+   "intent": "tired",
+   "text": "aur nahi hoga"
+  },
+  {
+   "intent": "tired",
+   "text": "ab nahi hota"
+  },
+  {
+   "intent": "tired",
+   "text": "dam lagla"
+  },
+  {
+   "intent": "tired",
+   "text": "दम लागला"
+  },
+  {
+   "intent": "tired",
+   "text": "I can't do this"
+  },
+  {
+   "intent": "repeat",
+   "text": "kay karu"
+  },
+  {
+   "intent": "repeat",
+   "text": "काय करू"
+  },
+  {
+   "intent": "repeat",
+   "text": "ata kay"
+  },
+  {
+   "intent": "repeat",
+   "text": "आता काय"
+  },
+  {
+   "intent": "repeat",
+   "text": "ata kay karu"
+  },
+  {
+   "intent": "repeat",
+   "text": "pudhe kay"
+  },
+  {
+   "intent": "repeat",
+   "text": "पुढे काय"
+  },
+  {
+   "intent": "repeat",
+   "text": "kya karun"
+  },
+  {
+   "intent": "repeat",
+   "text": "kya karu ab"
+  },
+  {
+   "intent": "repeat",
+   "text": "ab kya karna hai"
+  },
+  {
+   "intent": "repeat",
+   "text": "what do I do"
+  },
+  {
+   "intent": "repeat",
+   "text": "what now"
+  },
+  {
+   "intent": "repeat",
+   "text": "what next"
+  },
+  {
+   "intent": "repeat",
+   "text": "punha sanga"
+  },
+  {
+   "intent": "repeat",
+   "text": "parat sanga"
+  },
+  {
+   "intent": "repeat",
+   "text": "phir se batao"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "kab tak"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "kab tak karna hai"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "kiti vel"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "kiti vel dabaycha"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "किती वेळ"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "किती वेळ दाबायचं"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "कब तक"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "how long"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "how long do I push"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "paani pilau kya"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "pani deu ka"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "khoon nikal raha"
+  },
+  {
+   "intent": "out_of_scope",
+   "text": "rakta yetay"
+  },
+  {
+   "intent": "help_called",
+   "text": "ambulance nahi aayi"
+  },
+  {
+   "intent": "help_called",
+   "text": "ambulance ali nahi"
+  },
+  {
+   "intent": "help_called",
+   "text": "ambulance ajun nahi ali"
+  },
+  {
+   "intent": "help_called",
+   "text": "एम्बुलेंस नहीं आई"
+  },
+  {
+   "intent": "help_called",
+   "text": "ॲम्ब्युलन्स आली नाही"
+  },
+  {
+   "intent": "help_called",
+   "text": "ambulance not here yet"
+  },
+  {
+   "intent": "help_called",
+   "text": "ambulance coming"
+  },
+  {
+   "intent": "help_called",
+   "text": "ambulance yet ahe"
+  },
+  {
+   "intent": "help_called",
+   "text": "ambulance aa rahi hai"
+  },
+  {
+   "intent": "where_hands",
+   "text": "kaha push karu"
+  },
+  {
+   "intent": "where_hands",
+   "text": "kahan push karun"
+  },
+  {
+   "intent": "where_hands",
+   "text": "kahan dabau"
+  },
+  {
+   "intent": "where_hands",
+   "text": "kuthe push karu"
+  },
+  {
+   "intent": "where_hands",
+   "text": "कहाँ push करूँ"
+  },
+  {
+   "intent": "where_hands",
+   "text": "काहा पुश करू"
+  },
+  {
+   "intent": "where_hands",
+   "text": "kuthe dabu"
+  },
+  {
+   "intent": "where_hands",
+   "text": "kuthe dabaycha"
+  },
+  {
+   "intent": "where_hands",
+   "text": "where do I push"
+  },
+  {
+   "intent": "where_hands",
+   "text": "hath kuthe thevu"
+  }
+ ]
 }

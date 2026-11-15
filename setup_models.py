@@ -6,10 +6,12 @@
   models/whisper-marathi-small-ct2  Whisper small fine-tuned on Marathi (steja), converted to int8
   Hugging Face cache                plain Whisper small (English, and for comparisons)
 """
+import os
 import shutil
 import subprocess
 from pathlib import Path
 
+os.environ.setdefault("CT2_USE_MKL", "0")   # see coach/stt.py
 ROOT = Path(__file__).resolve().parent
 MODELS = ROOT / "models"
 

@@ -73,9 +73,12 @@ Gasping is treated as not breathing. In `checking`, anything unclear starts CPR.
 caught and turned into a keep-pushing instruction while the beat keeps playing.
 
 ## Recordings and measurements
+- `clips/<speaker>/*.wav` – 93 recordings from 10 speakers (ages 19–75, 6 men, 4 women;
+  Marathi, Hindi and code-mixed) in a quiet room, a railway station, traffic and a market.
+  Named `speaker_language_place_number_intent.wav`. All speakers agreed to sharing.
 - `clips/labels.csv` – one row per recording: speaker, gender, age, language, place, intent,
-  state, what was said, what Whisper heard. The audio itself is not in this repository: the
-  speakers agreed to recordings staying on the recording laptop.
+  state, what was said (checked by ear), what Whisper heard.
+- `clips/review.html` – open in a browser to play each clip next to its label.
 - `python record_clips.py --speaker S01 --gender f --age 34 --lang mr --place traffic --consent yes`
   records new labelled clips.
 - `python train.py --stt indic@10,whisper:small@10 --nlu knn,embed` measures every combination.

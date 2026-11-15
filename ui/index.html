@@ -16,6 +16,7 @@
     <button role="tab" id="tab-coach" aria-selected="true" data-view="coach">Live coach</button>
     <button role="tab" id="tab-test" aria-selected="false" data-view="test">Text test</button>
     <button role="tab" id="tab-rec" aria-selected="false" data-view="rec">Recordings</button>
+    <button role="tab" id="tab-logs" aria-selected="false" data-view="logs">Logs</button>
   </nav>
   <div class="pills">
     <span class="pill" id="net" title="Browser network status">checking network…</span>
@@ -161,6 +162,26 @@
     </div>
     <p class="small muted" id="r-status"></p>
     <div class="tablewrap"><table class="grid" id="r-table"></table></div>
+  </section>
+</main>
+
+<!-- ================= LOGS ================= -->
+<main class="view" id="view-logs" hidden>
+  <section class="card wide">
+    <h2>Console log</h2>
+    <p class="muted">Everything the coach does, live: what it heard (language, confidence, time), what it decided and why, what it said, and any errors. Live calls are also saved to <code>logs/web-&lt;time&gt;/session.jsonl</code>, which <code>score_c.py</code> can score.</p>
+    <div class="row">
+      <label><input type="checkbox" id="lg-heard" checked> heard</label>
+      <label><input type="checkbox" id="lg-reply" checked> replies</label>
+      <label><input type="checkbox" id="lg-system" checked> system</label>
+      <label><input type="checkbox" id="lg-status"> status</label>
+      <input type="text" id="lg-search" placeholder="search…" style="flex:1 1 160px;min-width:0">
+      <label><input type="checkbox" id="lg-follow" checked> follow</label>
+      <button class="btn ghost" id="lg-clear" type="button">Clear view</button>
+      <button class="btn" id="lg-save" type="button">Save log</button>
+    </div>
+    <div class="logbox" id="lg-box" role="log" aria-live="polite"></div>
+    <p class="small muted" id="lg-count"></p>
   </section>
 </main>
 

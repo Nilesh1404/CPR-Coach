@@ -99,8 +99,62 @@ function showDecision(e, heard){
   $("dec-time").textContent = t.join(" · ");
 }
 
+/* ---------- console log ---------- */
+const LOG = [];
+const two = n => String(n).padStart(2, "0");
+function logTime(t){ const d = t ? new Date(t * 1000) : new Date(); return `${two(d.getHours())}:${two(d.getMinutes())}:${two(d.getSeconds())}.${String(d.getMilliseconds()).padStart(3, "0")}`; }
+function logLine(e){
+  const f = e.flags || {};
+  switch (e.type){
+    case "heard": return `"${e.text || ""}"` + (e.source === "typed" ? " · typed" :
+      ` · ${e.stt_lang || "?"} · conf ${e.logprob ?? "?"} · speech-to-text ${e.stt_ms != null ? Math.round(e.stt_ms) + " ms" : "?"} · audio ${e.audio_s ?? "?"} s`);
+    case "reply": return (e.lines || []).map(l => l.id).join(" ") +
+      (e.intent ? ` · intent ${e.intent}` : "") + ` · state ${e.state || "?"} · lang ${e.lang || "?"}` +
+      (e.score != null ? ` · score ${(+e.score).toFixed(2)}` : "") + (e.nearest ? ` · like "${e.nearest}"` : "") +
+      (Object.keys(f).filter(k => f[k]).length ? ` · words ${Object.keys(f).filter(k => f[k]).join(",")}` : "") +
+      (e.confident_stop != null && e.intent === "breathing_normal" ? ` · stop check ${e.confident_stop ? "passed" : "failed"}` : "") +
+      (e.escalate ? " · ESCALATE" : "") + ` · ${e.source || ""}` +
+      "\n      " + (e.lines || []).map(l => `${l.id}: ${l.text}`).join("  |  ");
+    case "system": return e.text || "";
+    case "status": return e.status || "";
+    default: return JSON.stringify(e);
+  }
+}
+function logAdd(e){
+  if (e.type === "level" || e.type === "mode") return;
+  const row = {id: e.id, type: e.type, t: e.t, text: logLine(e), err: !!e.error,
+               stop: e.type === "reply" && (e.lines || []).some(l => l.id === "L10")};
+  LOG.push(row); if (LOG.length > 3000) LOG.shift();
+  try { console.log(`[CPR coach] ${logTime(e.t)} ${e.type.toUpperCase()} ${row.text}`); } catch (_) {}
+  if (!$("view-logs").hidden) logRender(row);
+}
+function logShown(r){
+  if (!$("lg-" + r.type)?.checked) return false;
+  const q = $("lg-search").value.trim().toLowerCase();
+  return !q || r.text.toLowerCase().includes(q) || r.type.includes(q);
+}
+function logRow(r){ return `<span class="lg ${r.type}${r.err ? " err" : ""}${r.stop ? " stop" : ""}"><span class="tm">${logTime(r.t)}</span> <span class="k">${r.type.toUpperCase()}</span> ${esc(r.text)}</span>`; }
+function logRender(one){
+  const box = $("lg-box");
+  if (one) { if (logShown(one)) box.insertAdjacentHTML("beforeend", logRow(one)); }
+  else box.innerHTML = LOG.filter(logShown).map(logRow).join("");
+  $("lg-count").textContent = `${LOG.filter(logShown).length} of ${LOG.length} lines`;
+  if ($("lg-follow").checked) box.scrollTop = box.scrollHeight;
+}
+["lg-heard","lg-reply","lg-system","lg-status"].forEach(id => $(id).onchange = () => logRender());
+$("lg-search").oninput = () => logRender();
+$("lg-clear").onclick = () => { LOG.length = 0; logRender(); };
+$("lg-save").onclick = () => {
+  const txt = LOG.map(r => `${logTime(r.t)} ${r.type.toUpperCase().padEnd(6)} ${r.text}`).join("\n");
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([txt], {type: "text/plain"}));
+  a.download = `cpr-coach-log-${new Date().toISOString().slice(0,19).replace(/[:T]/g,"-")}.txt`; a.click();
+};
+document.getElementById("tab-logs").addEventListener("click", () => logRender());
+
 let lastHeard = null;
 function onEvent(e){
+  logAdd(e);
   switch (e.type){
     case "status": setStatus(e.status); break;
     case "level": $("meter").style.width = Math.min(100, Math.sqrt(e.rms) * 260) + "%"; break;

@@ -99,6 +99,7 @@ class Engine:
         self.emit("system", text="Stopped. Microphone and speaker are off.")
 
     def reset(self):
+        self._close_log()                       # a new session gets its own log folder
         with self.lock:
             fixed = getattr(self.dialog, "fixed_lang", False)
             lang = self.dialog.lang
@@ -234,7 +235,37 @@ class Engine:
                   stt_ms=stt["ms"] if stt else None, logprob=stt["logprob"] if stt else None,
                   stt_lang=stt.get("lang") if stt else None, audio_s=audio_s)
         self._reply(r["reply"], r, source="dialog")
+        self._log(text, stt, r, audio_s)
         return r
+
+    # ---------------- session log file (same format as run.py --voice, so score_c.py works) ----
+    def _log(self, text, stt, r, audio_s):
+        try:
+            if getattr(self, "log_f", None) is None:
+                import json as _json  # noqa: F401
+                d = Path(__file__).resolve().parent.parent / "logs" / ("web-" + time.strftime("%Y%m%d-%H%M%S"))
+                d.mkdir(parents=True, exist_ok=True)
+                self.log_f = open(d / "session.jsonl", "a", encoding="utf-8")
+                self.log_n, self.log_t0 = 0, time.time()
+                self.emit("system", text=f"Saving this session to logs/{d.name}/session.jsonl")
+            import json
+            self.log_n += 1
+            s = stt or {"text": text, "logprob": None, "ms": None, "lang": None}
+            self.log_f.write(json.dumps({
+                "n": self.log_n, "t": round(time.time() - self.log_t0, 2), "audio_s": audio_s,
+                "stt": {"text": text, "logprob": s.get("logprob"), "ms": s.get("ms"), "lang": s.get("lang")},
+                "source": "voice" if stt else "typed", "intent": r["intent"], "reply": r["reply"],
+                "state": r["state"], "escalate": r["escalate"], "lang": r["lang"],
+                "score": r["analysis"].get("score"), "nearest": r["analysis"].get("nearest"),
+            }, ensure_ascii=False) + chr(10))
+            self.log_f.flush()
+        except Exception as e:
+            self.emit("system", text=f"Could not write the session log: {e}", error=True)
+
+    def _close_log(self):
+        f, self.log_f = getattr(self, "log_f", None), None
+        if f:
+            f.close()
 
     NUDGE_S = 20          # silent this long during CPR -> encourage (first-timers stopped pushing)
     NUDGE_LINES = ["L07", "L13", "L05"]

@@ -1,0 +1,17 @@
+# not published
+docs/
+Voice_Task_V-1.pdf
+*.pdf
+
+# speech models: large, downloaded by setup_models.py
+models/
+
+# voice recordings stay on the recording laptop (speaker consent)
+clips/**/*.wav
+logs/
+
+# python / editor
+__pycache__/
+*.pyc
+.vscode/
+.idea/

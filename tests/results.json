@@ -1,0 +1,207 @@
+{
+  "results": [
+    {
+      "id": "T01",
+      "intent": "tired",
+      "reply": [
+        "L08"
+      ],
+      "escalate": false,
+      "ms": 0.8
+    },
+    {
+      "id": "T02",
+      "intent": "breathing_normal",
+      "reply": [
+        "L10"
+      ],
+      "escalate": false,
+      "ms": 1.9
+    },
+    {
+      "id": "T03",
+      "intent": "not_breathing",
+      "reply": [
+        "L13"
+      ],
+      "escalate": false,
+      "ms": 0.7
+    },
+    {
+      "id": "T04",
+      "intent": "breathing_normal",
+      "reply": [
+        "L10"
+      ],
+      "escalate": false,
+      "ms": 0.3
+    },
+    {
+      "id": "T05",
+      "intent": "breathing_normal",
+      "reply": [
+        "L15",
+        "L09"
+      ],
+      "escalate": false,
+      "ms": 0.5
+    },
+    {
+      "id": "T06",
+      "intent": "gasping",
+      "reply": [
+        "L12"
+      ],
+      "escalate": false,
+      "ms": 0.5
+    },
+    {
+      "id": "T07",
+      "intent": "not_responding",
+      "reply": [
+        "L02"
+      ],
+      "escalate": false,
+      "ms": 0.5
+    },
+    {
+      "id": "T08",
+      "intent": "not_breathing",
+      "reply": [
+        "L03",
+        "L04",
+        "L05"
+      ],
+      "escalate": false,
+      "ms": 0.4
+    },
+    {
+      "id": "T09",
+      "intent": "where_hands",
+      "reply": [
+        "L14"
+      ],
+      "escalate": false,
+      "ms": 0.4
+    },
+    {
+      "id": "T10",
+      "intent": "out_of_scope",
+      "reply": [
+        "L11"
+      ],
+      "escalate": true,
+      "ms": 0.4
+    },
+    {
+      "id": "T11",
+      "intent": "unclear",
+      "reply": [
+        "L15"
+      ],
+      "escalate": false,
+      "ms": 0.0
+    },
+    {
+      "id": "T12",
+      "intent": "breathing_normal",
+      "reply": [
+        "L10"
+      ],
+      "escalate": false,
+      "ms": 0.4
+    },
+    {
+      "id": "T13",
+      "intent": "not_breathing",
+      "reply": [
+        "L13"
+      ],
+      "escalate": false,
+      "ms": 0.4
+    },
+    {
+      "id": "T14",
+      "intent": "breathing_normal",
+      "reply": [
+        "L09"
+      ],
+      "escalate": false,
+      "ms": 0.4
+    },
+    {
+      "id": "T15",
+      "intent": "breathing_normal",
+      "reply": [
+        "L10"
+      ],
+      "escalate": false,
+      "ms": 0.5
+    },
+    {
+      "id": "T16",
+      "intent": "not_breathing",
+      "reply": [
+        "L13"
+      ],
+      "escalate": false,
+      "ms": 0.4
+    },
+    {
+      "id": "T17",
+      "intent": "help_arrived",
+      "reply": [
+        "L13"
+      ],
+      "escalate": false,
+      "ms": 0.4
+    },
+    {
+      "id": "T18",
+      "intent": "unclear",
+      "reply": [
+        "L03",
+        "L04",
+        "L05"
+      ],
+      "escalate": false,
+      "ms": 0.3
+    },
+    {
+      "id": "T19",
+      "intent": "how_deep",
+      "reply": [
+        "L06"
+      ],
+      "escalate": false,
+      "ms": 0.5
+    },
+    {
+      "id": "T20",
+      "intent": "not_responding",
+      "reply": [
+        "L13"
+      ],
+      "escalate": false,
+      "ms": 0.3
+    },
+    {
+      "id": "T21",
+      "intent": "not_breathing",
+      "reply": [
+        "L13"
+      ],
+      "escalate": false,
+      "ms": 0.4
+    },
+    {
+      "id": "T22",
+      "intent": "tired",
+      "reply": [
+        "L08"
+      ],
+      "escalate": false,
+      "ms": 0.3
+    }
+  ]
+}

@@ -1,0 +1,3722 @@
+{
+ "whisper:tiny|auto3|clips/man_20/man_20_hi_quiet_01_not_breathing.wav": {
+  "text": "साँस नहीले ना",
+  "logprob": -0.722,
+  "lang": "hi",
+  "lang_p": 0.261,
+  "ms": 570.1,
+  "langid_ms": 262.7
+ },
+ "whisper:tiny|auto3|clips/man_20/man_20_hi_quiet_02_breathing_normal.wav": {
+  "text": "नहास नहीं लेवा।",
+  "logprob": -0.808,
+  "lang": "hi",
+  "lang_p": 0.698,
+  "ms": 575.5,
+  "langid_ms": 262.8
+ },
+ "whisper:tiny|auto3|clips/man_20/man_20_hi_quiet_03_gasping.wav": {
+  "text": "I do sense. Have a nice day.",
+  "logprob": -0.815,
+  "lang": "en",
+  "lang_p": 0.277,
+  "ms": 584.9,
+  "langid_ms": 270.1
+ },
+ "whisper:tiny|auto3|clips/man_28/man_28_hi_quiet_01_not_breathing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.738,
+  "ms": 797.4,
+  "langid_ms": 271.3
+ },
+ "whisper:tiny|auto3|clips/man_28/man_28_hi_quiet_02_breathing_normal.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.628,
+  "ms": 722.0,
+  "langid_ms": 297.6
+ },
+ "whisper:tiny|auto3|clips/man_28/man_28_hi_quiet_03_gasping.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.726,
+  "ms": 674.0,
+  "langid_ms": 282.6
+ },
+ "whisper:tiny|auto3|clips/man_40/man_40_mix_quiet_01_not_breathing.wav": {
+  "text": "प्रेдings này कराया।",
+  "logprob": -1.369,
+  "lang": "hi",
+  "lang_p": 0.756,
+  "ms": 524.9,
+  "langid_ms": 247.2
+ },
+ "whisper:tiny|auto3|clips/man_40/man_40_mix_quiet_02_breathing_normal.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.136,
+  "ms": 636.2,
+  "langid_ms": 268.1
+ },
+ "whisper:tiny|auto3|clips/man_40/man_40_mix_quiet_03_gasping.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.191,
+  "ms": 640.0,
+  "langid_ms": 249.7
+ },
+ "whisper:tiny|auto3|clips/man_60/man_60_mr_quiet_01_not_breathing.wav": {
+  "text": "Shash Githmaeet",
+  "logprob": -1.298,
+  "lang": "en",
+  "lang_p": 0.745,
+  "ms": 566.0,
+  "langid_ms": 266.5
+ },
+ "whisper:tiny|auto3|clips/man_60/man_60_mr_quiet_02_breathing_normal.wav": {
+  "text": "Oh, try to get away.",
+  "logprob": -0.844,
+  "lang": "en",
+  "lang_p": 0.519,
+  "ms": 630.4,
+  "langid_ms": 312.7
+ },
+ "whisper:tiny|auto3|clips/man_60/man_60_mr_quiet_03_gasping.wav": {
+  "text": "लाब लाब लाब लेग लेग लेग",
+  "logprob": -0.888,
+  "lang": "hi",
+  "lang_p": 0.066,
+  "ms": 614.6,
+  "langid_ms": 284.9
+ },
+ "whisper:tiny|auto3|clips/man_60/man_60_mr_station_01_not_breathing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.071,
+  "ms": 650.7,
+  "langid_ms": 255.4
+ },
+ "whisper:tiny|auto3|clips/man_60/man_60_mr_station_02_breathing_normal.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.028,
+  "ms": 631.2,
+  "langid_ms": 275.6
+ },
+ "whisper:tiny|auto3|clips/man_60/man_60_mr_station_03_gasping.wav": {
+  "text": "Na apartak play, which is your amajit.",
+  "logprob": -1.741,
+  "lang": "mr",
+  "lang_p": 0.041,
+  "ms": 551.1,
+  "langid_ms": 264.8
+ },
+ "whisper:tiny|auto3|clips/man_60/man_60_mr_station_04_not_breathing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.055,
+  "ms": 611.9,
+  "langid_ms": 250.4
+ },
+ "whisper:tiny|auto3|clips/man_60/man_60_mr_station_05_not_responding.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "mr",
+  "lang_p": 0.031,
+  "ms": 900.1,
+  "langid_ms": 320.8
+ },
+ "whisper:tiny|auto3|clips/man_60/man_60_mr_station_06_responding.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.038,
+  "ms": 971.0,
+  "langid_ms": 430.2
+ },
+ "whisper:tiny|auto3|clips/man_60/man_60_mr_station_07_tired.wav": {
+  "text": "Hadoop time, with a clone.",
+  "logprob": -1.038,
+  "lang": "en",
+  "lang_p": 0.065,
+  "ms": 806.2,
+  "langid_ms": 401.1
+ },
+ "whisper:tiny|auto3|clips/man_60/man_60_mr_station_08_where_hands.wav": {
+  "text": "Откуда ты чуг?",
+  "logprob": -1.478,
+  "lang": "hi",
+  "lang_p": 0.705,
+  "ms": 798.9,
+  "langid_ms": 395.0
+ },
+ "whisper:tiny|auto3|clips/man_60/man_60_mr_station_09_how_deep.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.027,
+  "ms": 873.4,
+  "langid_ms": 365.1
+ },
+ "whisper:tiny|auto3|clips/woman_45/woman_45_mr_quiet_01_not_breathing.wav": {
+  "text": "साँस नहीं लेग आहीं लेग",
+  "logprob": -0.643,
+  "lang": "hi",
+  "lang_p": 0.159,
+  "ms": 820.7,
+  "langid_ms": 372.4
+ },
+ "whisper:tiny|auto3|clips/woman_45/woman_45_mr_quiet_02_breathing_normal.wav": {
+  "text": "Oh, it's last gitry.",
+  "logprob": -1.12,
+  "lang": "en",
+  "lang_p": 0.044,
+  "ms": 816.7,
+  "langid_ms": 391.9
+ },
+ "whisper:tiny|auto3|clips/woman_45/woman_45_mr_quiet_03_gasping.wav": {
+  "text": "So, let's go to the next episode.",
+  "logprob": -1.492,
+  "lang": "en",
+  "lang_p": 0.006,
+  "ms": 772.1,
+  "langid_ms": 372.6
+ },
+ "whisper:tiny|auto3|clips/woman_45/woman_45_mr_traffic_01_not_breathing.wav": {
+  "text": "So that's what we call here.",
+  "logprob": -0.969,
+  "lang": "en",
+  "lang_p": 0.376,
+  "ms": 790.3,
+  "langid_ms": 378.7
+ },
+ "whisper:tiny|auto3|clips/woman_45/woman_45_mr_traffic_02_breathing_normal.wav": {
+  "text": "So, let's start the three three.",
+  "logprob": -1.255,
+  "lang": "en",
+  "lang_p": 0.749,
+  "ms": 785.4,
+  "langid_ms": 372.6
+ },
+ "whisper:tiny|auto3|clips/woman_45/woman_45_mr_traffic_03_gasping.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.04,
+  "ms": 889.2,
+  "langid_ms": 368.0
+ },
+ "whisper:tiny|auto3|clips/woman_45/woman_45_mr_traffic_04_not_breathing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.134,
+  "ms": 909.2,
+  "langid_ms": 397.9
+ },
+ "whisper:tiny|auto3|clips/woman_45/woman_45_mr_traffic_05_not_responding.wav": {
+  "text": "पास नहीं लेवास नहीं लेवा।",
+  "logprob": -0.68,
+  "lang": "hi",
+  "lang_p": 0.106,
+  "ms": 800.2,
+  "langid_ms": 351.3
+ },
+ "whisper:tiny|auto3|clips/woman_45/woman_45_mr_traffic_06_responding.wav": {
+  "text": "Oh, thanks, buddy.",
+  "logprob": -1.099,
+  "lang": "en",
+  "lang_p": 0.121,
+  "ms": 764.1,
+  "langid_ms": 368.9
+ },
+ "whisper:tiny|auto3|clips/woman_45/woman_45_mr_traffic_07_tired.wav": {
+  "text": "And with that we can move.",
+  "logprob": -1.019,
+  "lang": "en",
+  "lang_p": 0.427,
+  "ms": 814.0,
+  "langid_ms": 408.4
+ },
+ "whisper:tiny|auto3|clips/woman_45/woman_45_mr_traffic_08_where_hands.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.426,
+  "ms": 866.1,
+  "langid_ms": 367.3
+ },
+ "whisper:tiny|auto3|clips/woman_45/woman_45_mr_traffic_09_help_called.wav": {
+  "text": "जाँस नहीं लेला है",
+  "logprob": -0.932,
+  "lang": "hi",
+  "lang_p": 0.171,
+  "ms": 805.4,
+  "langid_ms": 352.2
+ },
+ "whisper:tiny|auto3|clips/man_35/man_35_mr_station_01_not_breathing.wav": {
+  "text": "Chwaas get ready.",
+  "logprob": -1.149,
+  "lang": "en",
+  "lang_p": 0.255,
+  "ms": 764.2,
+  "langid_ms": 369.3
+ },
+ "whisper:tiny|auto3|clips/man_35/man_35_mr_station_02_not_breathing.wav": {
+  "text": "Swas Bhitna Yeh",
+  "logprob": -1.361,
+  "lang": "en",
+  "lang_p": 0.072,
+  "ms": 780.9,
+  "langid_ms": 378.4
+ },
+ "whisper:tiny|auto3|clips/man_35/man_35_mr_station_03_gasping.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.01,
+  "ms": 936.7,
+  "langid_ms": 390.8
+ },
+ "whisper:tiny|auto3|clips/man_35/man_35_mr_station_04_not_breathing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.337,
+  "ms": 925.7,
+  "langid_ms": 390.7
+ },
+ "whisper:tiny|auto3|clips/man_35/man_35_mr_station_05_not_responding.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.941,
+  "ms": 932.6,
+  "langid_ms": 393.1
+ },
+ "whisper:tiny|auto3|clips/man_35/man_35_mr_station_06_responding.wav": {
+  "text": "Oh, heart-to-eye.",
+  "logprob": -1.046,
+  "lang": "en",
+  "lang_p": 0.348,
+  "ms": 792.5,
+  "langid_ms": 399.0
+ },
+ "whisper:tiny|auto3|clips/man_35/man_35_mr_station_07_tired.wav": {
+  "text": "Khadduptet, make a flow.",
+  "logprob": -0.997,
+  "lang": "en",
+  "lang_p": 0.097,
+  "ms": 761.0,
+  "langid_ms": 366.7
+ },
+ "whisper:tiny|auto3|clips/man_35/man_35_mr_station_08_where_hands.wav": {
+  "text": "1-2-2",
+  "logprob": -1.147,
+  "lang": "hi",
+  "lang_p": 0.462,
+  "ms": 761.9,
+  "langid_ms": 371.2
+ },
+ "whisper:tiny|auto3|clips/man_35/man_35_mr_quiet_01_not_breathing.wav": {
+  "text": "So, as a result, it is not breathing.",
+  "logprob": -1.32,
+  "lang": "en",
+  "lang_p": 0.037,
+  "ms": 794.7,
+  "langid_ms": 392.4
+ },
+ "whisper:tiny|auto3|clips/man_35/man_35_mr_quiet_02_breathing_normal.wav": {
+  "text": "Oh, shawas getoay.",
+  "logprob": -1.052,
+  "lang": "en",
+  "lang_p": 0.057,
+  "ms": 841.9,
+  "langid_ms": 414.5
+ },
+ "whisper:tiny|auto3|clips/man_35/man_35_mr_quiet_03_gasping.wav": {
+  "text": "ले़ नहीं ले़ ले़ ले़ ले़ ले़ ले़",
+  "logprob": -0.727,
+  "lang": "hi",
+  "lang_p": 0.209,
+  "ms": 829.9,
+  "langid_ms": 362.9
+ },
+ "whisper:tiny|auto3|clips/man_75/man_75_mr_quiet_01_not_breathing.wav": {
+  "text": "So, I should eat night.",
+  "logprob": -1.306,
+  "lang": "en",
+  "lang_p": 0.127,
+  "ms": 607.5,
+  "langid_ms": 301.7
+ },
+ "whisper:tiny|auto3|clips/man_75/man_75_mr_quiet_02_breathing_normal.wav": {
+  "text": "Oh, trust your faith.",
+  "logprob": -0.981,
+  "lang": "en",
+  "lang_p": 0.344,
+  "ms": 573.5,
+  "langid_ms": 284.9
+ },
+ "whisper:tiny|auto3|clips/man_75/man_75_mr_quiet_03_gasping.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.077,
+  "ms": 759.1,
+  "langid_ms": 313.0
+ },
+ "whisper:tiny|auto3|clips/man_75/man_75_mr_traffic_01_not_breathing.wav": {
+  "text": "So, let's meet my girl.",
+  "logprob": -1.282,
+  "lang": "en",
+  "lang_p": 0.133,
+  "ms": 651.1,
+  "langid_ms": 314.0
+ },
+ "whisper:tiny|auto3|clips/man_75/man_75_mr_traffic_02_breathing_normal.wav": {
+  "text": "Woah, got to get three.",
+  "logprob": -0.876,
+  "lang": "en",
+  "lang_p": 0.838,
+  "ms": 625.0,
+  "langid_ms": 300.6
+ },
+ "whisper:tiny|auto3|clips/man_75/man_75_mr_traffic_03_gasping.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.184,
+  "ms": 873.1,
+  "langid_ms": 357.3
+ },
+ "whisper:tiny|auto3|clips/man_75/man_75_mr_traffic_04_not_breathing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.236,
+  "ms": 901.7,
+  "langid_ms": 365.6
+ },
+ "whisper:tiny|auto3|clips/man_75/man_75_mr_traffic_05_not_responding.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.509,
+  "ms": 884.1,
+  "langid_ms": 367.1
+ },
+ "whisper:tiny|auto3|clips/man_75/man_75_mr_traffic_06_responding.wav": {
+  "text": "Do a hot dog.",
+  "logprob": -0.981,
+  "lang": "en",
+  "lang_p": 0.087,
+  "ms": 834.3,
+  "langid_ms": 365.4
+ },
+ "whisper:tiny|auto3|clips/man_75/man_75_mr_traffic_07_tired.wav": {
+  "text": "आप पव पव पव पव पव पव",
+  "logprob": -1.199,
+  "lang": "en",
+  "lang_p": 0.046,
+  "ms": 930.1,
+  "langid_ms": 413.6
+ },
+ "whisper:tiny|auto3|clips/man_75/man_75_mr_traffic_08_where_hands.wav": {
+  "text": "पाँ कु़ पेत होंब",
+  "logprob": -1.224,
+  "lang": "hi",
+  "lang_p": 0.335,
+  "ms": 959.1,
+  "langid_ms": 445.2
+ },
+ "whisper:tiny|auto3|clips/man_75/man_75_mr_traffic_09_help_called.wav": {
+  "text": "जाँस नहीं लेवा।",
+  "logprob": -0.87,
+  "lang": "en",
+  "lang_p": 0.018,
+  "ms": 874.5,
+  "langid_ms": 423.2
+ },
+ "whisper:tiny|auto3|clips/woman_30/woman_30_mr_quiet_01_not_breathing.wav": {
+  "text": "Шваз Гитная",
+  "logprob": -1.462,
+  "lang": "hi",
+  "lang_p": 0.009,
+  "ms": 830.1,
+  "langid_ms": 375.8
+ },
+ "whisper:tiny|auto3|clips/woman_30/woman_30_mr_quiet_02_breathing_normal.wav": {
+  "text": "Hello Shrasky, toy!",
+  "logprob": -1.233,
+  "lang": "en",
+  "lang_p": 0.171,
+  "ms": 904.5,
+  "langid_ms": 468.4
+ },
+ "whisper:tiny|auto3|clips/woman_30/woman_30_mr_quiet_03_gasping.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.057,
+  "ms": 923.2,
+  "langid_ms": 393.5
+ },
+ "whisper:tiny|auto3|clips/woman_30/woman_30_mr_traffic_01_not_breathing.wav": {
+  "text": "Soast you smell you.",
+  "logprob": -1.152,
+  "lang": "en",
+  "lang_p": 0.319,
+  "ms": 939.7,
+  "langid_ms": 469.9
+ },
+ "whisper:tiny|auto3|clips/woman_30/woman_30_mr_traffic_02_breathing_normal.wav": {
+  "text": "So far, it's been great.",
+  "logprob": -0.986,
+  "lang": "en",
+  "lang_p": 0.684,
+  "ms": 891.6,
+  "langid_ms": 453.8
+ },
+ "whisper:tiny|auto3|clips/woman_30/woman_30_mr_traffic_03_gasping.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.011,
+  "ms": 1034.7,
+  "langid_ms": 444.8
+ },
+ "whisper:tiny|auto3|clips/woman_30/woman_30_mr_traffic_04_not_breathing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.45,
+  "ms": 889.6,
+  "langid_ms": 393.0
+ },
+ "whisper:tiny|auto3|clips/woman_30/woman_30_mr_traffic_05_not_responding.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.766,
+  "ms": 926.0,
+  "langid_ms": 374.0
+ },
+ "whisper:tiny|auto3|clips/woman_30/woman_30_mr_traffic_06_responding.wav": {
+  "text": "नहा।",
+  "logprob": -0.958,
+  "lang": "en",
+  "lang_p": 0.055,
+  "ms": 816.6,
+  "langid_ms": 412.1
+ },
+ "whisper:tiny|auto3|clips/woman_30/woman_30_mr_traffic_07_tired.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.661,
+  "ms": 908.3,
+  "langid_ms": 383.7
+ },
+ "whisper:tiny|auto3|clips/woman_30/woman_30_mr_traffic_08_where_hands.wav": {
+  "text": "Heart good at you.",
+  "logprob": -0.611,
+  "lang": "en",
+  "lang_p": 0.425,
+  "ms": 785.0,
+  "langid_ms": 401.7
+ },
+ "whisper:tiny|auto3|clips/woman_30/woman_30_mr_traffic_09_help_called.wav": {
+  "text": "I'm going to listen to the phone call.",
+  "logprob": -0.692,
+  "lang": "hi",
+  "lang_p": 0.112,
+  "ms": 796.6,
+  "langid_ms": 367.8
+ },
+ "whisper:tiny|auto3|clips/woman_22/woman_22_mix_quiet_01_not_breathing.wav": {
+  "text": "breathing is not breathing.",
+  "logprob": -1.011,
+  "lang": "hi",
+  "lang_p": 0.433,
+  "ms": 769.4,
+  "langid_ms": 367.9
+ },
+ "whisper:tiny|auto3|clips/woman_22/woman_22_mix_quiet_02_breathing_normal.wav": {
+  "text": "Yes, breathing normally.",
+  "logprob": -0.514,
+  "lang": "hi",
+  "lang_p": 0.895,
+  "ms": 793.7,
+  "langid_ms": 394.0
+ },
+ "whisper:tiny|auto3|clips/woman_22/woman_22_mix_quiet_03_gasping.wav": {
+  "text": "Gasping just a car high.",
+  "logprob": -0.868,
+  "lang": "hi",
+  "lang_p": 0.82,
+  "ms": 760.1,
+  "langid_ms": 362.6
+ },
+ "whisper:tiny|auto3|clips/woman_22/woman_22_mix_market_01_not_breathing.wav": {
+  "text": "तेती रहीं कर ताया।",
+  "logprob": -1.06,
+  "lang": "hi",
+  "lang_p": 0.412,
+  "ms": 919.5,
+  "langid_ms": 395.0
+ },
+ "whisper:tiny|auto3|clips/woman_22/woman_22_mix_market_02_breathing_normal.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.459,
+  "ms": 929.2,
+  "langid_ms": 405.3
+ },
+ "whisper:tiny|auto3|clips/woman_22/woman_22_mix_market_03_gasping.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.563,
+  "ms": 995.7,
+  "langid_ms": 426.9
+ },
+ "whisper:tiny|auto3|clips/woman_22/woman_22_mix_market_04_not_breathing.wav": {
+  "text": "जाँस नहीं लेवाई पिचना ही ?",
+  "logprob": -0.994,
+  "lang": "hi",
+  "lang_p": 0.229,
+  "ms": 980.2,
+  "langid_ms": 420.8
+ },
+ "whisper:tiny|auto3|clips/woman_22/woman_22_mix_market_05_not_responding.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.108,
+  "ms": 1146.7,
+  "langid_ms": 380.6
+ },
+ "whisper:tiny|auto3|clips/woman_22/woman_22_mix_market_06_responding.wav": {
+  "text": "नहीं लेब लेब लेब लेब लेब",
+  "logprob": -0.541,
+  "lang": "en",
+  "lang_p": 0.525,
+  "ms": 1123.3,
+  "langid_ms": 550.8
+ },
+ "whisper:tiny|auto3|clips/woman_22/woman_22_mix_market_07_tired.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.813,
+  "ms": 1135.6,
+  "langid_ms": 479.4
+ },
+ "whisper:tiny|auto3|clips/woman_22/woman_22_mix_market_08_where_hands.wav": {
+  "text": "नहा। आपवा।",
+  "logprob": -1.015,
+  "lang": "en",
+  "lang_p": 0.146,
+  "ms": 1264.3,
+  "langid_ms": 484.1
+ },
+ "whisper:tiny|auto3|clips/woman_22/woman_22_mix_market_09_pushing.wav": {
+  "text": "नहीं लेवा।",
+  "logprob": -0.875,
+  "lang": "en",
+  "lang_p": 0.044,
+  "ms": 1777.7,
+  "langid_ms": 866.9
+ },
+ "whisper:tiny|auto3|clips/woman_19/woman_19_hi_traffic_01_not_breathing.wav": {
+  "text": "Sashnire raho",
+  "logprob": -1.534,
+  "lang": "en",
+  "lang_p": 0.134,
+  "ms": 1848.2,
+  "langid_ms": 698.5
+ },
+ "whisper:tiny|auto3|clips/woman_19/woman_19_hi_traffic_02_breathing_normal.wav": {
+  "text": "नहा।, साँस नहीं लेब लेब",
+  "logprob": -0.818,
+  "lang": "hi",
+  "lang_p": 0.129,
+  "ms": 1842.4,
+  "langid_ms": 935.3
+ },
+ "whisper:tiny|auto3|clips/woman_19/woman_19_hi_traffic_03_gasping.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.493,
+  "ms": 1766.4,
+  "langid_ms": 732.1
+ },
+ "whisper:tiny|auto3|clips/woman_19/woman_19_hi_traffic_04_not_breathing.wav": {
+  "text": "No, а baby, that's not it.",
+  "logprob": -1.072,
+  "lang": "hi",
+  "lang_p": 0.726,
+  "ms": 1523.0,
+  "langid_ms": 753.9
+ },
+ "whisper:tiny|auto3|clips/woman_19/woman_19_mix_traffic_05_not_responding.wav": {
+  "text": "Quite is fun sleep. Wearing it up.",
+  "logprob": -1.333,
+  "lang": "en",
+  "lang_p": 0.52,
+  "ms": 1473.0,
+  "langid_ms": 825.7
+ },
+ "whisper:tiny|auto3|clips/woman_19/woman_19_mix_traffic_06_responding.wav": {
+  "text": "He is moving! He is not here!",
+  "logprob": -0.765,
+  "lang": "en",
+  "lang_p": 0.56,
+  "ms": 1153.1,
+  "langid_ms": 605.2
+ },
+ "whisper:tiny|auto3|clips/woman_19/woman_19_mix_traffic_07_tired.wav": {
+  "text": "नहीं लेवा। नहीं लेवा।",
+  "logprob": -0.796,
+  "lang": "hi",
+  "lang_p": 0.606,
+  "ms": 1345.9,
+  "langid_ms": 593.3
+ },
+ "whisper:tiny|auto3|clips/woman_19/woman_19_mix_traffic_08_where_hands.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.375,
+  "ms": 1391.5,
+  "langid_ms": 597.9
+ },
+ "whisper:tiny|auto3|clips/woman_19/woman_19_mix_quiet_01_not_breathing.wav": {
+  "text": "रहीं लेव नहीं करना है।",
+  "logprob": -0.915,
+  "lang": "hi",
+  "lang_p": 0.801,
+  "ms": 1257.1,
+  "langid_ms": 517.9
+ },
+ "whisper:tiny|auto3|clips/woman_19/woman_19_mix_quiet_02_breathing_normal.wav": {
+  "text": "लाँ व्व्व्वना लेग आप प्व्व्व आप प्व्व्व्व्व्�",
+  "logprob": -0.906,
+  "lang": "hi",
+  "lang_p": 0.026,
+  "ms": 1512.5,
+  "langid_ms": 565.9
+ },
+ "whisper:tiny|auto3|clips/woman_19/woman_19_mix_quiet_03_gasping.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.203,
+  "ms": 2025.8,
+  "langid_ms": 643.5
+ },
+ "whisper:base|auto3|clips/man_20/man_20_hi_quiet_01_not_breathing.wav": {
+  "text": "सास नहीं ले रहा",
+  "logprob": -0.444,
+  "lang": "mr",
+  "lang_p": 0.084,
+  "ms": 2740.1,
+  "langid_ms": 1151.2
+ },
+ "whisper:base|auto3|clips/man_20/man_20_hi_quiet_02_breathing_normal.wav": {
+  "text": "हास नहीं ले रहा।",
+  "logprob": -0.64,
+  "lang": "hi",
+  "lang_p": 0.825,
+  "ms": 2404.3,
+  "langid_ms": 1160.7
+ },
+ "whisper:base|auto3|clips/man_20/man_20_hi_quiet_03_gasping.wav": {
+  "text": "ए दिप साँस आद्वराण",
+  "logprob": -0.9,
+  "lang": "en",
+  "lang_p": 0.077,
+  "ms": 2628.9,
+  "langid_ms": 1169.0
+ },
+ "whisper:base|auto3|clips/man_28/man_28_hi_quiet_01_not_breathing.wav": {
+  "text": "यह द्मितो सास नहीं देरा है.",
+  "logprob": -0.724,
+  "lang": "hi",
+  "lang_p": 0.882,
+  "ms": 2662.3,
+  "langid_ms": 1120.5
+ },
+ "whisper:base|auto3|clips/man_28/man_28_hi_quiet_02_breathing_normal.wav": {
+  "text": "हा, मुजे नहीं कि अदभूद तोड़ास नहीं नहीं नहीं नहीं नहीं �",
+  "logprob": -0.694,
+  "lang": "hi",
+  "lang_p": 0.92,
+  "ms": 2701.9,
+  "langid_ms": 1193.8
+ },
+ "whisper:base|auto3|clips/man_28/man_28_hi_quiet_03_gasping.wav": {
+  "text": "अदनी तो चिजत तरा से साँस नहीं",
+  "logprob": -0.745,
+  "lang": "hi",
+  "lang_p": 0.75,
+  "ms": 4186.0,
+  "langid_ms": 1727.6
+ },
+ "whisper:base|auto3|clips/man_40/man_40_mix_quiet_01_not_breathing.wav": {
+  "text": "प्रेटिखने करायार",
+  "logprob": -0.828,
+  "lang": "hi",
+  "lang_p": 0.983,
+  "ms": 2964.5,
+  "langid_ms": 1582.9
+ },
+ "whisper:base|auto3|clips/man_40/man_40_mix_quiet_02_breathing_normal.wav": {
+  "text": "आज़े दिखनार्मले",
+  "logprob": -1.168,
+  "lang": "hi",
+  "lang_p": 0.1,
+  "ms": 2479.3,
+  "langid_ms": 1088.4
+ },
+ "whisper:base|auto3|clips/man_40/man_40_mix_quiet_03_gasping.wav": {
+  "text": "आज्विन ले साँवारा हिर",
+  "logprob": -0.979,
+  "lang": "hi",
+  "lang_p": 0.931,
+  "ms": 2453.6,
+  "langid_ms": 1080.7
+ },
+ "whisper:base|auto3|clips/man_60/man_60_mr_quiet_01_not_breathing.wav": {
+  "text": "आचास नहीं नहीं",
+  "logprob": -0.745,
+  "lang": "en",
+  "lang_p": 0.192,
+  "ms": 2400.3,
+  "langid_ms": 1136.8
+ },
+ "whisper:base|auto3|clips/man_60/man_60_mr_quiet_02_breathing_normal.wav": {
+  "text": "आच रहा।",
+  "logprob": -0.926,
+  "lang": "en",
+  "lang_p": 0.289,
+  "ms": 2242.7,
+  "langid_ms": 1087.3
+ },
+ "whisper:base|auto3|clips/man_60/man_60_mr_quiet_03_gasping.wav": {
+  "text": "आपाटाट पुजे तोगे तोगे",
+  "logprob": -0.991,
+  "lang": "hi",
+  "lang_p": 0.481,
+  "ms": 2423.1,
+  "langid_ms": 1140.6
+ },
+ "whisper:base|auto3|clips/man_60/man_60_mr_station_01_not_breathing.wav": {
+  "text": "स्वास नहीं नहीं",
+  "logprob": -0.482,
+  "lang": "en",
+  "lang_p": 0.043,
+  "ms": 2401.8,
+  "langid_ms": 1120.6
+ },
+ "whisper:base|auto3|clips/man_60/man_60_mr_station_02_breathing_normal.wav": {
+  "text": "पो साँस न। न।",
+  "logprob": -0.604,
+  "lang": "en",
+  "lang_p": 0.132,
+  "ms": 2343.0,
+  "langid_ms": 1374.4
+ },
+ "whisper:base|auto3|clips/man_60/man_60_mr_station_03_gasping.wav": {
+  "text": "रहा। लापाता तोग। बुजित तोग।",
+  "logprob": -0.828,
+  "lang": "hi",
+  "lang_p": 0.086,
+  "ms": 1693.2,
+  "langid_ms": 793.3
+ },
+ "whisper:base|auto3|clips/man_60/man_60_mr_station_04_not_breathing.wav": {
+  "text": "बनाहें रहा।",
+  "logprob": -0.643,
+  "lang": "en",
+  "lang_p": 0.101,
+  "ms": 1583.1,
+  "langid_ms": 759.7
+ },
+ "whisper:base|auto3|clips/man_60/man_60_mr_station_05_not_responding.wav": {
+  "text": "बाट परतिसाद नहीं और नहीं",
+  "logprob": -0.778,
+  "lang": "hi",
+  "lang_p": 0.077,
+  "ms": 1634.9,
+  "langid_ms": 746.4
+ },
+ "whisper:base|auto3|clips/man_60/man_60_mr_station_06_responding.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.034,
+  "ms": 1698.0,
+  "langid_ms": 722.7
+ },
+ "whisper:base|auto3|clips/man_60/man_60_mr_station_07_tired.wav": {
+  "text": "अचा चूप थाव पुड पुड पुड पुड पुड पुड पुड प�",
+  "logprob": -0.711,
+  "lang": "en",
+  "lang_p": 0.18,
+  "ms": 1687.5,
+  "langid_ms": 732.7
+ },
+ "whisper:base|auto3|clips/man_60/man_60_mr_station_08_where_hands.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.431,
+  "ms": 1670.6,
+  "langid_ms": 705.9
+ },
+ "whisper:base|auto3|clips/man_60/man_60_mr_station_09_how_deep.wav": {
+  "text": "यह लोरा नब।",
+  "logprob": -1.081,
+  "lang": "hi",
+  "lang_p": 0.04,
+  "ms": 1521.0,
+  "langid_ms": 737.8
+ },
+ "whisper:base|auto3|clips/woman_45/woman_45_mr_quiet_01_not_breathing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.066,
+  "ms": 1640.6,
+  "langid_ms": 709.5
+ },
+ "whisper:base|auto3|clips/woman_45/woman_45_mr_quiet_02_breathing_normal.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.136,
+  "ms": 1662.9,
+  "langid_ms": 717.6
+ },
+ "whisper:base|auto3|clips/woman_45/woman_45_mr_quiet_03_gasping.wav": {
+  "text": "यह पाखाँ पुदे तेत प्रावास देते",
+  "logprob": -0.941,
+  "lang": "hi",
+  "lang_p": 0.031,
+  "ms": 1581.4,
+  "langid_ms": 684.2
+ },
+ "whisper:base|auto3|clips/woman_45/woman_45_mr_traffic_01_not_breathing.wav": {
+  "text": "यह रहा।",
+  "logprob": -0.82,
+  "lang": "en",
+  "lang_p": 0.701,
+  "ms": 1550.5,
+  "langid_ms": 745.6
+ },
+ "whisper:base|auto3|clips/woman_45/woman_45_mr_traffic_02_breathing_normal.wav": {
+  "text": "साँस बिद रहीं",
+  "logprob": -0.911,
+  "lang": "en",
+  "lang_p": 0.542,
+  "ms": 1487.4,
+  "langid_ms": 726.6
+ },
+ "whisper:base|auto3|clips/woman_45/woman_45_mr_traffic_03_gasping.wav": {
+  "text": "आपाटाट तो जीत रावाटी तो ले नहीं नहीं नहीं नहीं नहीं नही",
+  "logprob": -0.719,
+  "lang": "hi",
+  "lang_p": 0.191,
+  "ms": 1696.9,
+  "langid_ms": 730.7
+ },
+ "whisper:base|auto3|clips/woman_45/woman_45_mr_traffic_04_not_breathing.wav": {
+  "text": "बानु और जिव बानु",
+  "logprob": -0.794,
+  "lang": "hi",
+  "lang_p": 0.168,
+  "ms": 1517.1,
+  "langid_ms": 689.6
+ },
+ "whisper:base|auto3|clips/woman_45/woman_45_mr_traffic_05_not_responding.wav": {
+  "text": "आपास परसी को तिसाथ नहीं था लड नहीं",
+  "logprob": -0.913,
+  "lang": "hi",
+  "lang_p": 0.672,
+  "ms": 1587.5,
+  "langid_ms": 702.4
+ },
+ "whisper:base|auto3|clips/woman_45/woman_45_mr_traffic_06_responding.wav": {
+  "text": "बुचावास नहीं",
+  "logprob": -0.979,
+  "lang": "en",
+  "lang_p": 0.13,
+  "ms": 1483.9,
+  "langid_ms": 711.4
+ },
+ "whisper:base|auto3|clips/woman_45/woman_45_mr_traffic_07_tired.wav": {
+  "text": "100% breathing mode.",
+  "logprob": -1.222,
+  "lang": "en",
+  "lang_p": 0.301,
+  "ms": 1490.1,
+  "langid_ms": 733.6
+ },
+ "whisper:base|auto3|clips/woman_45/woman_45_mr_traffic_08_where_hands.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.806,
+  "ms": 1677.1,
+  "langid_ms": 708.5
+ },
+ "whisper:base|auto3|clips/woman_45/woman_45_mr_traffic_09_help_called.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.099,
+  "ms": 1680.4,
+  "langid_ms": 701.8
+ },
+ "whisper:base|auto3|clips/man_35/man_35_mr_station_01_not_breathing.wav": {
+  "text": "ज़ास तेते",
+  "logprob": -1.089,
+  "lang": "en",
+  "lang_p": 0.021,
+  "ms": 1498.2,
+  "langid_ms": 728.7
+ },
+ "whisper:base|auto3|clips/man_35/man_35_mr_station_02_not_breathing.wav": {
+  "text": "आज नहीं नहीं नहीं",
+  "logprob": -0.772,
+  "lang": "en",
+  "lang_p": 0.022,
+  "ms": 1580.1,
+  "langid_ms": 727.3
+ },
+ "whisper:base|auto3|clips/man_35/man_35_mr_station_03_gasping.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.067,
+  "ms": 1672.3,
+  "langid_ms": 734.3
+ },
+ "whisper:base|auto3|clips/man_35/man_35_mr_station_04_not_breathing.wav": {
+  "text": "नहीं लगना हीं",
+  "logprob": -0.966,
+  "lang": "hi",
+  "lang_p": 0.113,
+  "ms": 1535.6,
+  "langid_ms": 719.3
+ },
+ "whisper:base|auto3|clips/man_35/man_35_mr_station_05_not_responding.wav": {
+  "text": "यह लाहीं ज़ पूद दिसाद नहीं, नहलथ नहीं.",
+  "logprob": -0.787,
+  "lang": "hi",
+  "lang_p": 0.716,
+  "ms": 1695.2,
+  "langid_ms": 709.5
+ },
+ "whisper:base|auto3|clips/man_35/man_35_mr_station_06_responding.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.052,
+  "ms": 3041.7,
+  "langid_ms": 773.2
+ },
+ "whisper:base|auto3|clips/man_35/man_35_mr_station_07_tired.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.281,
+  "ms": 3523.9,
+  "langid_ms": 1566.8
+ },
+ "whisper:base|auto3|clips/man_35/man_35_mr_station_08_where_hands.wav": {
+  "text": "अगाद कुते तो",
+  "logprob": -0.955,
+  "lang": "hi",
+  "lang_p": 0.142,
+  "ms": 2972.2,
+  "langid_ms": 1241.4
+ },
+ "whisper:base|auto3|clips/man_35/man_35_mr_quiet_01_not_breathing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.039,
+  "ms": 3215.3,
+  "langid_ms": 1680.3
+ },
+ "whisper:base|auto3|clips/man_35/man_35_mr_quiet_02_breathing_normal.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.047,
+  "ms": 2560.9,
+  "langid_ms": 1122.5
+ },
+ "whisper:base|auto3|clips/man_35/man_35_mr_quiet_03_gasping.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "mr",
+  "lang_p": 0.398,
+  "ms": 2697.9,
+  "langid_ms": 1121.0
+ },
+ "whisper:base|auto3|clips/man_75/man_75_mr_quiet_01_not_breathing.wav": {
+  "text": "आज़िवास नहीं नहीं",
+  "logprob": -0.993,
+  "lang": "en",
+  "lang_p": 0.355,
+  "ms": 2639.4,
+  "langid_ms": 1375.7
+ },
+ "whisper:base|auto3|clips/man_75/man_75_mr_quiet_02_breathing_normal.wav": {
+  "text": "भूवास नहीं तोगास नहीं",
+  "logprob": -1.021,
+  "lang": "en",
+  "lang_p": 0.112,
+  "ms": 2672.1,
+  "langid_ms": 1158.2
+ },
+ "whisper:base|auto3|clips/man_75/man_75_mr_quiet_03_gasping.wav": {
+  "text": "यह लाँपा दाँथ पे विजित्रावा जित्रे",
+  "logprob": -0.851,
+  "lang": "hi",
+  "lang_p": 0.315,
+  "ms": 3145.4,
+  "langid_ms": 1701.1
+ },
+ "whisper:base|auto3|clips/man_75/man_75_mr_traffic_01_not_breathing.wav": {
+  "text": "साँस नहीं नहीं",
+  "logprob": -0.519,
+  "lang": "en",
+  "lang_p": 0.136,
+  "ms": 2773.4,
+  "langid_ms": 1199.4
+ },
+ "whisper:base|auto3|clips/man_75/man_75_mr_traffic_02_breathing_normal.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.393,
+  "ms": 2847.6,
+  "langid_ms": 1149.4
+ },
+ "whisper:base|auto3|clips/man_75/man_75_mr_traffic_03_gasping.wav": {
+  "text": "ज़ाभाताग तो है? पिजित वादी तो है?",
+  "logprob": -0.846,
+  "lang": "hi",
+  "lang_p": 0.455,
+  "ms": 2632.0,
+  "langid_ms": 1264.8
+ },
+ "whisper:base|auto3|clips/man_75/man_75_mr_traffic_04_not_breathing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.326,
+  "ms": 2569.8,
+  "langid_ms": 1054.9
+ },
+ "whisper:base|auto3|clips/man_75/man_75_mr_traffic_05_not_responding.wav": {
+  "text": "बावास नहीं बावास नहीं नहीं नहीं",
+  "logprob": -0.63,
+  "lang": "hi",
+  "lang_p": 0.44,
+  "ms": 2883.1,
+  "langid_ms": 1208.6
+ },
+ "whisper:base|auto3|clips/man_75/man_75_mr_traffic_06_responding.wav": {
+  "text": "यह भाभावावे",
+  "logprob": -1.26,
+  "lang": "en",
+  "lang_p": 0.075,
+  "ms": 2645.8,
+  "langid_ms": 1237.4
+ },
+ "whisper:base|auto3|clips/man_75/man_75_mr_traffic_07_tired.wav": {
+  "text": "आदुपे लिज्वास नहीं नहीं नहीं नहीं नहीं नहीं नहीं नहीं न",
+  "logprob": -0.559,
+  "lang": "en",
+  "lang_p": 0.151,
+  "ms": 2769.1,
+  "langid_ms": 1236.8
+ },
+ "whisper:base|auto3|clips/man_75/man_75_mr_traffic_08_where_hands.wav": {
+  "text": "आप कुझे ते।",
+  "logprob": -0.765,
+  "lang": "hi",
+  "lang_p": 0.66,
+  "ms": 2447.2,
+  "langid_ms": 1111.3
+ },
+ "whisper:base|auto3|clips/man_75/man_75_mr_traffic_09_help_called.wav": {
+  "text": "बिल रहा। बाल पोल पोल पेना।",
+  "logprob": -0.96,
+  "lang": "en",
+  "lang_p": 0.053,
+  "ms": 2582.4,
+  "langid_ms": 1154.6
+ },
+ "whisper:base|auto3|clips/woman_30/woman_30_mr_quiet_01_not_breathing.wav": {
+  "text": "अचास तेत नहीं",
+  "logprob": -0.797,
+  "lang": "hi",
+  "lang_p": 0.009,
+  "ms": 2544.0,
+  "langid_ms": 1124.3
+ },
+ "whisper:base|auto3|clips/woman_30/woman_30_mr_quiet_02_breathing_normal.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.08,
+  "ms": 2843.3,
+  "langid_ms": 1392.7
+ },
+ "whisper:base|auto3|clips/woman_30/woman_30_mr_quiet_03_gasping.wav": {
+  "text": "यह लपा ताग तो जित्रा वाज तो गे",
+  "logprob": -1.09,
+  "lang": "mr",
+  "lang_p": 0.109,
+  "ms": 1613.2,
+  "langid_ms": 745.0
+ },
+ "whisper:base|auto3|clips/woman_30/woman_30_mr_traffic_01_not_breathing.wav": {
+  "text": "ज़ास दिफ मैं ज़ास दिफ मैं",
+  "logprob": -0.914,
+  "lang": "en",
+  "lang_p": 0.093,
+  "ms": 1756.6,
+  "langid_ms": 772.8
+ },
+ "whisper:base|auto3|clips/woman_30/woman_30_mr_traffic_02_breathing_normal.wav": {
+  "text": "सोग लाई ये रहीं",
+  "logprob": -1.103,
+  "lang": "en",
+  "lang_p": 0.495,
+  "ms": 1795.3,
+  "langid_ms": 910.6
+ },
+ "whisper:base|auto3|clips/woman_30/woman_30_mr_traffic_03_gasping.wav": {
+  "text": "यह पर तक विज वावा जे तोगे",
+  "logprob": -1.046,
+  "lang": "mr",
+  "lang_p": 0.274,
+  "ms": 1601.0,
+  "langid_ms": 750.2
+ },
+ "whisper:base|auto3|clips/woman_30/woman_30_mr_traffic_04_not_breathing.wav": {
+  "text": "नहीं और नहीं",
+  "logprob": -0.561,
+  "lang": "en",
+  "lang_p": 0.1,
+  "ms": 1559.9,
+  "langid_ms": 718.8
+ },
+ "whisper:base|auto3|clips/woman_30/woman_30_mr_traffic_05_not_responding.wav": {
+  "text": "बाण परतिसाद नहीं, नहलत नहीं.",
+  "logprob": -0.715,
+  "lang": "hi",
+  "lang_p": 0.179,
+  "ms": 1772.3,
+  "langid_ms": 882.9
+ },
+ "whisper:base|auto3|clips/woman_30/woman_30_mr_traffic_06_responding.wav": {
+  "text": "तो थाल तो थे",
+  "logprob": -0.822,
+  "lang": "hi",
+  "lang_p": 0.025,
+  "ms": 1663.9,
+  "langid_ms": 708.9
+ },
+ "whisper:base|auto3|clips/woman_30/woman_30_mr_traffic_07_tired.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.26,
+  "ms": 2055.7,
+  "langid_ms": 927.9
+ },
+ "whisper:base|auto3|clips/woman_30/woman_30_mr_traffic_08_where_hands.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.486,
+  "ms": 1735.4,
+  "langid_ms": 759.4
+ },
+ "whisper:base|auto3|clips/woman_30/woman_30_mr_traffic_09_help_called.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.788,
+  "ms": 1798.0,
+  "langid_ms": 707.0
+ },
+ "whisper:base|auto3|clips/woman_22/woman_22_mix_quiet_01_not_breathing.wav": {
+  "text": "बरिटिं रहार",
+  "logprob": -0.911,
+  "lang": "hi",
+  "lang_p": 0.96,
+  "ms": 1586.2,
+  "langid_ms": 780.9
+ },
+ "whisper:base|auto3|clips/woman_22/woman_22_mix_quiet_02_breathing_normal.wav": {
+  "text": "आा, breathing normal.",
+  "logprob": -0.611,
+  "lang": "hi",
+  "lang_p": 0.893,
+  "ms": 1505.5,
+  "langid_ms": 736.7
+ },
+ "whisper:base|auto3|clips/woman_22/woman_22_mix_quiet_03_gasping.wav": {
+  "text": "रहा।",
+  "logprob": -0.591,
+  "lang": "hi",
+  "lang_p": 0.92,
+  "ms": 1484.3,
+  "langid_ms": 714.4
+ },
+ "whisper:base|auto3|clips/woman_22/woman_22_mix_market_01_not_breathing.wav": {
+  "text": "नहीं रहा।",
+  "logprob": -0.554,
+  "lang": "hi",
+  "lang_p": 0.958,
+  "ms": 1620.3,
+  "langid_ms": 797.8
+ },
+ "whisper:base|auto3|clips/woman_22/woman_22_mix_market_02_breathing_normal.wav": {
+  "text": "आपाँ बुरी तो लिवास नहीं नहीं नहीं नहीं नहीं नहीं नहीं नह",
+  "logprob": -0.79,
+  "lang": "hi",
+  "lang_p": 0.426,
+  "ms": 1733.8,
+  "langid_ms": 712.1
+ },
+ "whisper:base|auto3|clips/woman_22/woman_22_mix_market_03_gasping.wav": {
+  "text": "बाश पिन जे साखवार है",
+  "logprob": -1.084,
+  "lang": "hi",
+  "lang_p": 0.962,
+  "ms": 1515.7,
+  "langid_ms": 696.8
+ },
+ "whisper:base|auto3|clips/woman_22/woman_22_mix_market_04_not_breathing.wav": {
+  "text": "बिलो ज़ी नहीं नहीं",
+  "logprob": -0.93,
+  "lang": "hi",
+  "lang_p": 0.057,
+  "ms": 1528.5,
+  "langid_ms": 712.1
+ },
+ "whisper:base|auto3|clips/woman_22/woman_22_mix_market_05_not_responding.wav": {
+  "text": "अगवास दानी पिल ले लहा।",
+  "logprob": -0.857,
+  "lang": "hi",
+  "lang_p": 0.242,
+  "ms": 1572.0,
+  "langid_ms": 729.1
+ },
+ "whisper:base|auto3|clips/woman_22/woman_22_mix_market_06_responding.wav": {
+  "text": "He's moving, he's died.",
+  "logprob": -0.667,
+  "lang": "en",
+  "lang_p": 0.476,
+  "ms": 1470.5,
+  "langid_ms": 696.4
+ },
+ "whisper:base|auto3|clips/woman_22/woman_22_mix_market_07_tired.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.622,
+  "ms": 1642.3,
+  "langid_ms": 723.7
+ },
+ "whisper:base|auto3|clips/woman_22/woman_22_mix_market_08_where_hands.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.619,
+  "ms": 1712.5,
+  "langid_ms": 720.6
+ },
+ "whisper:base|auto3|clips/woman_22/woman_22_mix_market_09_pushing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.738,
+  "ms": 1678.7,
+  "langid_ms": 728.1
+ },
+ "whisper:base|auto3|clips/woman_19/woman_19_hi_traffic_01_not_breathing.wav": {
+  "text": "बाज्वास ने लाहा।",
+  "logprob": -0.845,
+  "lang": "hi",
+  "lang_p": 0.16,
+  "ms": 1499.6,
+  "langid_ms": 693.1
+ },
+ "whisper:base|auto3|clips/woman_19/woman_19_hi_traffic_02_breathing_normal.wav": {
+  "text": "आपास ले रहा।",
+  "logprob": -0.775,
+  "lang": "hi",
+  "lang_p": 0.573,
+  "ms": 1555.2,
+  "langid_ms": 732.6
+ },
+ "whisper:base|auto3|clips/woman_19/woman_19_hi_traffic_03_gasping.wav": {
+  "text": "चिव साँस बाँ प्राहे",
+  "logprob": -0.831,
+  "lang": "hi",
+  "lang_p": 0.419,
+  "ms": 1501.6,
+  "langid_ms": 700.0
+ },
+ "whisper:base|auto3|clips/woman_19/woman_19_hi_traffic_04_not_breathing.wav": {
+  "text": "आपी लहीं नहीं नहीं नहीं",
+  "logprob": -0.73,
+  "lang": "hi",
+  "lang_p": 0.275,
+  "ms": 1533.9,
+  "langid_ms": 711.0
+ },
+ "whisper:base|auto3|clips/woman_19/woman_19_mix_traffic_05_not_responding.wav": {
+  "text": "पोगे जबाँस पूगटी, दिल रहा।",
+  "logprob": -1.034,
+  "lang": "en",
+  "lang_p": 0.123,
+  "ms": 1541.4,
+  "langid_ms": 712.7
+ },
+ "whisper:base|auto3|clips/woman_19/woman_19_mix_traffic_06_responding.wav": {
+  "text": "जीज मुमिं जीज नहीं.",
+  "logprob": -0.864,
+  "lang": "en",
+  "lang_p": 0.503,
+  "ms": 1536.7,
+  "langid_ms": 709.5
+ },
+ "whisper:base|auto3|clips/woman_19/woman_19_mix_traffic_07_tired.wav": {
+  "text": "आदर कराण यहार आदर कराण",
+  "logprob": -0.835,
+  "lang": "hi",
+  "lang_p": 0.885,
+  "ms": 1581.5,
+  "langid_ms": 742.3
+ },
+ "whisper:base|auto3|clips/woman_19/woman_19_mix_traffic_08_where_hands.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.138,
+  "ms": 1692.0,
+  "langid_ms": 723.1
+ },
+ "whisper:base|auto3|clips/woman_19/woman_19_mix_quiet_01_not_breathing.wav": {
+  "text": "बुरतिएक मैं हिल करा।",
+  "logprob": -0.807,
+  "lang": "hi",
+  "lang_p": 0.949,
+  "ms": 1557.4,
+  "langid_ms": 745.8
+ },
+ "whisper:base|auto3|clips/woman_19/woman_19_mix_quiet_02_breathing_normal.wav": {
+  "text": "हा, breathing normal.",
+  "logprob": -0.421,
+  "lang": "hi",
+  "lang_p": 0.641,
+  "ms": 1478.5,
+  "langid_ms": 724.1
+ },
+ "whisper:base|auto3|clips/woman_19/woman_19_mix_quiet_03_gasping.wav": {
+  "text": "लगास पें तिसा करावे",
+  "logprob": -0.896,
+  "lang": "hi",
+  "lang_p": 0.268,
+  "ms": 1512.0,
+  "langid_ms": 697.9
+ },
+ "whisper:small|auto3|clips/man_20/man_20_hi_quiet_01_not_breathing.wav": {
+  "text": "साँस नहीं ले रहा।",
+  "logprob": -0.12,
+  "lang": "en",
+  "lang_p": 0.088,
+  "ms": 4768.8,
+  "langid_ms": 2229.9
+ },
+ "whisper:small|auto3|clips/man_20/man_20_hi_quiet_02_breathing_normal.wav": {
+  "text": "तांबा। नाही।",
+  "logprob": -0.618,
+  "lang": "hi",
+  "lang_p": 0.898,
+  "ms": 4613.1,
+  "langid_ms": 2162.9
+ },
+ "whisper:small|auto3|clips/man_20/man_20_hi_quiet_03_gasping.wav": {
+  "text": "अधिप साँस आख्राई",
+  "logprob": -0.649,
+  "lang": "en",
+  "lang_p": 0.078,
+  "ms": 4852.7,
+  "langid_ms": 2244.7
+ },
+ "whisper:small|auto3|clips/man_28/man_28_hi_quiet_01_not_breathing.wav": {
+  "text": "यह आपनी तो सास नहीं ले रहा है।",
+  "logprob": -0.233,
+  "lang": "hi",
+  "lang_p": 0.98,
+  "ms": 5160.4,
+  "langid_ms": 2370.0
+ },
+ "whisper:small|auto3|clips/man_28/man_28_hi_quiet_02_breathing_normal.wav": {
+  "text": "तो बागा तो तो तो तो चास लेरा है।",
+  "logprob": -0.821,
+  "lang": "hi",
+  "lang_p": 0.997,
+  "ms": 5551.3,
+  "langid_ms": 2482.7
+ },
+ "whisper:small|auto3|clips/man_28/man_28_hi_quiet_03_gasping.wav": {
+  "text": "और आजिब तरा सिसास ले रहा है।",
+  "logprob": -0.435,
+  "lang": "hi",
+  "lang_p": 0.981,
+  "ms": 5556.7,
+  "langid_ms": 2450.5
+ },
+ "whisper:small|auto3|clips/man_40/man_40_mix_quiet_01_not_breathing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.942,
+  "ms": 6522.3,
+  "langid_ms": 3100.7
+ },
+ "whisper:small|auto3|clips/man_40/man_40_mix_quiet_02_breathing_normal.wav": {
+  "text": "आप, breathing to normal.",
+  "logprob": -0.833,
+  "lang": "hi",
+  "lang_p": 0.857,
+  "ms": 4750.8,
+  "langid_ms": 2285.9
+ },
+ "whisper:small|auto3|clips/man_40/man_40_mix_quiet_03_gasping.wav": {
+  "text": "गेस पन दे सा कर रहा है याज.",
+  "logprob": -0.619,
+  "lang": "hi",
+  "lang_p": 0.598,
+  "ms": 5022.3,
+  "langid_ms": 2335.0
+ },
+ "whisper:small|auto3|clips/man_60/man_60_mr_quiet_01_not_breathing.wav": {
+  "text": "शाँस नहीं नहीं",
+  "logprob": -0.54,
+  "lang": "en",
+  "lang_p": 0.928,
+  "ms": 5090.5,
+  "langid_ms": 2412.6
+ },
+ "whisper:small|auto3|clips/man_60/man_60_mr_quiet_02_breathing_normal.wav": {
+  "text": "अव श्वास कित ले.",
+  "logprob": -0.899,
+  "lang": "en",
+  "lang_p": 0.105,
+  "ms": 4923.0,
+  "langid_ms": 2354.9
+ },
+ "whisper:small|auto3|clips/man_60/man_60_mr_quiet_03_gasping.wav": {
+  "text": "नाबा ताक तोई प्षिट्र होजे तोई",
+  "logprob": -0.534,
+  "lang": "hi",
+  "lang_p": 0.466,
+  "ms": 4899.6,
+  "langid_ms": 2236.5
+ },
+ "whisper:small|auto3|clips/man_60/man_60_mr_station_01_not_breathing.wav": {
+  "text": "चाँस बितनाई",
+  "logprob": -0.943,
+  "lang": "en",
+  "lang_p": 0.1,
+  "ms": 4680.2,
+  "langid_ms": 2228.4
+ },
+ "whisper:small|auto3|clips/man_60/man_60_mr_station_02_breathing_normal.wav": {
+  "text": "उशाँस नहीं तो एई।",
+  "logprob": -0.705,
+  "lang": "en",
+  "lang_p": 0.125,
+  "ms": 4706.3,
+  "langid_ms": 2180.6
+ },
+ "whisper:small|auto3|clips/man_60/man_60_mr_station_03_gasping.wav": {
+  "text": "नापा ताख तोए, विछिट्र आवाजे तोए.",
+  "logprob": -0.452,
+  "lang": "mr",
+  "lang_p": 0.2,
+  "ms": 5004.9,
+  "langid_ms": 2287.9
+ },
+ "whisper:small|auto3|clips/man_60/man_60_mr_station_04_not_breathing.wav": {
+  "text": "नाही बाज़म नहीं",
+  "logprob": -0.561,
+  "lang": "en",
+  "lang_p": 0.025,
+  "ms": 4690.6,
+  "langid_ms": 2220.8
+ },
+ "whisper:small|auto3|clips/man_60/man_60_mr_station_05_not_responding.wav": {
+  "text": "अगर प्रतिसाद नाही। अलग नाही।",
+  "logprob": -0.613,
+  "lang": "hi",
+  "lang_p": 0.178,
+  "ms": 4965.8,
+  "langid_ms": 2210.4
+ },
+ "whisper:small|auto3|clips/man_60/man_60_mr_station_06_responding.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.198,
+  "ms": 5118.2,
+  "langid_ms": 2218.0
+ },
+ "whisper:small|auto3|clips/man_60/man_60_mr_station_07_tired.wav": {
+  "text": "खादुप्ताय मी तकलो।",
+  "logprob": -0.631,
+  "lang": "hi",
+  "lang_p": 0.068,
+  "ms": 4781.9,
+  "langid_ms": 2270.1
+ },
+ "whisper:small|auto3|clips/man_60/man_60_mr_station_08_where_hands.wav": {
+  "text": "वाद को टी चूए",
+  "logprob": -0.926,
+  "lang": "hi",
+  "lang_p": 0.076,
+  "ms": 4621.6,
+  "langid_ms": 2212.3
+ },
+ "whisper:small|auto3|clips/man_60/man_60_mr_station_09_how_deep.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.127,
+  "ms": 5162.1,
+  "langid_ms": 2235.2
+ },
+ "whisper:small|auto3|clips/woman_45/woman_45_mr_quiet_01_not_breathing.wav": {
+  "text": "श्वास गेप नाहीं।",
+  "logprob": -0.45,
+  "lang": "hi",
+  "lang_p": 0.526,
+  "ms": 4660.5,
+  "langid_ms": 2185.1
+ },
+ "whisper:small|auto3|clips/woman_45/woman_45_mr_quiet_02_breathing_normal.wav": {
+  "text": "उज़ स्वास भी तोए़।",
+  "logprob": -0.788,
+  "lang": "en",
+  "lang_p": 0.059,
+  "ms": 4741.9,
+  "langid_ms": 2228.0
+ },
+ "whisper:small|auto3|clips/woman_45/woman_45_mr_quiet_03_gasping.wav": {
+  "text": "ता पकत ते वेचिप्रा वाजे ते",
+  "logprob": -0.589,
+  "lang": "en",
+  "lang_p": 0.033,
+  "ms": 4923.1,
+  "langid_ms": 2215.5
+ },
+ "whisper:small|auto3|clips/woman_45/woman_45_mr_traffic_01_not_breathing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.817,
+  "ms": 5224.3,
+  "langid_ms": 2253.6
+ },
+ "whisper:small|auto3|clips/woman_45/woman_45_mr_traffic_02_breathing_normal.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.344,
+  "ms": 5172.7,
+  "langid_ms": 2175.2
+ },
+ "whisper:small|auto3|clips/woman_45/woman_45_mr_traffic_03_gasping.wav": {
+  "text": "ता बाद आखत तो एव विछी त्रावावावी पेए.",
+  "logprob": -0.805,
+  "lang": "hi",
+  "lang_p": 0.139,
+  "ms": 4915.5,
+  "langid_ms": 2179.9
+ },
+ "whisper:small|auto3|clips/woman_45/woman_45_mr_traffic_04_not_breathing.wav": {
+  "text": "बाही, अजुभ बाही।",
+  "logprob": -0.524,
+  "lang": "hi",
+  "lang_p": 0.406,
+  "ms": 4716.4,
+  "langid_ms": 2195.9
+ },
+ "whisper:small|auto3|clips/woman_45/woman_45_mr_traffic_05_not_responding.wav": {
+  "text": "आप आप प्रशीएख पर प्रपीशाद नहीं हलत नहीं",
+  "logprob": -0.736,
+  "lang": "hi",
+  "lang_p": 0.736,
+  "ms": 5036.3,
+  "langid_ms": 2230.5
+ },
+ "whisper:small|auto3|clips/woman_45/woman_45_mr_traffic_06_responding.wav": {
+  "text": "वो खालगद़",
+  "logprob": -1.186,
+  "lang": "en",
+  "lang_p": 0.051,
+  "ms": 4616.3,
+  "langid_ms": 2208.0
+ },
+ "whisper:small|auto3|clips/woman_45/woman_45_mr_traffic_07_tired.wav": {
+  "text": "आदु पेर भीषिख मोग.",
+  "logprob": -0.95,
+  "lang": "hi",
+  "lang_p": 0.163,
+  "ms": 4704.0,
+  "langid_ms": 2209.8
+ },
+ "whisper:small|auto3|clips/woman_45/woman_45_mr_traffic_08_where_hands.wav": {
+  "text": "बूप रहाप कुते कु।",
+  "logprob": -0.804,
+  "lang": "hi",
+  "lang_p": 0.229,
+  "ms": 4670.4,
+  "langid_ms": 2209.1
+ },
+ "whisper:small|auto3|clips/woman_45/woman_45_mr_traffic_09_help_called.wav": {
+  "text": "आंदिलिंष लग पूंजे लाग.",
+  "logprob": -0.761,
+  "lang": "hi",
+  "lang_p": 0.356,
+  "ms": 4741.5,
+  "langid_ms": 2215.3
+ },
+ "whisper:small|auto3|clips/man_35/man_35_mr_station_01_not_breathing.wav": {
+  "text": "श्वास घेत नहीं",
+  "logprob": -0.397,
+  "lang": "en",
+  "lang_p": 0.023,
+  "ms": 4645.1,
+  "langid_ms": 2204.1
+ },
+ "whisper:small|auto3|clips/man_35/man_35_mr_station_02_not_breathing.wav": {
+  "text": "विश्वास बुचना येई",
+  "logprob": -0.747,
+  "lang": "en",
+  "lang_p": 0.033,
+  "ms": 4750.4,
+  "langid_ms": 2221.0
+ },
+ "whisper:small|auto3|clips/man_35/man_35_mr_station_03_gasping.wav": {
+  "text": "दापा ताख ते विछित्रा हवाज तो प्राइ.",
+  "logprob": -0.67,
+  "lang": "mr",
+  "lang_p": 0.168,
+  "ms": 5223.5,
+  "langid_ms": 2357.3
+ },
+ "whisper:small|auto3|clips/man_35/man_35_mr_station_04_not_breathing.wav": {
+  "text": "नाही। आजो नाही।",
+  "logprob": -0.25,
+  "lang": "hi",
+  "lang_p": 0.533,
+  "ms": 5004.7,
+  "langid_ms": 2508.8
+ },
+ "whisper:small|auto3|clips/man_35/man_35_mr_station_05_not_responding.wav": {
+  "text": "खाहिज प्रतिसद नहीं, हलत नहीं।",
+  "logprob": -0.393,
+  "lang": "hi",
+  "lang_p": 0.909,
+  "ms": 4902.6,
+  "langid_ms": 2219.6
+ },
+ "whisper:small|auto3|clips/man_35/man_35_mr_station_06_responding.wav": {
+  "text": "वो रहा। तो एए",
+  "logprob": -0.857,
+  "lang": "hi",
+  "lang_p": 0.312,
+  "ms": 4630.7,
+  "langid_ms": 2178.1
+ },
+ "whisper:small|auto3|clips/man_35/man_35_mr_station_07_tired.wav": {
+  "text": "आद दुखते तुमिच अपलो।",
+  "logprob": -0.698,
+  "lang": "hi",
+  "lang_p": 0.337,
+  "ms": 4815.7,
+  "langid_ms": 2201.0
+ },
+ "whisper:small|auto3|clips/man_35/man_35_mr_station_08_where_hands.wav": {
+  "text": "रहा। खुटे तो वो।",
+  "logprob": -0.718,
+  "lang": "hi",
+  "lang_p": 0.242,
+  "ms": 4695.2,
+  "langid_ms": 2166.3
+ },
+ "whisper:small|auto3|clips/man_35/man_35_mr_quiet_01_not_breathing.wav": {
+  "text": "श्वास गेत नहीं।",
+  "logprob": -0.3,
+  "lang": "hi",
+  "lang_p": 0.232,
+  "ms": 4583.2,
+  "langid_ms": 2175.8
+ },
+ "whisper:small|auto3|clips/man_35/man_35_mr_quiet_02_breathing_normal.wav": {
+  "text": "उ, श्वास गे तोई।",
+  "logprob": -0.483,
+  "lang": "hi",
+  "lang_p": 0.032,
+  "ms": 4768.8,
+  "langid_ms": 2239.0
+ },
+ "whisper:small|auto3|clips/man_35/man_35_mr_quiet_03_gasping.wav": {
+  "text": "दापा तक तो ए, विछित रावाज ये तो ए.",
+  "logprob": -0.395,
+  "lang": "hi",
+  "lang_p": 0.229,
+  "ms": 5215.0,
+  "langid_ms": 2395.4
+ },
+ "whisper:small|auto3|clips/man_75/man_75_mr_quiet_01_not_breathing.wav": {
+  "text": "च्राज ते एक नेज",
+  "logprob": -0.955,
+  "lang": "en",
+  "lang_p": 0.622,
+  "ms": 5031.0,
+  "langid_ms": 2285.3
+ },
+ "whisper:small|auto3|clips/man_75/man_75_mr_quiet_02_breathing_normal.wav": {
+  "text": "तो तो आश़् ये तो एँ।",
+  "logprob": -0.779,
+  "lang": "en",
+  "lang_p": 0.066,
+  "ms": 4882.4,
+  "langid_ms": 2320.9
+ },
+ "whisper:small|auto3|clips/man_75/man_75_mr_quiet_03_gasping.wav": {
+  "text": "दापा दख तो ए, विछित्र आवाज यो तो ए.",
+  "logprob": -0.41,
+  "lang": "hi",
+  "lang_p": 0.095,
+  "ms": 5260.4,
+  "langid_ms": 2422.1
+ },
+ "whisper:small|auto3|clips/man_75/man_75_mr_traffic_01_not_breathing.wav": {
+  "text": "श्वास नहीं नाहीं",
+  "logprob": -0.559,
+  "lang": "en",
+  "lang_p": 0.158,
+  "ms": 4691.0,
+  "langid_ms": 2209.5
+ },
+ "whisper:small|auto3|clips/man_75/man_75_mr_traffic_02_breathing_normal.wav": {
+  "text": "वो वास गे तोए",
+  "logprob": -1.076,
+  "lang": "en",
+  "lang_p": 0.222,
+  "ms": 4632.3,
+  "langid_ms": 2188.8
+ },
+ "whisper:small|auto3|clips/man_75/man_75_mr_traffic_03_gasping.wav": {
+  "text": "दापा तक तो ले विछित्र आवाज यो तो ले",
+  "logprob": -0.447,
+  "lang": "hi",
+  "lang_p": 0.323,
+  "ms": 5033.0,
+  "langid_ms": 2283.0
+ },
+ "whisper:small|auto3|clips/man_75/man_75_mr_traffic_04_not_breathing.wav": {
+  "text": "नाही, आज्मन नाही।",
+  "logprob": -0.379,
+  "lang": "hi",
+  "lang_p": 0.045,
+  "ms": 4831.5,
+  "langid_ms": 2203.0
+ },
+ "whisper:small|auto3|clips/man_75/man_75_mr_traffic_05_not_responding.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.728,
+  "ms": 5531.1,
+  "langid_ms": 2329.7
+ },
+ "whisper:small|auto3|clips/man_75/man_75_mr_traffic_06_responding.wav": {
+  "text": "तो रहा पारे।",
+  "logprob": -0.769,
+  "lang": "en",
+  "lang_p": 0.142,
+  "ms": 4945.1,
+  "langid_ms": 2435.4
+ },
+ "whisper:small|auto3|clips/man_75/man_75_mr_traffic_07_tired.wav": {
+  "text": "आप दुखपे मी तब लो।",
+  "logprob": -0.627,
+  "lang": "hi",
+  "lang_p": 0.447,
+  "ms": 4994.3,
+  "langid_ms": 2368.3
+ },
+ "whisper:small|auto3|clips/man_75/man_75_mr_traffic_08_where_hands.wav": {
+  "text": "आप कुटे देओ।",
+  "logprob": -0.579,
+  "lang": "hi",
+  "lang_p": 0.506,
+  "ms": 4690.2,
+  "langid_ms": 2197.6
+ },
+ "whisper:small|auto3|clips/man_75/man_75_mr_traffic_09_help_called.wav": {
+  "text": "नम्विर रहा चिल तो पूलिके रहा।",
+  "logprob": -0.868,
+  "lang": "en",
+  "lang_p": 0.166,
+  "ms": 5141.6,
+  "langid_ms": 2213.3
+ },
+ "whisper:small|auto3|clips/woman_30/woman_30_mr_quiet_01_not_breathing.wav": {
+  "text": "श्वास गेतने ये",
+  "logprob": -0.63,
+  "lang": "hi",
+  "lang_p": 0.569,
+  "ms": 4987.9,
+  "langid_ms": 2463.7
+ },
+ "whisper:small|auto3|clips/woman_30/woman_30_mr_quiet_02_breathing_normal.wav": {
+  "text": "उश्वास घेत नहीं।",
+  "logprob": -0.415,
+  "lang": "en",
+  "lang_p": 0.091,
+  "ms": 4908.0,
+  "langid_ms": 2276.2
+ },
+ "whisper:small|auto3|clips/woman_30/woman_30_mr_quiet_03_gasping.wav": {
+  "text": "दबा तक तो ए विछित रहा वाज ये तो ए",
+  "logprob": -0.587,
+  "lang": "hi",
+  "lang_p": 0.103,
+  "ms": 5018.4,
+  "langid_ms": 2287.2
+ },
+ "whisper:small|auto3|clips/woman_30/woman_30_mr_traffic_01_not_breathing.wav": {
+  "text": "श्वास बच्छ नहीं।",
+  "logprob": -0.533,
+  "lang": "hi",
+  "lang_p": 0.628,
+  "ms": 4812.7,
+  "langid_ms": 2228.4
+ },
+ "whisper:small|auto3|clips/woman_30/woman_30_mr_traffic_02_breathing_normal.wav": {
+  "text": "So much to be doing.",
+  "logprob": -0.799,
+  "lang": "en",
+  "lang_p": 0.523,
+  "ms": 4777.6,
+  "langid_ms": 2402.6
+ },
+ "whisper:small|auto3|clips/woman_30/woman_30_mr_traffic_03_gasping.wav": {
+  "text": "दापा तक तोई विछिटर अवाजे तोई",
+  "logprob": -0.42,
+  "lang": "hi",
+  "lang_p": 0.109,
+  "ms": 5598.7,
+  "langid_ms": 2475.2
+ },
+ "whisper:small|auto3|clips/woman_30/woman_30_mr_traffic_04_not_breathing.wav": {
+  "text": "नाही, अजु नाही।",
+  "logprob": -0.258,
+  "lang": "hi",
+  "lang_p": 0.287,
+  "ms": 5275.0,
+  "langid_ms": 2764.2
+ },
+ "whisper:small|auto3|clips/woman_30/woman_30_mr_traffic_05_not_responding.wav": {
+  "text": "ताएस प्रतिसात नहीं, रहा नहीं।",
+  "logprob": -0.516,
+  "lang": "hi",
+  "lang_p": 0.856,
+  "ms": 4831.3,
+  "langid_ms": 2211.4
+ },
+ "whisper:small|auto3|clips/woman_30/woman_30_mr_traffic_06_responding.wav": {
+  "text": "तो खलतोई जब नहीं तो जब नहीं जब नहीं जब नहीं जब नहीं ज�",
+  "logprob": -0.645,
+  "lang": "en",
+  "lang_p": 0.081,
+  "ms": 5477.0,
+  "langid_ms": 2227.3
+ },
+ "whisper:small|auto3|clips/woman_30/woman_30_mr_traffic_07_tired.wav": {
+  "text": "रहा दूखता है मिख़ख ले",
+  "logprob": -0.664,
+  "lang": "hi",
+  "lang_p": 0.557,
+  "ms": 8833.9,
+  "langid_ms": 3805.6
+ },
+ "whisper:small|auto3|clips/woman_30/woman_30_mr_traffic_08_where_hands.wav": {
+  "text": "रहाद कुट थे।",
+  "logprob": -0.66,
+  "lang": "hi",
+  "lang_p": 0.236,
+  "ms": 7924.2,
+  "langid_ms": 3834.1
+ },
+ "whisper:small|auto3|clips/woman_30/woman_30_mr_traffic_09_help_called.wav": {
+  "text": "आमुले स्ला फोंके लाहे।",
+  "logprob": -0.529,
+  "lang": "hi",
+  "lang_p": 0.727,
+  "ms": 8045.8,
+  "langid_ms": 3741.8
+ },
+ "whisper:small|auto3|clips/woman_22/woman_22_mix_quiet_01_not_breathing.wav": {
+  "text": "ब्रिठिंग नहीं कर रहा यार।",
+  "logprob": -0.451,
+  "lang": "hi",
+  "lang_p": 0.979,
+  "ms": 7966.8,
+  "langid_ms": 3715.4
+ },
+ "whisper:small|auto3|clips/woman_22/woman_22_mix_quiet_02_breathing_normal.wav": {
+  "text": "रहा, गरी तिन नारमल है।",
+  "logprob": -0.686,
+  "lang": "hi",
+  "lang_p": 0.936,
+  "ms": 7914.3,
+  "langid_ms": 3766.0
+ },
+ "whisper:small|auto3|clips/woman_22/woman_22_mix_quiet_03_gasping.wav": {
+  "text": "गस्पिंग जेसा कर रहा है।",
+  "logprob": -0.334,
+  "lang": "hi",
+  "lang_p": 0.983,
+  "ms": 8411.2,
+  "langid_ms": 4113.0
+ },
+ "whisper:small|auto3|clips/woman_22/woman_22_mix_market_01_not_breathing.wav": {
+  "text": "ब्रिछिग नहीं करता है यार।",
+  "logprob": -0.458,
+  "lang": "hi",
+  "lang_p": 0.932,
+  "ms": 7757.1,
+  "langid_ms": 3629.5
+ },
+ "whisper:small|auto3|clips/woman_22/woman_22_mix_market_02_breathing_normal.wav": {
+  "text": "अग, ब्रिछिग नारमल है।",
+  "logprob": -0.724,
+  "lang": "hi",
+  "lang_p": 0.764,
+  "ms": 7796.5,
+  "langid_ms": 3713.5
+ },
+ "whisper:small|auto3|clips/woman_22/woman_22_mix_market_03_gasping.wav": {
+  "text": "गासकिं जे सा खर रहा है।",
+  "logprob": -0.532,
+  "lang": "hi",
+  "lang_p": 0.937,
+  "ms": 7944.0,
+  "langid_ms": 3688.2
+ },
+ "whisper:small|auto3|clips/woman_22/woman_22_mix_market_04_not_breathing.wav": {
+  "text": "लो आब भी नहीं।",
+  "logprob": -0.388,
+  "lang": "hi",
+  "lang_p": 0.236,
+  "ms": 7715.5,
+  "langid_ms": 3664.9
+ },
+ "whisper:small|auto3|clips/woman_22/woman_22_mix_market_05_not_responding.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.567,
+  "ms": 8375.3,
+  "langid_ms": 3700.3
+ },
+ "whisper:small|auto3|clips/woman_22/woman_22_mix_market_06_responding.wav": {
+  "text": "He is moving his eye.",
+  "logprob": -0.473,
+  "lang": "en",
+  "lang_p": 0.665,
+  "ms": 8336.8,
+  "langid_ms": 4450.1
+ },
+ "whisper:small|auto3|clips/woman_22/woman_22_mix_market_07_tired.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.858,
+  "ms": 8273.1,
+  "langid_ms": 3756.0
+ },
+ "whisper:small|auto3|clips/woman_22/woman_22_mix_market_08_where_hands.wav": {
+  "text": "वहाँ पूष्टर।",
+  "logprob": -0.723,
+  "lang": "hi",
+  "lang_p": 0.247,
+  "ms": 7506.1,
+  "langid_ms": 3612.6
+ },
+ "whisper:small|auto3|clips/woman_22/woman_22_mix_market_09_pushing.wav": {
+  "text": "अगर अगर अगर पूश कर रही हूँ।",
+  "logprob": -0.589,
+  "lang": "hi",
+  "lang_p": 0.857,
+  "ms": 9518.2,
+  "langid_ms": 4515.2
+ },
+ "whisper:small|auto3|clips/woman_19/woman_19_hi_traffic_01_not_breathing.wav": {
+  "text": "श्वास नहीं ले रहा।",
+  "logprob": -0.242,
+  "lang": "en",
+  "lang_p": 0.282,
+  "ms": 7842.8,
+  "langid_ms": 3739.3
+ },
+ "whisper:small|auto3|clips/woman_19/woman_19_hi_traffic_02_breathing_normal.wav": {
+  "text": "अप साँस ले रहा है।",
+  "logprob": -0.524,
+  "lang": "hi",
+  "lang_p": 0.674,
+  "ms": 7884.1,
+  "langid_ms": 3577.5
+ },
+ "whisper:small|auto3|clips/woman_19/woman_19_hi_traffic_03_gasping.wav": {
+  "text": "अजिव सास पाप्रा है",
+  "logprob": -0.567,
+  "lang": "hi",
+  "lang_p": 0.335,
+  "ms": 8814.0,
+  "langid_ms": 3762.1
+ },
+ "whisper:small|auto3|clips/woman_19/woman_19_hi_traffic_04_not_breathing.wav": {
+  "text": "No! I'll be breathing.",
+  "logprob": -0.908,
+  "lang": "en",
+  "lang_p": 0.185,
+  "ms": 15911.1,
+  "langid_ms": 5853.7
+ },
+ "whisper:small|auto3|clips/woman_19/woman_19_mix_traffic_05_not_responding.wav": {
+  "text": "Koi is sponsoring. He is not here.",
+  "logprob": -1.397,
+  "lang": "en",
+  "lang_p": 0.254,
+  "ms": 15119.6,
+  "langid_ms": 7820.7
+ },
+ "whisper:small|auto3|clips/woman_19/woman_19_mix_traffic_06_responding.wav": {
+  "text": "He's moving! He's not!",
+  "logprob": -0.7,
+  "lang": "en",
+  "lang_p": 0.525,
+  "ms": 17188.9,
+  "langid_ms": 8129.0
+ },
+ "whisper:small|auto3|clips/woman_19/woman_19_mix_traffic_07_tired.wav": {
+  "text": "आएम ताएड यार हदर कर रहा हैंगी",
+  "logprob": -0.535,
+  "lang": "hi",
+  "lang_p": 0.755,
+  "ms": 16613.7,
+  "langid_ms": 7773.5
+ },
+ "whisper:small|auto3|clips/woman_19/woman_19_mix_traffic_08_where_hands.wav": {
+  "text": "गापुस करू।",
+  "logprob": -0.77,
+  "lang": "hi",
+  "lang_p": 0.66,
+  "ms": 11338.8,
+  "langid_ms": 6326.1
+ },
+ "whisper:small|auto3|clips/woman_19/woman_19_mix_quiet_01_not_breathing.wav": {
+  "text": "ब्रतिख मही करना यार",
+  "logprob": -0.447,
+  "lang": "hi",
+  "lang_p": 0.973,
+  "ms": 10496.9,
+  "langid_ms": 5340.7
+ },
+ "whisper:small|auto3|clips/woman_19/woman_19_mix_quiet_02_breathing_normal.wav": {
+  "text": "रहा, breathing normal है।",
+  "logprob": -0.488,
+  "lang": "hi",
+  "lang_p": 0.963,
+  "ms": 8172.9,
+  "langid_ms": 3922.7
+ },
+ "whisper:small|auto3|clips/woman_19/woman_19_mix_quiet_03_gasping.wav": {
+  "text": "गष्पिंक तीशा करा है।",
+  "logprob": -0.583,
+  "lang": "hi",
+  "lang_p": 0.346,
+  "ms": 8992.1,
+  "langid_ms": 4679.7
+ },
+ "whisper:small@10|auto3|clips/man_20/man_20_hi_quiet_01_not_breathing.wav": {
+  "text": "साँस नहीं ले रहा।",
+  "logprob": -0.12,
+  "lang": "en",
+  "lang_p": 0.088,
+  "ms": 3592.6,
+  "langid_ms": 1655.5
+ },
+ "whisper:small@10|auto3|clips/man_20/man_20_hi_quiet_02_breathing_normal.wav": {
+  "text": "तांबा। नाही।",
+  "logprob": -0.618,
+  "lang": "hi",
+  "lang_p": 0.898,
+  "ms": 3972.3,
+  "langid_ms": 1994.2
+ },
+ "whisper:small@10|auto3|clips/man_20/man_20_hi_quiet_03_gasping.wav": {
+  "text": "अधिप साँस आख्राई",
+  "logprob": -0.649,
+  "lang": "en",
+  "lang_p": 0.078,
+  "ms": 4825.0,
+  "langid_ms": 1863.9
+ },
+ "whisper:small@10|auto3|clips/man_28/man_28_hi_quiet_01_not_breathing.wav": {
+  "text": "यह आपनी तो सास नहीं ले रहा है।",
+  "logprob": -0.233,
+  "lang": "hi",
+  "lang_p": 0.98,
+  "ms": 6062.9,
+  "langid_ms": 2910.0
+ },
+ "whisper:small@10|auto3|clips/man_28/man_28_hi_quiet_02_breathing_normal.wav": {
+  "text": "तो बागा तो तो तो तो चास लेरा है।",
+  "logprob": -0.821,
+  "lang": "hi",
+  "lang_p": 0.997,
+  "ms": 5817.9,
+  "langid_ms": 2649.7
+ },
+ "whisper:small@10|auto3|clips/man_28/man_28_hi_quiet_03_gasping.wav": {
+  "text": "और आजिब तरा सिसास ले रहा है।",
+  "logprob": -0.435,
+  "lang": "hi",
+  "lang_p": 0.981,
+  "ms": 5780.9,
+  "langid_ms": 2566.0
+ },
+ "whisper:small@10|auto3|clips/man_40/man_40_mix_quiet_01_not_breathing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.942,
+  "ms": 6098.2,
+  "langid_ms": 2633.1
+ },
+ "whisper:small@10|auto3|clips/man_40/man_40_mix_quiet_02_breathing_normal.wav": {
+  "text": "आप, breathing to normal.",
+  "logprob": -0.833,
+  "lang": "hi",
+  "lang_p": 0.857,
+  "ms": 5559.1,
+  "langid_ms": 2625.8
+ },
+ "whisper:small@10|auto3|clips/man_40/man_40_mix_quiet_03_gasping.wav": {
+  "text": "गेस पन दे सा कर रहा है याज.",
+  "logprob": -0.619,
+  "lang": "hi",
+  "lang_p": 0.598,
+  "ms": 6290.7,
+  "langid_ms": 2829.8
+ },
+ "whisper:small@10|auto3|clips/man_60/man_60_mr_quiet_01_not_breathing.wav": {
+  "text": "शाँस नहीं नहीं",
+  "logprob": -0.54,
+  "lang": "en",
+  "lang_p": 0.928,
+  "ms": 5990.5,
+  "langid_ms": 2661.7
+ },
+ "whisper:small@10|auto3|clips/man_60/man_60_mr_quiet_02_breathing_normal.wav": {
+  "text": "अव श्वास कित ले.",
+  "logprob": -0.899,
+  "lang": "en",
+  "lang_p": 0.105,
+  "ms": 5276.6,
+  "langid_ms": 2558.2
+ },
+ "whisper:small@10|auto3|clips/man_60/man_60_mr_quiet_03_gasping.wav": {
+  "text": "नाबा ताक तोई प्षिट्र होजे तोई",
+  "logprob": -0.534,
+  "lang": "hi",
+  "lang_p": 0.466,
+  "ms": 5344.7,
+  "langid_ms": 2469.4
+ },
+ "whisper:small@10|auto3|clips/man_60/man_60_mr_station_01_not_breathing.wav": {
+  "text": "चाँस बितनाई",
+  "logprob": -0.943,
+  "lang": "en",
+  "lang_p": 0.1,
+  "ms": 5000.2,
+  "langid_ms": 2384.8
+ },
+ "whisper:small@10|auto3|clips/man_60/man_60_mr_station_02_breathing_normal.wav": {
+  "text": "उशाँस नहीं तो एई।",
+  "logprob": -0.705,
+  "lang": "en",
+  "lang_p": 0.125,
+  "ms": 4972.1,
+  "langid_ms": 2296.5
+ },
+ "whisper:small@10|auto3|clips/man_60/man_60_mr_station_03_gasping.wav": {
+  "text": "नापा ताख तोए, विछिट्र आवाजे तोए.",
+  "logprob": -0.452,
+  "lang": "mr",
+  "lang_p": 0.2,
+  "ms": 5604.5,
+  "langid_ms": 2667.9
+ },
+ "whisper:small@10|auto3|clips/man_60/man_60_mr_station_04_not_breathing.wav": {
+  "text": "नाही बाज़म नहीं",
+  "logprob": -0.561,
+  "lang": "en",
+  "lang_p": 0.025,
+  "ms": 5500.9,
+  "langid_ms": 2312.7
+ },
+ "whisper:small@10|auto3|clips/man_60/man_60_mr_station_05_not_responding.wav": {
+  "text": "अगर प्रतिसाद नाही। अलग नाही।",
+  "logprob": -0.613,
+  "lang": "hi",
+  "lang_p": 0.178,
+  "ms": 6359.9,
+  "langid_ms": 2486.2
+ },
+ "whisper:small@10|auto3|clips/man_60/man_60_mr_station_06_responding.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.198,
+  "ms": 6483.7,
+  "langid_ms": 3188.4
+ },
+ "whisper:small@10|auto3|clips/man_60/man_60_mr_station_07_tired.wav": {
+  "text": "खादुप्ताय मी तकलो।",
+  "logprob": -0.631,
+  "lang": "hi",
+  "lang_p": 0.068,
+  "ms": 5581.6,
+  "langid_ms": 2606.9
+ },
+ "whisper:small@10|auto3|clips/man_60/man_60_mr_station_08_where_hands.wav": {
+  "text": "वाद को टी चूए",
+  "logprob": -0.926,
+  "lang": "hi",
+  "lang_p": 0.076,
+  "ms": 5478.5,
+  "langid_ms": 2621.9
+ },
+ "whisper:small@10|auto3|clips/man_60/man_60_mr_station_09_how_deep.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.127,
+  "ms": 6906.9,
+  "langid_ms": 2634.4
+ },
+ "whisper:small@10|auto3|clips/woman_45/woman_45_mr_quiet_01_not_breathing.wav": {
+  "text": "श्वास गेप नाहीं।",
+  "logprob": -0.45,
+  "lang": "hi",
+  "lang_p": 0.526,
+  "ms": 5553.6,
+  "langid_ms": 2592.3
+ },
+ "whisper:small@10|auto3|clips/woman_45/woman_45_mr_quiet_02_breathing_normal.wav": {
+  "text": "उज़ स्वास भी तोए़।",
+  "logprob": -0.788,
+  "lang": "en",
+  "lang_p": 0.059,
+  "ms": 5418.3,
+  "langid_ms": 2479.3
+ },
+ "whisper:small@10|auto3|clips/woman_45/woman_45_mr_quiet_03_gasping.wav": {
+  "text": "ता पकत ते वेचिप्रा वाजे ते",
+  "logprob": -0.589,
+  "lang": "en",
+  "lang_p": 0.033,
+  "ms": 5374.9,
+  "langid_ms": 2389.9
+ },
+ "whisper:small@10|auto3|clips/woman_45/woman_45_mr_traffic_01_not_breathing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.817,
+  "ms": 5361.9,
+  "langid_ms": 2371.5
+ },
+ "whisper:small@10|auto3|clips/woman_45/woman_45_mr_traffic_02_breathing_normal.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.344,
+  "ms": 5280.4,
+  "langid_ms": 2283.1
+ },
+ "whisper:small@10|auto3|clips/woman_45/woman_45_mr_traffic_03_gasping.wav": {
+  "text": "ता बाद आखत तो एव विछी त्रावावावी पेए.",
+  "logprob": -0.805,
+  "lang": "hi",
+  "lang_p": 0.139,
+  "ms": 5122.6,
+  "langid_ms": 2289.4
+ },
+ "whisper:small@10|auto3|clips/woman_45/woman_45_mr_traffic_04_not_breathing.wav": {
+  "text": "बाही, अजुभ बाही।",
+  "logprob": -0.524,
+  "lang": "hi",
+  "lang_p": 0.406,
+  "ms": 4470.9,
+  "langid_ms": 2274.0
+ },
+ "whisper:small@10|auto3|clips/woman_45/woman_45_mr_traffic_05_not_responding.wav": {
+  "text": "आप आप प्रशीएख पर प्रपीशाद नहीं हलत नहीं",
+  "logprob": -0.736,
+  "lang": "hi",
+  "lang_p": 0.736,
+  "ms": 3996.6,
+  "langid_ms": 1758.1
+ },
+ "whisper:small@10|auto3|clips/woman_45/woman_45_mr_traffic_06_responding.wav": {
+  "text": "वो खालगद़",
+  "logprob": -1.186,
+  "lang": "en",
+  "lang_p": 0.051,
+  "ms": 3622.6,
+  "langid_ms": 1705.2
+ },
+ "whisper:small@10|auto3|clips/woman_45/woman_45_mr_traffic_07_tired.wav": {
+  "text": "आदु पेर भीषिख मोग.",
+  "logprob": -0.95,
+  "lang": "hi",
+  "lang_p": 0.163,
+  "ms": 3775.0,
+  "langid_ms": 1759.7
+ },
+ "whisper:small@10|auto3|clips/woman_45/woman_45_mr_traffic_08_where_hands.wav": {
+  "text": "बूप रहाप कुते कु।",
+  "logprob": -0.804,
+  "lang": "hi",
+  "lang_p": 0.229,
+  "ms": 3905.2,
+  "langid_ms": 1817.7
+ },
+ "whisper:small@10|auto3|clips/woman_45/woman_45_mr_traffic_09_help_called.wav": {
+  "text": "आंदिलिंष लग पूंजे लाग.",
+  "logprob": -0.761,
+  "lang": "hi",
+  "lang_p": 0.356,
+  "ms": 3980.5,
+  "langid_ms": 1852.7
+ },
+ "whisper:small@10|auto3|clips/man_35/man_35_mr_station_01_not_breathing.wav": {
+  "text": "श्वास घेत नहीं",
+  "logprob": -0.397,
+  "lang": "en",
+  "lang_p": 0.023,
+  "ms": 3534.6,
+  "langid_ms": 1667.2
+ },
+ "whisper:small@10|auto3|clips/man_35/man_35_mr_station_02_not_breathing.wav": {
+  "text": "विश्वास बुचना येई",
+  "logprob": -0.747,
+  "lang": "en",
+  "lang_p": 0.033,
+  "ms": 3498.6,
+  "langid_ms": 1625.7
+ },
+ "whisper:small@10|auto3|clips/man_35/man_35_mr_station_03_gasping.wav": {
+  "text": "दापा ताख ते विछित्रा हवाज तो प्राइ.",
+  "logprob": -0.67,
+  "lang": "mr",
+  "lang_p": 0.168,
+  "ms": 3893.3,
+  "langid_ms": 1634.2
+ },
+ "whisper:small@10|auto3|clips/man_35/man_35_mr_station_04_not_breathing.wav": {
+  "text": "नाही। आजो नाही।",
+  "logprob": -0.25,
+  "lang": "hi",
+  "lang_p": 0.533,
+  "ms": 5145.5,
+  "langid_ms": 2458.5
+ },
+ "whisper:small@10|auto3|clips/man_35/man_35_mr_station_05_not_responding.wav": {
+  "text": "खाहिज प्रतिसद नहीं, हलत नहीं।",
+  "logprob": -0.393,
+  "lang": "hi",
+  "lang_p": 0.909,
+  "ms": 5216.8,
+  "langid_ms": 2466.4
+ },
+ "whisper:small@10|auto3|clips/man_35/man_35_mr_station_06_responding.wav": {
+  "text": "वो रहा। तो एए",
+  "logprob": -0.857,
+  "lang": "hi",
+  "lang_p": 0.312,
+  "ms": 5072.8,
+  "langid_ms": 2344.1
+ },
+ "whisper:small@10|auto3|clips/man_35/man_35_mr_station_07_tired.wav": {
+  "text": "आद दुखते तुमिच अपलो।",
+  "logprob": -0.698,
+  "lang": "hi",
+  "lang_p": 0.337,
+  "ms": 5103.6,
+  "langid_ms": 2364.4
+ },
+ "whisper:small@10|auto3|clips/man_35/man_35_mr_station_08_where_hands.wav": {
+  "text": "रहा। खुटे तो वो।",
+  "logprob": -0.718,
+  "lang": "hi",
+  "lang_p": 0.242,
+  "ms": 5011.5,
+  "langid_ms": 2347.2
+ },
+ "whisper:small@10|auto3|clips/man_35/man_35_mr_quiet_01_not_breathing.wav": {
+  "text": "श्वास गेत नहीं।",
+  "logprob": -0.3,
+  "lang": "hi",
+  "lang_p": 0.232,
+  "ms": 4104.5,
+  "langid_ms": 1932.3
+ },
+ "whisper:small@10|auto3|clips/man_35/man_35_mr_quiet_02_breathing_normal.wav": {
+  "text": "उ, श्वास गे तोई।",
+  "logprob": -0.483,
+  "lang": "hi",
+  "lang_p": 0.032,
+  "ms": 4146.1,
+  "langid_ms": 1939.9
+ },
+ "whisper:small@10|auto3|clips/man_35/man_35_mr_quiet_03_gasping.wav": {
+  "text": "दापा तक तो ए, विछित रावाज ये तो ए.",
+  "logprob": -0.395,
+  "lang": "hi",
+  "lang_p": 0.229,
+  "ms": 4310.5,
+  "langid_ms": 1925.0
+ },
+ "whisper:small@10|auto3|clips/man_75/man_75_mr_quiet_01_not_breathing.wav": {
+  "text": "च्राज ते एक नेज",
+  "logprob": -0.955,
+  "lang": "en",
+  "lang_p": 0.622,
+  "ms": 4053.7,
+  "langid_ms": 1888.2
+ },
+ "whisper:small@10|auto3|clips/man_75/man_75_mr_quiet_02_breathing_normal.wav": {
+  "text": "तो तो आश़् ये तो एँ।",
+  "logprob": -0.779,
+  "lang": "en",
+  "lang_p": 0.066,
+  "ms": 4328.4,
+  "langid_ms": 1983.4
+ },
+ "whisper:small@10|auto3|clips/man_75/man_75_mr_quiet_03_gasping.wav": {
+  "text": "दापा दख तो ए, विछित्र आवाज यो तो ए.",
+  "logprob": -0.41,
+  "lang": "hi",
+  "lang_p": 0.095,
+  "ms": 4442.3,
+  "langid_ms": 2007.7
+ },
+ "whisper:small@10|auto3|clips/man_75/man_75_mr_traffic_01_not_breathing.wav": {
+  "text": "श्वास नहीं नाहीं",
+  "logprob": -0.559,
+  "lang": "en",
+  "lang_p": 0.158,
+  "ms": 5756.8,
+  "langid_ms": 2755.5
+ },
+ "whisper:small@10|auto3|clips/man_75/man_75_mr_traffic_02_breathing_normal.wav": {
+  "text": "वो वास गे तोए",
+  "logprob": -1.076,
+  "lang": "en",
+  "lang_p": 0.222,
+  "ms": 5239.3,
+  "langid_ms": 2506.9
+ },
+ "whisper:small@10|auto3|clips/man_75/man_75_mr_traffic_03_gasping.wav": {
+  "text": "दापा तक तो ले विछित्र आवाज यो तो ले",
+  "logprob": -0.447,
+  "lang": "hi",
+  "lang_p": 0.323,
+  "ms": 5641.9,
+  "langid_ms": 2404.2
+ },
+ "whisper:small@10|auto3|clips/man_75/man_75_mr_traffic_04_not_breathing.wav": {
+  "text": "नाही, आज्मन नाही।",
+  "logprob": -0.379,
+  "lang": "hi",
+  "lang_p": 0.045,
+  "ms": 5615.3,
+  "langid_ms": 2791.8
+ },
+ "whisper:small@10|auto3|clips/man_75/man_75_mr_traffic_05_not_responding.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.728,
+  "ms": 5396.6,
+  "langid_ms": 2343.2
+ },
+ "whisper:small@10|auto3|clips/man_75/man_75_mr_traffic_06_responding.wav": {
+  "text": "तो रहा पारे।",
+  "logprob": -0.769,
+  "lang": "en",
+  "lang_p": 0.142,
+  "ms": 3816.9,
+  "langid_ms": 1774.0
+ },
+ "whisper:small@10|auto3|clips/man_75/man_75_mr_traffic_07_tired.wav": {
+  "text": "आप दुखपे मी तब लो।",
+  "logprob": -0.627,
+  "lang": "hi",
+  "lang_p": 0.447,
+  "ms": 3972.9,
+  "langid_ms": 1811.3
+ },
+ "whisper:small@10|auto3|clips/man_75/man_75_mr_traffic_08_where_hands.wav": {
+  "text": "आप कुटे देओ।",
+  "logprob": -0.579,
+  "lang": "hi",
+  "lang_p": 0.506,
+  "ms": 3926.3,
+  "langid_ms": 1881.7
+ },
+ "whisper:small@10|auto3|clips/man_75/man_75_mr_traffic_09_help_called.wav": {
+  "text": "नम्विर रहा चिल तो पूलिके रहा।",
+  "logprob": -0.868,
+  "lang": "en",
+  "lang_p": 0.166,
+  "ms": 4170.0,
+  "langid_ms": 1867.1
+ },
+ "whisper:small@10|auto3|clips/woman_30/woman_30_mr_quiet_01_not_breathing.wav": {
+  "text": "श्वास गेतने ये",
+  "logprob": -0.63,
+  "lang": "hi",
+  "lang_p": 0.569,
+  "ms": 4484.2,
+  "langid_ms": 2081.1
+ },
+ "whisper:small@10|auto3|clips/woman_30/woman_30_mr_quiet_02_breathing_normal.wav": {
+  "text": "उश्वास घेत नहीं।",
+  "logprob": -0.415,
+  "lang": "en",
+  "lang_p": 0.091,
+  "ms": 4647.6,
+  "langid_ms": 2106.8
+ },
+ "whisper:small@10|auto3|clips/woman_30/woman_30_mr_quiet_03_gasping.wav": {
+  "text": "दबा तक तो ए विछित रहा वाज ये तो ए",
+  "logprob": -0.587,
+  "lang": "hi",
+  "lang_p": 0.103,
+  "ms": 4654.1,
+  "langid_ms": 2097.6
+ },
+ "whisper:small@10|auto3|clips/woman_30/woman_30_mr_traffic_01_not_breathing.wav": {
+  "text": "श्वास बच्छ नहीं।",
+  "logprob": -0.533,
+  "lang": "hi",
+  "lang_p": 0.628,
+  "ms": 3987.5,
+  "langid_ms": 1862.2
+ },
+ "whisper:small@10|auto3|clips/woman_30/woman_30_mr_traffic_02_breathing_normal.wav": {
+  "text": "So much to be doing.",
+  "logprob": -0.799,
+  "lang": "en",
+  "lang_p": 0.523,
+  "ms": 3826.2,
+  "langid_ms": 1835.7
+ },
+ "whisper:small@10|auto3|clips/woman_30/woman_30_mr_traffic_03_gasping.wav": {
+  "text": "दापा तक तोई विछिटर अवाजे तोई",
+  "logprob": -0.42,
+  "lang": "hi",
+  "lang_p": 0.109,
+  "ms": 4170.6,
+  "langid_ms": 1871.3
+ },
+ "whisper:small@10|auto3|clips/woman_30/woman_30_mr_traffic_04_not_breathing.wav": {
+  "text": "नाही, अजु नाही।",
+  "logprob": -0.258,
+  "lang": "hi",
+  "lang_p": 0.287,
+  "ms": 4037.3,
+  "langid_ms": 1872.1
+ },
+ "whisper:small@10|auto3|clips/woman_30/woman_30_mr_traffic_05_not_responding.wav": {
+  "text": "ताएस प्रतिसात नहीं, रहा नहीं।",
+  "logprob": -0.516,
+  "lang": "hi",
+  "lang_p": 0.856,
+  "ms": 4225.0,
+  "langid_ms": 1936.5
+ },
+ "whisper:small@10|auto3|clips/woman_30/woman_30_mr_traffic_06_responding.wav": {
+  "text": "तो खलतोई जब नहीं तो जब नहीं जब नहीं जब नहीं जब नहीं ज�",
+  "logprob": -0.645,
+  "lang": "en",
+  "lang_p": 0.081,
+  "ms": 4685.5,
+  "langid_ms": 1980.1
+ },
+ "whisper:small@10|auto3|clips/woman_30/woman_30_mr_traffic_07_tired.wav": {
+  "text": "रहा दूखता है मिख़ख ले",
+  "logprob": -0.664,
+  "lang": "hi",
+  "lang_p": 0.557,
+  "ms": 4329.3,
+  "langid_ms": 1979.2
+ },
+ "whisper:small@10|auto3|clips/woman_30/woman_30_mr_traffic_08_where_hands.wav": {
+  "text": "रहाद कुट थे।",
+  "logprob": -0.66,
+  "lang": "hi",
+  "lang_p": 0.236,
+  "ms": 4270.3,
+  "langid_ms": 2042.7
+ },
+ "whisper:small@10|auto3|clips/woman_30/woman_30_mr_traffic_09_help_called.wav": {
+  "text": "आमुले स्ला फोंके लाहे।",
+  "logprob": -0.529,
+  "lang": "hi",
+  "lang_p": 0.727,
+  "ms": 4395.2,
+  "langid_ms": 2016.8
+ },
+ "whisper:small@10|auto3|clips/woman_22/woman_22_mix_quiet_01_not_breathing.wav": {
+  "text": "ब्रिठिंग नहीं कर रहा यार।",
+  "logprob": -0.451,
+  "lang": "hi",
+  "lang_p": 0.979,
+  "ms": 4489.7,
+  "langid_ms": 2083.7
+ },
+ "whisper:small@10|auto3|clips/woman_22/woman_22_mix_quiet_02_breathing_normal.wav": {
+  "text": "रहा, गरी तिन नारमल है।",
+  "logprob": -0.686,
+  "lang": "hi",
+  "lang_p": 0.936,
+  "ms": 4525.1,
+  "langid_ms": 2136.4
+ },
+ "whisper:small@10|auto3|clips/woman_22/woman_22_mix_quiet_03_gasping.wav": {
+  "text": "गस्पिंग जेसा कर रहा है।",
+  "logprob": -0.334,
+  "lang": "hi",
+  "lang_p": 0.983,
+  "ms": 4531.1,
+  "langid_ms": 2098.1
+ },
+ "whisper:small@10|auto3|clips/woman_22/woman_22_mix_market_01_not_breathing.wav": {
+  "text": "ब्रिछिग नहीं करता है यार।",
+  "logprob": -0.458,
+  "lang": "hi",
+  "lang_p": 0.932,
+  "ms": 4497.7,
+  "langid_ms": 2056.4
+ },
+ "whisper:small@10|auto3|clips/woman_22/woman_22_mix_market_02_breathing_normal.wav": {
+  "text": "अग, ब्रिछिग नारमल है।",
+  "logprob": -0.724,
+  "lang": "hi",
+  "lang_p": 0.764,
+  "ms": 4367.5,
+  "langid_ms": 2035.8
+ },
+ "whisper:small@10|auto3|clips/woman_22/woman_22_mix_market_03_gasping.wav": {
+  "text": "गासकिं जे सा खर रहा है।",
+  "logprob": -0.532,
+  "lang": "hi",
+  "lang_p": 0.937,
+  "ms": 4467.0,
+  "langid_ms": 2051.7
+ },
+ "whisper:small@10|auto3|clips/woman_22/woman_22_mix_market_04_not_breathing.wav": {
+  "text": "लो आब भी नहीं।",
+  "logprob": -0.388,
+  "lang": "hi",
+  "lang_p": 0.236,
+  "ms": 4332.6,
+  "langid_ms": 2060.1
+ },
+ "whisper:small@10|auto3|clips/woman_22/woman_22_mix_market_05_not_responding.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.567,
+  "ms": 4741.5,
+  "langid_ms": 2011.4
+ },
+ "whisper:small@10|auto3|clips/woman_22/woman_22_mix_market_06_responding.wav": {
+  "text": "He is moving his eye.",
+  "logprob": -0.473,
+  "lang": "en",
+  "lang_p": 0.665,
+  "ms": 4633.0,
+  "langid_ms": 2193.5
+ },
+ "whisper:small@10|auto3|clips/woman_22/woman_22_mix_market_07_tired.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.858,
+  "ms": 4899.4,
+  "langid_ms": 2069.1
+ },
+ "whisper:small@10|auto3|clips/woman_22/woman_22_mix_market_08_where_hands.wav": {
+  "text": "वहाँ पूष्टर।",
+  "logprob": -0.723,
+  "lang": "hi",
+  "lang_p": 0.247,
+  "ms": 4348.9,
+  "langid_ms": 2015.7
+ },
+ "whisper:small@10|auto3|clips/woman_22/woman_22_mix_market_09_pushing.wav": {
+  "text": "अगर अगर अगर पूश कर रही हूँ।",
+  "logprob": -0.589,
+  "lang": "hi",
+  "lang_p": 0.857,
+  "ms": 4672.3,
+  "langid_ms": 2071.8
+ },
+ "whisper:small@10|auto3|clips/woman_19/woman_19_hi_traffic_01_not_breathing.wav": {
+  "text": "श्वास नहीं ले रहा।",
+  "logprob": -0.242,
+  "lang": "en",
+  "lang_p": 0.282,
+  "ms": 4397.1,
+  "langid_ms": 2057.4
+ },
+ "whisper:small@10|auto3|clips/woman_19/woman_19_hi_traffic_02_breathing_normal.wav": {
+  "text": "अप साँस ले रहा है।",
+  "logprob": -0.524,
+  "lang": "hi",
+  "lang_p": 0.674,
+  "ms": 4389.0,
+  "langid_ms": 2076.1
+ },
+ "whisper:small@10|auto3|clips/woman_19/woman_19_hi_traffic_03_gasping.wav": {
+  "text": "अजिव सास पाप्रा है",
+  "logprob": -0.567,
+  "lang": "hi",
+  "lang_p": 0.335,
+  "ms": 4419.8,
+  "langid_ms": 2090.8
+ },
+ "whisper:small@10|auto3|clips/woman_19/woman_19_hi_traffic_04_not_breathing.wav": {
+  "text": "No! I'll be breathing.",
+  "logprob": -0.908,
+  "lang": "en",
+  "lang_p": 0.185,
+  "ms": 4251.0,
+  "langid_ms": 2035.3
+ },
+ "whisper:small@10|auto3|clips/woman_19/woman_19_mix_traffic_05_not_responding.wav": {
+  "text": "Koi is sponsoring. He is not here.",
+  "logprob": -1.397,
+  "lang": "en",
+  "lang_p": 0.254,
+  "ms": 4282.7,
+  "langid_ms": 2058.7
+ },
+ "whisper:small@10|auto3|clips/woman_19/woman_19_mix_traffic_06_responding.wav": {
+  "text": "He's moving! He's not!",
+  "logprob": -0.7,
+  "lang": "en",
+  "lang_p": 0.525,
+  "ms": 4616.4,
+  "langid_ms": 2296.6
+ },
+ "whisper:small@10|auto3|clips/woman_19/woman_19_mix_traffic_07_tired.wav": {
+  "text": "आएम ताएड यार हदर कर रहा हैंगी",
+  "logprob": -0.535,
+  "lang": "hi",
+  "lang_p": 0.755,
+  "ms": 4568.2,
+  "langid_ms": 2073.0
+ },
+ "whisper:small@10|auto3|clips/woman_19/woman_19_mix_traffic_08_where_hands.wav": {
+  "text": "गापुस करू।",
+  "logprob": -0.77,
+  "lang": "hi",
+  "lang_p": 0.66,
+  "ms": 4454.6,
+  "langid_ms": 2126.8
+ },
+ "whisper:small@10|auto3|clips/woman_19/woman_19_mix_quiet_01_not_breathing.wav": {
+  "text": "ब्रतिख मही करना यार",
+  "logprob": -0.447,
+  "lang": "hi",
+  "lang_p": 0.973,
+  "ms": 4829.7,
+  "langid_ms": 2334.0
+ },
+ "whisper:small@10|auto3|clips/woman_19/woman_19_mix_quiet_02_breathing_normal.wav": {
+  "text": "रहा, breathing normal है।",
+  "logprob": -0.488,
+  "lang": "hi",
+  "lang_p": 0.963,
+  "ms": 4901.8,
+  "langid_ms": 2377.3
+ },
+ "whisper:small@10|auto3|clips/woman_19/woman_19_mix_quiet_03_gasping.wav": {
+  "text": "गष्पिंक तीशा करा है।",
+  "logprob": -0.583,
+  "lang": "hi",
+  "lang_p": 0.346,
+  "ms": 4986.2,
+  "langid_ms": 2306.0
+ },
+ "whisper:small@10|auto3|clips/man_35/man_35_mr_station_09_help_called.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.153,
+  "ms": 5411.9,
+  "langid_ms": 2256.5
+ },
+ "whisper:small@10|auto3|clips/woman_19/woman_19_mix_traffic_09_pushing.wav": {
+  "text": "अखे अखे वूश्व चेरे ही ने",
+  "logprob": -0.797,
+  "lang": "hi",
+  "lang_p": 0.095,
+  "ms": 4655.3,
+  "langid_ms": 2125.3
+ },
+ "whisper:tiny|auto3|clips/man_35/man_35_mr_station_09_help_called.wav": {
+  "text": "I am blowing a phone killer.",
+  "logprob": -1.208,
+  "lang": "en",
+  "lang_p": 0.168,
+  "ms": 609.9,
+  "langid_ms": 299.8
+ },
+ "whisper:tiny|auto3|clips/woman_19/woman_19_mix_traffic_09_pushing.wav": {
+  "text": "Okay, I'll get it. Let's get it in me.",
+  "logprob": -0.692,
+  "lang": "en",
+  "lang_p": 0.829,
+  "ms": 592.2,
+  "langid_ms": 279.5
+ },
+ "whisper:base|auto3|clips/man_35/man_35_mr_station_09_help_called.wav": {
+  "text": "आपनोस लवाँ दिला दिला",
+  "logprob": -1.002,
+  "lang": "hi",
+  "lang_p": 0.115,
+  "ms": 1199.9,
+  "langid_ms": 583.9
+ },
+ "whisper:base|auto3|clips/woman_19/woman_19_mix_traffic_09_pushing.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "en",
+  "lang_p": 0.784,
+  "ms": 1303.1,
+  "langid_ms": 530.3
+ },
+ "whisper:small|auto3|clips/man_35/man_35_mr_station_09_help_called.wav": {
+  "text": "",
+  "logprob": -9.0,
+  "lang": "hi",
+  "lang_p": 0.153,
+  "ms": 4530.3,
+  "langid_ms": 1785.0
+ },
+ "whisper:small|auto3|clips/woman_19/woman_19_mix_traffic_09_pushing.wav": {
+  "text": "अखे अखे वूश्व चेरे ही ने",
+  "logprob": -0.797,
+  "lang": "hi",
+  "lang_p": 0.095,
+  "ms": 5858.5,
+  "langid_ms": 2640.8
+ },
+ "indic@10|auto3|clips/man_20/man_20_hi_quiet_01_not_breathing.wav": {
+  "text": "सांस नहीं ले रहा",
+  "logprob": -0.024,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5001.7
+ },
+ "indic@10|auto3|clips/man_20/man_20_hi_quiet_02_breathing_normal.wav": {
+  "text": "हाँ साथ ले रहा है",
+  "logprob": -0.075,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2568.5
+ },
+ "indic@10|auto3|clips/man_20/man_20_hi_quiet_03_gasping.wav": {
+  "text": "अजीब साँस अफराई",
+  "logprob": -0.232,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2492.6
+ },
+ "indic@10|auto3|clips/man_28/man_28_hi_quiet_01_not_breathing.wav": {
+  "text": "यह आदमी तो सांस नहीं ले रहा है",
+  "logprob": -0.068,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5277.8
+ },
+ "indic@10|auto3|clips/man_28/man_28_hi_quiet_02_breathing_normal.wav": {
+  "text": "हाँ मुझे लग रहा है कि थोड़ा थोड़ा साश ले रहा है",
+  "logprob": -0.051,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2924.1
+ },
+ "indic@10|auto3|clips/man_28/man_28_hi_quiet_03_gasping.wav": {
+  "text": "अरे ये आदमी तो अजीब तरह से साथ ले रहा है",
+  "logprob": -0.079,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2786.7
+ },
+ "indic@10|auto3|clips/man_40/man_40_mix_quiet_01_not_breathing.wav": {
+  "text": "प्रेडिंग नहीं कर रहा है",
+  "logprob": -0.195,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5456.5
+ },
+ "indic@10|auto3|clips/man_40/man_40_mix_quiet_02_breathing_normal.wav": {
+  "text": "हाँ ब्रेडिंग तो नॉर्मल है",
+  "logprob": -0.105,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2842.9
+ },
+ "indic@10|auto3|clips/man_40/man_40_mix_quiet_03_gasping.wav": {
+  "text": "गैस पिंडेसा कर रहा है",
+  "logprob": -0.284,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2780.8
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_quiet_01_not_breathing.wav": {
+  "text": "शासकीयत नहीं है",
+  "logprob": -0.258,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5396.0
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_quiet_02_breathing_normal.wav": {
+  "text": "ओ, शास केतोय.",
+  "logprob": -0.061,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5372.1
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_quiet_03_gasping.wav": {
+  "text": "भापाटाख तोए",
+  "logprob": -0.478,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 6454.0
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_01_not_breathing.wav": {
+  "text": "शास घेत नाहीळ.",
+  "logprob": -0.062,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 6745.5
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_02_breathing_normal.wav": {
+  "text": "फोशास दूधय.",
+  "logprob": -0.183,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3114.4
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_03_gasping.wav": {
+  "text": "नापाटाकतोय, विचित्र आवाज येतोय.",
+  "logprob": -0.036,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3186.0
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_04_not_breathing.wav": {
+  "text": "नाहीप आजून नाही.",
+  "logprob": -0.041,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2885.7
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_05_not_responding.wav": {
+  "text": "काहीच प्रतिसाद नाही, हलत नाही.",
+  "logprob": -0.003,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3159.7
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_06_responding.wav": {
+  "text": "वेळू वैळू घेट रावर्वखे. खो, हात तोय.",
+  "logprob": -0.242,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 4002.0
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_07_tired.wav": {
+  "text": "हात दुखताय, मी थकलो.",
+  "logprob": -0.012,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3387.1
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_08_where_hands.wav": {
+  "text": "हात कुठे चिऊ.",
+  "logprob": -0.071,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 8870.9
+ },
+ "indic@10|auto3|clips/man_60/man_60_mr_station_09_how_deep.wav": {
+  "text": "किती जोरात दाबू?",
+  "logprob": -0.065,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 4335.3
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_quiet_01_not_breathing.wav": {
+  "text": "स्वास्थ्य गेट नहीं है",
+  "logprob": -0.164,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 8437.3
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_quiet_02_breathing_normal.wav": {
+  "text": "हो स्वास्थ्य की तो",
+  "logprob": -0.171,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3916.6
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_quiet_03_gasping.wav": {
+  "text": "दापा का विचित रावा",
+  "logprob": -0.444,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2824.9
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_01_not_breathing.wav": {
+  "text": "स्वास्थ्य भी नहीं है",
+  "logprob": -0.253,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3012.2
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_02_breathing_normal.wav": {
+  "text": "फोळ श्रास विठ तोय.",
+  "logprob": -0.172,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5503.8
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_03_gasping.wav": {
+  "text": "नाहापा टाकतोय, विचित्र आवाज येत आहे.",
+  "logprob": -0.067,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3146.9
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_04_not_breathing.wav": {
+  "text": "नाही, अजून नाही.",
+  "logprob": -0.03,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2721.0
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_05_not_responding.wav": {
+  "text": "काहीस प्रतिसाद नाही, हलत नाही.",
+  "logprob": -0.012,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 4816.1
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_06_responding.wav": {
+  "text": "वो, ठालतोय.",
+  "logprob": -0.139,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 4012.1
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_07_tired.wav": {
+  "text": "हात दुखतायत, विचित मोठ.",
+  "logprob": -0.028,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 4173.0
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_08_where_hands.wav": {
+  "text": "दूखता. हात कुठे चे होओ?",
+  "logprob": -0.186,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3949.2
+ },
+ "indic@10|auto3|clips/woman_45/woman_45_mr_traffic_09_help_called.wav": {
+  "text": "अबून्सला फोन केला.",
+  "logprob": -0.087,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2906.3
+ },
+ "indic@10|auto3|clips/man_35/man_35_mr_station_01_not_breathing.wav": {
+  "text": "श्वास गेतोय.",
+  "logprob": -0.003,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5994.2
+ },
+ "indic@10|auto3|clips/man_35/man_35_mr_station_02_not_breathing.wav": {
+  "text": "श्वास भूत नाही आही.",
+  "logprob": -0.057,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2862.0
+ },
+ "indic@10|auto3|clips/man_35/man_35_mr_station_03_gasping.wav": {
+  "text": "धापा टाकतले, विचित्र आवाज चेळ.",
+  "logprob": -0.069,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2855.4
+ },
+ "indic@10|auto3|clips/man_35/man_35_mr_station_04_not_breathing.wav": {
+  "text": "नाही, आजोन नाही.",
+  "logprob": -0.017,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2727.5
+ },
+ "indic@10|auto3|clips/man_35/man_35_mr_station_05_not_responding.wav": {
+  "text": "काहीच प्रतिसाद नाही, हलत नाही.",
+  "logprob": -0.0,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3820.8
+ },
+ "indic@10|auto3|clips/man_35/man_35_mr_station_06_responding.wav": {
+  "text": "हो, हलतोय.",
+  "logprob": -0.086,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 8076.7
+ },
+ "indic@10|auto3|clips/man_35/man_35_mr_station_07_tired.wav": {
+  "text": "उपन दुखतायत, मी खपलो.",
+  "logprob": -0.165,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 4892.7
+ },
+ "indic@10|auto3|clips/man_35/man_35_mr_station_08_where_hands.wav": {
+  "text": "हात कुठे ठेवू?",
+  "logprob": -0.005,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 4519.0
+ },
+ "indic@10|auto3|clips/man_35/man_35_mr_station_09_help_called.wav": {
+  "text": "फोन किला",
+  "logprob": -0.319,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 10015.2
+ },
+ "indic@10|auto3|clips/man_35/man_35_mr_quiet_01_not_breathing.wav": {
+  "text": "श्वास घेट नहीं है",
+  "logprob": -0.137,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3866.1
+ },
+ "indic@10|auto3|clips/man_35/man_35_mr_quiet_02_breathing_normal.wav": {
+  "text": "हो स्वास्थ्य",
+  "logprob": -0.221,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2807.4
+ },
+ "indic@10|auto3|clips/man_35/man_35_mr_quiet_03_gasping.wav": {
+  "text": "धापाटक तो विचित रावजे तो",
+  "logprob": -0.252,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2936.0
+ },
+ "indic@10|auto3|clips/man_75/man_75_mr_quiet_01_not_breathing.wav": {
+  "text": "श्वास घेत नाही.",
+  "logprob": -0.028,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5541.3
+ },
+ "indic@10|auto3|clips/man_75/man_75_mr_quiet_02_breathing_normal.wav": {
+  "text": "फोळ च्वाच घेतोय.",
+  "logprob": -0.085,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3194.0
+ },
+ "indic@10|auto3|clips/man_75/man_75_mr_quiet_03_gasping.wav": {
+  "text": "धापाटाक तोय, विचित्र आवाज येतोय.",
+  "logprob": -0.021,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 5333.6
+ },
+ "indic@10|auto3|clips/man_75/man_75_mr_traffic_01_not_breathing.wav": {
+  "text": "चाच निही. नाही आहे.",
+  "logprob": -0.171,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 4111.4
+ },
+ "indic@10|auto3|clips/man_75/man_75_mr_traffic_02_breathing_normal.wav": {
+  "text": "ओ, चात गेतोय.",
+  "logprob": -0.073,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3073.4
+ },
+ "indic@10|auto3|clips/man_75/man_75_mr_traffic_03_gasping.wav": {
+  "text": "नापा टाकतोय, विचित्र आवाज येतोय.",
+  "logprob": -0.017,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3126.3
+ },
+ "indic@10|auto3|clips/man_75/man_75_mr_traffic_04_not_breathing.wav": {
+  "text": "नाही, अजून नाही.",
+  "logprob": -0.004,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2885.8
+ },
+ "indic@10|auto3|clips/man_75/man_75_mr_traffic_05_not_responding.wav": {
+  "text": "काहीच परतिसाद नाही, हलत नाही.",
+  "logprob": -0.009,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2855.0
+ },
+ "indic@10|auto3|clips/man_75/man_75_mr_traffic_06_responding.wav": {
+  "text": "तो हात्तोय.",
+  "logprob": -0.126,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2700.6
+ },
+ "indic@10|auto3|clips/man_75/man_75_mr_traffic_07_tired.wav": {
+  "text": "हात दुखताय, मी थकलो.",
+  "logprob": -0.005,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2809.9
+ },
+ "indic@10|auto3|clips/man_75/man_75_mr_traffic_08_where_hands.wav": {
+  "text": "हात कुठे देवू?",
+  "logprob": -0.038,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2716.2
+ },
+ "indic@10|auto3|clips/man_75/man_75_mr_traffic_09_help_called.wav": {
+  "text": "उम्ब्युलन्सला फोन केला.",
+  "logprob": -0.063,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2783.6
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_quiet_01_not_breathing.wav": {
+  "text": "श्वास घेट नहीं है",
+  "logprob": -0.148,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5716.1
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_quiet_02_breathing_normal.wav": {
+  "text": "हो श्वास गीत है",
+  "logprob": -0.311,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2789.1
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_quiet_03_gasping.wav": {
+  "text": "धपपट अब तो विचित्र आवाज एतु है",
+  "logprob": -0.339,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3013.9
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_01_not_breathing.wav": {
+  "text": "स्वास्थ्य गतिविधि नहीं",
+  "logprob": -0.3,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3031.2
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_02_breathing_normal.wav": {
+  "text": "चो स्वाज भिखोए.",
+  "logprob": -0.082,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5540.3
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_03_gasping.wav": {
+  "text": "धापा टाकतोय, विचित्र आवाज देतोय.",
+  "logprob": -0.028,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3126.9
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_04_not_breathing.wav": {
+  "text": "नाही, अजून नाही.",
+  "logprob": -0.015,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3031.8
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_05_not_responding.wav": {
+  "text": "काहीच प्रतिसाद नाही, हलत नाही.",
+  "logprob": -0.001,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3259.7
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_06_responding.wav": {
+  "text": "तो हलतोय.",
+  "logprob": -0.003,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3104.7
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_07_tired.wav": {
+  "text": "हात दुखताय, मी ठकले.",
+  "logprob": -0.023,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3004.3
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_08_where_hands.wav": {
+  "text": "हात कुठे ठेवू?",
+  "logprob": -0.022,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2857.4
+ },
+ "indic@10|auto3|clips/woman_30/woman_30_mr_traffic_09_help_called.wav": {
+  "text": "अण्भूलसला फोन केला आहे.",
+  "logprob": -0.102,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2918.9
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_quiet_01_not_breathing.wav": {
+  "text": "मृतिंग नहीं कर रहा है",
+  "logprob": -0.071,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5888.4
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_quiet_02_breathing_normal.wav": {
+  "text": "हाँ ब्रीथिंग नॉर्मल है",
+  "logprob": -0.11,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2897.8
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_quiet_03_gasping.wav": {
+  "text": "गास्पिंग जैसा कर रहा है",
+  "logprob": -0.123,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2964.6
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_market_01_not_breathing.wav": {
+  "text": "ब्रिटिंग नहीं कर रहा है",
+  "logprob": -0.123,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3144.8
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_market_02_breathing_normal.wav": {
+  "text": "हाँ रीचिंग नॉर्मल है",
+  "logprob": -0.22,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2991.2
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_market_03_gasping.wav": {
+  "text": "दस पिंड जैसा कर रहा है",
+  "logprob": -0.278,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3333.2
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_market_04_not_breathing.wav": {
+  "text": "अभी भी नहीं",
+  "logprob": -0.103,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2977.1
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_market_05_not_responding.wav": {
+  "text": "कोई रिस्पॉस नहीं नहीं रहा",
+  "logprob": -0.133,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2912.1
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_market_06_responding.wav": {
+  "text": "हीच वूबिंग हीणाही.",
+  "logprob": -0.065,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 6083.9
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_market_07_tired.wav": {
+  "text": "आयाम तायट यार खाद्दत करण्या आहेत. बहुजा.",
+  "logprob": -0.079,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3321.9
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_market_08_where_hands.wav": {
+  "text": "काहा पूष करू?",
+  "logprob": -0.022,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2814.2
+ },
+ "indic@10|auto3|clips/woman_22/woman_22_mix_market_09_pushing.wav": {
+  "text": "अचावरी नाचावर. अके, उष कर रहीहू.",
+  "logprob": -0.142,
+  "lang": "mr",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3202.8
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_hi_traffic_01_not_breathing.wav": {
+  "text": "साथ नहीं ले रहा",
+  "logprob": -0.17,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 2,
+  "ms": 5770.2
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_hi_traffic_02_breathing_normal.wav": {
+  "text": "हाथ ले रहा है",
+  "logprob": -0.095,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2785.5
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_hi_traffic_03_gasping.wav": {
+  "text": "अजीब साथ रहा है",
+  "logprob": -0.233,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3001.6
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_hi_traffic_04_not_breathing.wav": {
+  "text": "ना अभी भी नहीं",
+  "logprob": -0.132,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2797.2
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_mix_traffic_05_not_responding.wav": {
+  "text": "कोई रिस्पॉन्स नहीं",
+  "logprob": -0.107,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2966.0
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_mix_traffic_06_responding.wav": {
+  "text": "फिर रहा है",
+  "logprob": -0.404,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2774.4
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_mix_traffic_07_tired.wav": {
+  "text": "आई टाइट यार हाथ दर्ज कर रहा है",
+  "logprob": -0.274,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3066.1
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_mix_traffic_08_where_hands.wav": {
+  "text": "कहा कुछ करूँ",
+  "logprob": -0.228,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2793.2
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_mix_traffic_09_pushing.wav": {
+  "text": "ओके ओके उसके रही",
+  "logprob": -0.249,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2795.7
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_mix_quiet_01_not_breathing.wav": {
+  "text": "वृत्ति नहीं कर रहा है",
+  "logprob": -0.208,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3155.8
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_mix_quiet_02_breathing_normal.wav": {
+  "text": "हाँ ब्रीटिंग नॉर्मल है",
+  "logprob": -0.096,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 3313.8
+ },
+ "indic@10|auto3|clips/woman_19/woman_19_mix_quiet_03_gasping.wav": {
+  "text": "गास्पेटिस्ट कर रहा है",
+  "logprob": -0.233,
+  "lang": "hi",
+  "lang_p": null,
+  "models_tried": 1,
+  "ms": 2994.1
+ }
+}

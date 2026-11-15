@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CPR Coach Console</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <svg class="ekg" viewBox="0 0 64 18" aria-hidden="true"><path d="M0 9h18l4-7 5 14 4-10 3 3h30"/></svg>
+    <span>CPR Coach</span>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button role="tab" id="tab-coach" aria-selected="true" data-view="coach">Live coach</button>
+    <button role="tab" id="tab-test" aria-selected="false" data-view="test">Text test</button>
+  </nav>
+  <div class="pills">
+    <span class="pill" id="net" title="Browser network status">checking network…</span>
+    <span class="pill status" id="status" data-s="idle">idle</span>
+  </div>
+</header>
+
+<!-- ================= LIVE COACH ================= -->
+<main class="view" id="view-coach">
+  <section class="convo">
+    <div class="stateband" id="stateband" data-state="none">
+      <div class="orb-wrap"><div class="orb" id="orb"></div></div>
+      <div class="state-text">
+        <div class="label">Current state</div>
+        <div class="state-name" id="state-name">not started</div>
+        <div class="state-desc" id="state-desc">Press Start to open the microphone, or type below to try it without audio.</div>
+      </div>
+      <div class="beat-info">
+        <div class="bpm" id="bpm">beat off</div>
+        <div class="lang" id="lang-chip">reply language: hi</div>
+      </div>
+    </div>
+
+    <div class="feed" id="feed" aria-live="polite">
+      <div class="empty" id="empty">
+        <b>Nothing yet.</b>
+        <span>Start the coach and speak, or type what a bystander would say, like <code>saans nahi le raha</code>.</span>
+      </div>
+    </div>
+
+    <form class="composer" id="composer" autocomplete="off">
+      <button type="button" class="ptt" id="ptt" hidden>Hold to talk <small>(or hold Space)</small></button>
+      <input id="say" type="text" placeholder="Type what the bystander says…  e.g. haath thak gaye">
+      <button type="submit" class="btn primary">Send</button>
+    </form>
+  </section>
+
+  <aside class="side">
+    <div class="card">
+      <h3>Controls</h3>
+      <div class="row">
+        <button class="btn primary grow" id="start" type="button">Start microphone</button>
+        <button class="btn" id="stop" type="button" disabled>Stop</button>
+      </div>
+      <button class="btn ghost" id="reset" type="button">New session</button>
+      <label class="field">Speech-to-text model
+        <select id="model"><option value="indic@10">Hindi+Marathi models - best</option></select>
+      </label>
+      <label class="field">Language
+        <select id="stt-lang">
+          <option value="auto3">Auto (follows what you speak)</option>
+          <option value="mr">Marathi (whole call)</option><option value="hi">Hindi (whole call)</option><option value="en">English (whole call)</option>
+        </select>
+      </label>
+      <div class="field">Listening
+        <div class="seg" role="radiogroup">
+          <button type="button" id="mode-vad" data-mode="vad" aria-checked="true" role="radio">Automatic</button>
+          <button type="button" id="mode-ptt" data-mode="ptt" aria-checked="false" role="radio">Push to talk</button>
+        </div>
+      </div>
+      <div class="meter-wrap">
+        <span class="small">Microphone level</span>
+        <div class="meter"><i id="meter"></i></div>
+      </div>
+    </div>
+
+    <div class="card" id="decision">
+      <h3>Last decision</h3>
+      <p class="small muted" id="dec-empty">After the first sentence you’ll see what was heard and why this line was chosen.</p>
+      <div id="dec-body" hidden>
+        <div class="heard" id="dec-heard"></div>
+        <div class="kv"><span>Intent</span><b id="dec-intent" class="mono"></b></div>
+        <div class="kv"><span>Matched example</span><span id="dec-near" class="mono small"></span></div>
+        <div class="scorebar"><i id="dec-score"></i><span id="dec-score-t"></span></div>
+        <div class="chips" id="dec-flags"></div>
+        <div class="gate" id="dec-gate" hidden></div>
+        <div class="timing" id="dec-time"></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>States</h3>
+      <div class="map" id="map">
+        <span data-st="checking">checking</span><i>→</i>
+        <span data-st="compressions">compressions</span><i>⇄</i>
+        <span data-st="confirming">confirming</span><i>→</i>
+        <span data-st="stopped" class="stopped">stopped</span>
+      </div>
+    </div>
+  </aside>
+</main>
+
+<!-- ================= TEXT TEST ================= -->
+<main class="view" id="view-test" hidden>
+  <section class="card wide">
+    <h2>Try one sentence</h2>
+    <p class="muted">Runs the same understanding and safety logic as the live coach, with no audio. Each try starts fresh in the state you pick.</p>
+    <form class="testform" id="testform" autocomplete="off">
+      <input id="t-text" type="text" placeholder="e.g. shayad saans le raha" value="shayad saans le raha">
+      <select id="t-state">
+        <option value="checking">checking (before CPR)</option>
+        <option value="compressions">compressions</option>
+        <option value="confirming" selected>confirming (asked “breathing?”)</option>
+      </select>
+      <button class="btn primary" type="submit">Run</button>
+    </form>
+    <div class="chips examples" id="t-examples"></div>
+    <div id="t-result" class="result"></div>
+  </section>
+
+  <section class="card wide">
+    <h2>Batch file</h2>
+    <p class="muted">Choose an <code>utterances.json</code> file. Every item gets a result, and you can save them as <code>results.json</code>.</p>
+    <div class="row">
+      <input type="file" id="t-file" accept=".json,application/json">
+      <a class="btn" id="t-download" hidden download="results.json">Save results.json</a>
+    </div>
+    <div class="tablewrap"><table class="grid" id="t-batch"></table></div>
+  </section>
+</main>
+
+
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,914 @@
+{
+ "examples": [
+  {
+   "text": "साँस नहीं ले रहा",
+   "intent": "not_breathing",
+   "src": "man_20_hi_quiet_01_not_breathing"
+  },
+  {
+   "text": "सांस नहीं ले रहा",
+   "intent": "not_breathing",
+   "src": "man_20_hi_quiet_01_not_breathing:stt"
+  },
+  {
+   "text": "हाँ, साँस ले रहा है",
+   "intent": "breathing_normal",
+   "src": "man_20_hi_quiet_02_breathing_normal"
+  },
+  {
+   "text": "हाँ साथ ले रहा है",
+   "intent": "breathing_normal",
+   "src": "man_20_hi_quiet_02_breathing_normal:stt"
+  },
+  {
+   "text": "अजीब साँस, हाँफ रहा है",
+   "intent": "gasping",
+   "src": "man_20_hi_quiet_03_gasping"
+  },
+  {
+   "text": "अजीब साँस अफराई",
+   "intent": "gasping",
+   "src": "man_20_hi_quiet_03_gasping:stt"
+  },
+  {
+   "text": "ये तो साँस नहीं ले रहा है",
+   "intent": "not_breathing",
+   "src": "man_28_hi_quiet_01_not_breathing"
+  },
+  {
+   "text": "यह आदमी तो सांस नहीं ले रहा है",
+   "intent": "not_breathing",
+   "src": "man_28_hi_quiet_01_not_breathing:stt"
+  },
+  {
+   "text": "हाँ, वो साँस ले रहा है",
+   "intent": "breathing_normal",
+   "src": "man_28_hi_quiet_02_breathing_normal"
+  },
+  {
+   "text": "हाँ मुझे लग रहा है कि थोड़ा थोड़ा साश ले रहा है",
+   "intent": "breathing_normal",
+   "src": "man_28_hi_quiet_02_breathing_normal:stt"
+  },
+  {
+   "text": "अजीब तरह से साँस ले रहा है",
+   "intent": "gasping",
+   "src": "man_28_hi_quiet_03_gasping"
+  },
+  {
+   "text": "अरे ये आदमी तो अजीब तरह से साथ ले रहा है",
+   "intent": "gasping",
+   "src": "man_28_hi_quiet_03_gasping:stt"
+  },
+  {
+   "text": "breathing नहीं कर रहा यार",
+   "intent": "not_breathing",
+   "src": "man_40_mix_quiet_01_not_breathing"
+  },
+  {
+   "text": "प्रेडिंग नहीं कर रहा है",
+   "intent": "not_breathing",
+   "src": "man_40_mix_quiet_01_not_breathing:stt"
+  },
+  {
+   "text": "हाँ, breathing तो normal है",
+   "intent": "breathing_normal",
+   "src": "man_40_mix_quiet_02_breathing_normal"
+  },
+  {
+   "text": "हाँ ब्रेडिंग तो नॉर्मल है",
+   "intent": "breathing_normal",
+   "src": "man_40_mix_quiet_02_breathing_normal:stt"
+  },
+  {
+   "text": "gasping जैसा कर रहा है",
+   "intent": "gasping",
+   "src": "man_40_mix_quiet_03_gasping"
+  },
+  {
+   "text": "गैस पिंडेसा कर रहा है",
+   "intent": "gasping",
+   "src": "man_40_mix_quiet_03_gasping:stt"
+  },
+  {
+   "text": "श्वास घेत नाही",
+   "intent": "not_breathing",
+   "src": "man_60_mr_quiet_01_not_breathing"
+  },
+  {
+   "text": "शासकीयत नहीं है",
+   "intent": "not_breathing",
+   "src": "man_60_mr_quiet_01_not_breathing:stt"
+  },
+  {
+   "text": "हो, श्वास घेतोय",
+   "intent": "breathing_normal",
+   "src": "man_60_mr_quiet_02_breathing_normal"
+  },
+  {
+   "text": "ओ, शास केतोय.",
+   "intent": "breathing_normal",
+   "src": "man_60_mr_quiet_02_breathing_normal:stt"
+  },
+  {
+   "text": "धापा टाकतोय, विचित्र आवाज येतोय",
+   "intent": "gasping",
+   "src": "man_60_mr_quiet_03_gasping"
+  },
+  {
+   "text": "भापाटाख तोए",
+   "intent": "gasping",
+   "src": "man_60_mr_quiet_03_gasping:stt"
+  },
+  {
+   "text": "श्वास घेत नाही",
+   "intent": "not_breathing",
+   "src": "man_60_mr_station_01_not_breathing"
+  },
+  {
+   "text": "शास घेत नाहीळ.",
+   "intent": "not_breathing",
+   "src": "man_60_mr_station_01_not_breathing:stt"
+  },
+  {
+   "text": "हो, श्वास घेतोय",
+   "intent": "breathing_normal",
+   "src": "man_60_mr_station_02_breathing_normal"
+  },
+  {
+   "text": "फोशास दूधय.",
+   "intent": "breathing_normal",
+   "src": "man_60_mr_station_02_breathing_normal:stt"
+  },
+  {
+   "text": "धापा टाकतोय, विचित्र आवाज येतोय",
+   "intent": "gasping",
+   "src": "man_60_mr_station_03_gasping"
+  },
+  {
+   "text": "नापाटाकतोय, विचित्र आवाज येतोय.",
+   "intent": "gasping",
+   "src": "man_60_mr_station_03_gasping:stt"
+  },
+  {
+   "text": "नाही, अजून नाही",
+   "intent": "not_breathing",
+   "src": "man_60_mr_station_04_not_breathing"
+  },
+  {
+   "text": "नाहीप आजून नाही.",
+   "intent": "not_breathing",
+   "src": "man_60_mr_station_04_not_breathing:stt"
+  },
+  {
+   "text": "काहीच प्रतिसाद नाही, हलत नाही",
+   "intent": "not_responding",
+   "src": "man_60_mr_station_05_not_responding"
+  },
+  {
+   "text": "काहीच प्रतिसाद नाही, हलत नाही.",
+   "intent": "not_responding",
+   "src": "man_60_mr_station_05_not_responding:stt"
+  },
+  {
+   "text": "तो हलतोय",
+   "intent": "responding",
+   "src": "man_60_mr_station_06_responding"
+  },
+  {
+   "text": "वेळू वैळू घेट रावर्वखे. खो, हात तोय.",
+   "intent": "responding",
+   "src": "man_60_mr_station_06_responding:stt"
+  },
+  {
+   "text": "हात दुखतायत, मी थकलो",
+   "intent": "tired",
+   "src": "man_60_mr_station_07_tired"
+  },
+  {
+   "text": "हात दुखताय, मी थकलो.",
+   "intent": "tired",
+   "src": "man_60_mr_station_07_tired:stt"
+  },
+  {
+   "text": "हात कुठे ठेवू?",
+   "intent": "where_hands",
+   "src": "man_60_mr_station_08_where_hands"
+  },
+  {
+   "text": "हात कुठे चिऊ.",
+   "intent": "where_hands",
+   "src": "man_60_mr_station_08_where_hands:stt"
+  },
+  {
+   "text": "किती जोरात दाबू?",
+   "intent": "how_deep",
+   "src": "man_60_mr_station_09_how_deep"
+  },
+  {
+   "text": "श्वास घेत नाहीये",
+   "intent": "not_breathing",
+   "src": "woman_45_mr_quiet_01_not_breathing"
+  },
+  {
+   "text": "स्वास्थ्य गेट नहीं है",
+   "intent": "not_breathing",
+   "src": "woman_45_mr_quiet_01_not_breathing:stt"
+  },
+  {
+   "text": "हो, श्वास घेतोय",
+   "intent": "breathing_normal",
+   "src": "woman_45_mr_quiet_02_breathing_normal"
+  },
+  {
+   "text": "हो स्वास्थ्य की तो",
+   "intent": "breathing_normal",
+   "src": "woman_45_mr_quiet_02_breathing_normal:stt"
+  },
+  {
+   "text": "धापा टाकतोय, विचित्र आवाज येतोय",
+   "intent": "gasping",
+   "src": "woman_45_mr_quiet_03_gasping"
+  },
+  {
+   "text": "दापा का विचित रावा",
+   "intent": "gasping",
+   "src": "woman_45_mr_quiet_03_gasping:stt"
+  },
+  {
+   "text": "श्वास घेत नाहीये",
+   "intent": "not_breathing",
+   "src": "woman_45_mr_traffic_01_not_breathing"
+  },
+  {
+   "text": "स्वास्थ्य भी नहीं है",
+   "intent": "not_breathing",
+   "src": "woman_45_mr_traffic_01_not_breathing:stt"
+  },
+  {
+   "text": "हो, श्वास घेतोय",
+   "intent": "breathing_normal",
+   "src": "woman_45_mr_traffic_02_breathing_normal"
+  },
+  {
+   "text": "फोळ श्रास विठ तोय.",
+   "intent": "breathing_normal",
+   "src": "woman_45_mr_traffic_02_breathing_normal:stt"
+  },
+  {
+   "text": "धापा टाकतोय, विचित्र आवाज येतोय",
+   "intent": "gasping",
+   "src": "woman_45_mr_traffic_03_gasping"
+  },
+  {
+   "text": "नाहापा टाकतोय, विचित्र आवाज येत आहे.",
+   "intent": "gasping",
+   "src": "woman_45_mr_traffic_03_gasping:stt"
+  },
+  {
+   "text": "नाही, अजून नाही",
+   "intent": "not_breathing",
+   "src": "woman_45_mr_traffic_04_not_breathing"
+  },
+  {
+   "text": "नाही, अजून नाही.",
+   "intent": "not_breathing",
+   "src": "woman_45_mr_traffic_04_not_breathing:stt"
+  },
+  {
+   "text": "काहीच प्रतिसाद नाही, हलत नाही",
+   "intent": "not_responding",
+   "src": "woman_45_mr_traffic_05_not_responding"
+  },
+  {
+   "text": "काहीस प्रतिसाद नाही, हलत नाही.",
+   "intent": "not_responding",
+   "src": "woman_45_mr_traffic_05_not_responding:stt"
+  },
+  {
+   "text": "तो हलतोय",
+   "intent": "responding",
+   "src": "woman_45_mr_traffic_06_responding"
+  },
+  {
+   "text": "वो, ठालतोय.",
+   "intent": "responding",
+   "src": "woman_45_mr_traffic_06_responding:stt"
+  },
+  {
+   "text": "हात दुखतायत, मी थकलो",
+   "intent": "tired",
+   "src": "woman_45_mr_traffic_07_tired"
+  },
+  {
+   "text": "हात दुखतायत, विचित मोठ.",
+   "intent": "tired",
+   "src": "woman_45_mr_traffic_07_tired:stt"
+  },
+  {
+   "text": "हात कुठे ठेवू?",
+   "intent": "where_hands",
+   "src": "woman_45_mr_traffic_08_where_hands"
+  },
+  {
+   "text": "दूखता. हात कुठे चे होओ?",
+   "intent": "where_hands",
+   "src": "woman_45_mr_traffic_08_where_hands:stt"
+  },
+  {
+   "text": "ॲम्ब्युलन्सला फोन केला",
+   "intent": "help_called",
+   "src": "woman_45_mr_traffic_09_help_called"
+  },
+  {
+   "text": "अबून्सला फोन केला.",
+   "intent": "help_called",
+   "src": "woman_45_mr_traffic_09_help_called:stt"
+  },
+  {
+   "text": "श्वास घेत नाही",
+   "intent": "not_breathing",
+   "src": "man_35_mr_station_01_not_breathing"
+  },
+  {
+   "text": "श्वास घेत नाही",
+   "intent": "not_breathing",
+   "src": "man_35_mr_station_02_not_breathing"
+  },
+  {
+   "text": "श्वास भूत नाही आही.",
+   "intent": "not_breathing",
+   "src": "man_35_mr_station_02_not_breathing:stt"
+  },
+  {
+   "text": "धापा टाकतोय, विचित्र आवाज येतोय",
+   "intent": "gasping",
+   "src": "man_35_mr_station_03_gasping"
+  },
+  {
+   "text": "धापा टाकतले, विचित्र आवाज चेळ.",
+   "intent": "gasping",
+   "src": "man_35_mr_station_03_gasping:stt"
+  },
+  {
+   "text": "नाही, अजून नाही",
+   "intent": "not_breathing",
+   "src": "man_35_mr_station_04_not_breathing"
+  },
+  {
+   "text": "नाही, आजोन नाही.",
+   "intent": "not_breathing",
+   "src": "man_35_mr_station_04_not_breathing:stt"
+  },
+  {
+   "text": "काहीच प्रतिसाद नाही, हलत नाही",
+   "intent": "not_responding",
+   "src": "man_35_mr_station_05_not_responding"
+  },
+  {
+   "text": "काहीच प्रतिसाद नाही, हलत नाही.",
+   "intent": "not_responding",
+   "src": "man_35_mr_station_05_not_responding:stt"
+  },
+  {
+   "text": "तो हलतोय",
+   "intent": "responding",
+   "src": "man_35_mr_station_06_responding"
+  },
+  {
+   "text": "हो, हलतोय.",
+   "intent": "responding",
+   "src": "man_35_mr_station_06_responding:stt"
+  },
+  {
+   "text": "हात दुखतायत, मी थकलो",
+   "intent": "tired",
+   "src": "man_35_mr_station_07_tired"
+  },
+  {
+   "text": "उपन दुखतायत, मी खपलो.",
+   "intent": "tired",
+   "src": "man_35_mr_station_07_tired:stt"
+  },
+  {
+   "text": "हात कुठे ठेवू?",
+   "intent": "where_hands",
+   "src": "man_35_mr_station_08_where_hands"
+  },
+  {
+   "text": "Abulance la phone kela",
+   "intent": "help_called",
+   "src": "man_35_mr_station_09_help_called"
+  },
+  {
+   "text": "फोन किला",
+   "intent": "help_called",
+   "src": "man_35_mr_station_09_help_called:stt"
+  },
+  {
+   "text": "श्वास घेत नाही",
+   "intent": "not_breathing",
+   "src": "man_35_mr_quiet_01_not_breathing"
+  },
+  {
+   "text": "श्वास घेट नहीं है",
+   "intent": "not_breathing",
+   "src": "man_35_mr_quiet_01_not_breathing:stt"
+  },
+  {
+   "text": "हो, श्वास घेतोय",
+   "intent": "breathing_normal",
+   "src": "man_35_mr_quiet_02_breathing_normal"
+  },
+  {
+   "text": "हो स्वास्थ्य",
+   "intent": "breathing_normal",
+   "src": "man_35_mr_quiet_02_breathing_normal:stt"
+  },
+  {
+   "text": "धापा टाकतोय, विचित्र आवाज येतोय",
+   "intent": "gasping",
+   "src": "man_35_mr_quiet_03_gasping"
+  },
+  {
+   "text": "धापाटक तो विचित रावजे तो",
+   "intent": "gasping",
+   "src": "man_35_mr_quiet_03_gasping:stt"
+  },
+  {
+   "text": "श्वास घेत नाही",
+   "intent": "not_breathing",
+   "src": "man_75_mr_quiet_01_not_breathing"
+  },
+  {
+   "text": "श्वास घेत नाही.",
+   "intent": "not_breathing",
+   "src": "man_75_mr_quiet_01_not_breathing:stt"
+  },
+  {
+   "text": "हो, श्वास घेतोय",
+   "intent": "breathing_normal",
+   "src": "man_75_mr_quiet_02_breathing_normal"
+  },
+  {
+   "text": "फोळ च्वाच घेतोय.",
+   "intent": "breathing_normal",
+   "src": "man_75_mr_quiet_02_breathing_normal:stt"
+  },
+  {
+   "text": "धापा टाकतोय, विचित्र आवाज येतोय",
+   "intent": "gasping",
+   "src": "man_75_mr_quiet_03_gasping"
+  },
+  {
+   "text": "धापाटाक तोय, विचित्र आवाज येतोय.",
+   "intent": "gasping",
+   "src": "man_75_mr_quiet_03_gasping:stt"
+  },
+  {
+   "text": "श्वास घेत नाही",
+   "intent": "not_breathing",
+   "src": "man_75_mr_traffic_01_not_breathing"
+  },
+  {
+   "text": "चाच निही. नाही आहे.",
+   "intent": "not_breathing",
+   "src": "man_75_mr_traffic_01_not_breathing:stt"
+  },
+  {
+   "text": "हो, श्वास घेतोय",
+   "intent": "breathing_normal",
+   "src": "man_75_mr_traffic_02_breathing_normal"
+  },
+  {
+   "text": "ओ, चात गेतोय.",
+   "intent": "breathing_normal",
+   "src": "man_75_mr_traffic_02_breathing_normal:stt"
+  },
+  {
+   "text": "धापा टाकतोय, विचित्र आवाज येतोय",
+   "intent": "gasping",
+   "src": "man_75_mr_traffic_03_gasping"
+  },
+  {
+   "text": "नापा टाकतोय, विचित्र आवाज येतोय.",
+   "intent": "gasping",
+   "src": "man_75_mr_traffic_03_gasping:stt"
+  },
+  {
+   "text": "नाही, अजून नाही",
+   "intent": "not_breathing",
+   "src": "man_75_mr_traffic_04_not_breathing"
+  },
+  {
+   "text": "नाही, अजून नाही.",
+   "intent": "not_breathing",
+   "src": "man_75_mr_traffic_04_not_breathing:stt"
+  },
+  {
+   "text": "काहीच प्रतिसाद नाही, हलत नाही",
+   "intent": "not_responding",
+   "src": "man_75_mr_traffic_05_not_responding"
+  },
+  {
+   "text": "काहीच परतिसाद नाही, हलत नाही.",
+   "intent": "not_responding",
+   "src": "man_75_mr_traffic_05_not_responding:stt"
+  },
+  {
+   "text": "तो हलतोय",
+   "intent": "responding",
+   "src": "man_75_mr_traffic_06_responding"
+  },
+  {
+   "text": "तो हात्तोय.",
+   "intent": "responding",
+   "src": "man_75_mr_traffic_06_responding:stt"
+  },
+  {
+   "text": "हात दुखतायत, मी थकलो",
+   "intent": "tired",
+   "src": "man_75_mr_traffic_07_tired"
+  },
+  {
+   "text": "हात दुखताय, मी थकलो.",
+   "intent": "tired",
+   "src": "man_75_mr_traffic_07_tired:stt"
+  },
+  {
+   "text": "हात कुठे ठेवू?",
+   "intent": "where_hands",
+   "src": "man_75_mr_traffic_08_where_hands"
+  },
+  {
+   "text": "हात कुठे देवू?",
+   "intent": "where_hands",
+   "src": "man_75_mr_traffic_08_where_hands:stt"
+  },
+  {
+   "text": "ॲम्ब्युलन्सला फोन केला",
+   "intent": "help_called",
+   "src": "man_75_mr_traffic_09_help_called"
+  },
+  {
+   "text": "उम्ब्युलन्सला फोन केला.",
+   "intent": "help_called",
+   "src": "man_75_mr_traffic_09_help_called:stt"
+  },
+  {
+   "text": "श्वास घेत नाही",
+   "intent": "not_breathing",
+   "src": "woman_30_mr_quiet_01_not_breathing"
+  },
+  {
+   "text": "श्वास घेट नहीं है",
+   "intent": "not_breathing",
+   "src": "woman_30_mr_quiet_01_not_breathing:stt"
+  },
+  {
+   "text": "हो, श्वास घेतोय",
+   "intent": "breathing_normal",
+   "src": "woman_30_mr_quiet_02_breathing_normal"
+  },
+  {
+   "text": "हो श्वास गीत है",
+   "intent": "breathing_normal",
+   "src": "woman_30_mr_quiet_02_breathing_normal:stt"
+  },
+  {
+   "text": "धापा टाकतोय, विचित्र आवाज येतोय",
+   "intent": "gasping",
+   "src": "woman_30_mr_quiet_03_gasping"
+  },
+  {
+   "text": "धपपट अब तो विचित्र आवाज एतु है",
+   "intent": "gasping",
+   "src": "woman_30_mr_quiet_03_gasping:stt"
+  },
+  {
+   "text": "श्वास घेत नाही",
+   "intent": "not_breathing",
+   "src": "woman_30_mr_traffic_01_not_breathing"
+  },
+  {
+   "text": "स्वास्थ्य गतिविधि नहीं",
+   "intent": "not_breathing",
+   "src": "woman_30_mr_traffic_01_not_breathing:stt"
+  },
+  {
+   "text": "हो, श्वास घेतोय",
+   "intent": "breathing_normal",
+   "src": "woman_30_mr_traffic_02_breathing_normal"
+  },
+  {
+   "text": "चो स्वाज भिखोए.",
+   "intent": "breathing_normal",
+   "src": "woman_30_mr_traffic_02_breathing_normal:stt"
+  },
+  {
+   "text": "धापा टाकतोय, विचित्र आवाज येतोय",
+   "intent": "gasping",
+   "src": "woman_30_mr_traffic_03_gasping"
+  },
+  {
+   "text": "धापा टाकतोय, विचित्र आवाज देतोय.",
+   "intent": "gasping",
+   "src": "woman_30_mr_traffic_03_gasping:stt"
+  },
+  {
+   "text": "नाही, अजून नाही",
+   "intent": "not_breathing",
+   "src": "woman_30_mr_traffic_04_not_breathing"
+  },
+  {
+   "text": "नाही, अजून नाही.",
+   "intent": "not_breathing",
+   "src": "woman_30_mr_traffic_04_not_breathing:stt"
+  },
+  {
+   "text": "काहीच प्रतिसाद नाही, हलत नाही",
+   "intent": "not_responding",
+   "src": "woman_30_mr_traffic_05_not_responding"
+  },
+  {
+   "text": "काहीच प्रतिसाद नाही, हलत नाही.",
+   "intent": "not_responding",
+   "src": "woman_30_mr_traffic_05_not_responding:stt"
+  },
+  {
+   "text": "तो हलतोय",
+   "intent": "responding",
+   "src": "woman_30_mr_traffic_06_responding"
+  },
+  {
+   "text": "तो हलतोय.",
+   "intent": "responding",
+   "src": "woman_30_mr_traffic_06_responding:stt"
+  },
+  {
+   "text": "हात दुखतायत, मी थकलो",
+   "intent": "tired",
+   "src": "woman_30_mr_traffic_07_tired"
+  },
+  {
+   "text": "हात दुखताय, मी ठकले.",
+   "intent": "tired",
+   "src": "woman_30_mr_traffic_07_tired:stt"
+  },
+  {
+   "text": "हात कुठे ठेवू?",
+   "intent": "where_hands",
+   "src": "woman_30_mr_traffic_08_where_hands"
+  },
+  {
+   "text": "ॲम्ब्युलन्सला फोन केला",
+   "intent": "help_called",
+   "src": "woman_30_mr_traffic_09_help_called"
+  },
+  {
+   "text": "अण्भूलसला फोन केला आहे.",
+   "intent": "help_called",
+   "src": "woman_30_mr_traffic_09_help_called:stt"
+  },
+  {
+   "text": "breathing नहीं कर रहा यार",
+   "intent": "not_breathing",
+   "src": "woman_22_mix_quiet_01_not_breathing"
+  },
+  {
+   "text": "मृतिंग नहीं कर रहा है",
+   "intent": "not_breathing",
+   "src": "woman_22_mix_quiet_01_not_breathing:stt"
+  },
+  {
+   "text": "हाँ, breathing normal है",
+   "intent": "breathing_normal",
+   "src": "woman_22_mix_quiet_02_breathing_normal"
+  },
+  {
+   "text": "हाँ ब्रीथिंग नॉर्मल है",
+   "intent": "breathing_normal",
+   "src": "woman_22_mix_quiet_02_breathing_normal:stt"
+  },
+  {
+   "text": "gasping जैसा कर रहा है",
+   "intent": "gasping",
+   "src": "woman_22_mix_quiet_03_gasping"
+  },
+  {
+   "text": "गास्पिंग जैसा कर रहा है",
+   "intent": "gasping",
+   "src": "woman_22_mix_quiet_03_gasping:stt"
+  },
+  {
+   "text": "breathing नहीं कर रहा है यार",
+   "intent": "not_breathing",
+   "src": "woman_22_mix_market_01_not_breathing"
+  },
+  {
+   "text": "ब्रिटिंग नहीं कर रहा है",
+   "intent": "not_breathing",
+   "src": "woman_22_mix_market_01_not_breathing:stt"
+  },
+  {
+   "text": "हाँ, breathing normal है",
+   "intent": "breathing_normal",
+   "src": "woman_22_mix_market_02_breathing_normal"
+  },
+  {
+   "text": "हाँ रीचिंग नॉर्मल है",
+   "intent": "breathing_normal",
+   "src": "woman_22_mix_market_02_breathing_normal:stt"
+  },
+  {
+   "text": "gasping जैसा कर रहा है",
+   "intent": "gasping",
+   "src": "woman_22_mix_market_03_gasping"
+  },
+  {
+   "text": "दस पिंड जैसा कर रहा है",
+   "intent": "gasping",
+   "src": "woman_22_mix_market_03_gasping:stt"
+  },
+  {
+   "text": "no, अब भी नहीं",
+   "intent": "not_breathing",
+   "src": "woman_22_mix_market_04_not_breathing"
+  },
+  {
+   "text": "अभी भी नहीं",
+   "intent": "not_breathing",
+   "src": "woman_22_mix_market_04_not_breathing:stt"
+  },
+  {
+   "text": "कोई response नहीं, हिल नहीं रहा",
+   "intent": "not_responding",
+   "src": "woman_22_mix_market_05_not_responding"
+  },
+  {
+   "text": "कोई रिस्पॉस नहीं नहीं रहा",
+   "intent": "not_responding",
+   "src": "woman_22_mix_market_05_not_responding:stt"
+  },
+  {
+   "text": "he's moving, हिल रहा है",
+   "intent": "responding",
+   "src": "woman_22_mix_market_06_responding"
+  },
+  {
+   "text": "हीच वूबिंग हीणाही.",
+   "intent": "responding",
+   "src": "woman_22_mix_market_06_responding:stt"
+  },
+  {
+   "text": "I'm tired यार, हाथ दर्द कर रहे",
+   "intent": "tired",
+   "src": "woman_22_mix_market_07_tired"
+  },
+  {
+   "text": "आयाम तायट यार खाद्दत करण्या आहेत. बहुजा.",
+   "intent": "tired",
+   "src": "woman_22_mix_market_07_tired:stt"
+  },
+  {
+   "text": "कहाँ push करूँ?",
+   "intent": "where_hands",
+   "src": "woman_22_mix_market_08_where_hands"
+  },
+  {
+   "text": "काहा पूष करू?",
+   "intent": "where_hands",
+   "src": "woman_22_mix_market_08_where_hands:stt"
+  },
+  {
+   "text": "अच्छा अच्छा, push कर रही हूँ",
+   "intent": "pushing",
+   "src": "woman_22_mix_market_09_pushing"
+  },
+  {
+   "text": "अचावरी नाचावर. अके, उष कर रहीहू.",
+   "intent": "pushing",
+   "src": "woman_22_mix_market_09_pushing:stt"
+  },
+  {
+   "text": "साँस नहीं ले रहा",
+   "intent": "not_breathing",
+   "src": "woman_19_hi_traffic_01_not_breathing"
+  },
+  {
+   "text": "साथ नहीं ले रहा",
+   "intent": "not_breathing",
+   "src": "woman_19_hi_traffic_01_not_breathing:stt"
+  },
+  {
+   "text": "हाँ, साँस ले रहा है",
+   "intent": "breathing_normal",
+   "src": "woman_19_hi_traffic_02_breathing_normal"
+  },
+  {
+   "text": "हाथ ले रहा है",
+   "intent": "breathing_normal",
+   "src": "woman_19_hi_traffic_02_breathing_normal:stt"
+  },
+  {
+   "text": "अजीब साँस, हाँफ रहा है",
+   "intent": "gasping",
+   "src": "woman_19_hi_traffic_03_gasping"
+  },
+  {
+   "text": "अजीब साथ रहा है",
+   "intent": "gasping",
+   "src": "woman_19_hi_traffic_03_gasping:stt"
+  },
+  {
+   "text": "नहीं, अभी भी नहीं",
+   "intent": "not_breathing",
+   "src": "woman_19_hi_traffic_04_not_breathing"
+  },
+  {
+   "text": "ना अभी भी नहीं",
+   "intent": "not_breathing",
+   "src": "woman_19_hi_traffic_04_not_breathing:stt"
+  },
+  {
+   "text": "कोई response नहीं, हिल ही नहीं रहा",
+   "intent": "not_responding",
+   "src": "woman_19_mix_traffic_05_not_responding"
+  },
+  {
+   "text": "कोई रिस्पॉन्स नहीं",
+   "intent": "not_responding",
+   "src": "woman_19_mix_traffic_05_not_responding:stt"
+  },
+  {
+   "text": "he's moving, हिल रहा है",
+   "intent": "responding",
+   "src": "woman_19_mix_traffic_06_responding"
+  },
+  {
+   "text": "फिर रहा है",
+   "intent": "responding",
+   "src": "woman_19_mix_traffic_06_responding:stt"
+  },
+  {
+   "text": "I'm tired यार, हाथ दर्द कर रहे",
+   "intent": "tired",
+   "src": "woman_19_mix_traffic_07_tired"
+  },
+  {
+   "text": "आई टाइट यार हाथ दर्ज कर रहा है",
+   "intent": "tired",
+   "src": "woman_19_mix_traffic_07_tired:stt"
+  },
+  {
+   "text": "कहाँ push करूँ?",
+   "intent": "where_hands",
+   "src": "woman_19_mix_traffic_08_where_hands"
+  },
+  {
+   "text": "कहा कुछ करूँ",
+   "intent": "where_hands",
+   "src": "woman_19_mix_traffic_08_where_hands:stt"
+  },
+  {
+   "text": "ok ok Push kar rahi hoon",
+   "intent": "pushing",
+   "src": "woman_19_mix_traffic_09_pushing"
+  },
+  {
+   "text": "ओके ओके उसके रही",
+   "intent": "pushing",
+   "src": "woman_19_mix_traffic_09_pushing:stt"
+  },
+  {
+   "text": "breathing नहीं कर रहा यार",
+   "intent": "not_breathing",
+   "src": "woman_19_mix_quiet_01_not_breathing"
+  },
+  {
+   "text": "वृत्ति नहीं कर रहा है",
+   "intent": "not_breathing",
+   "src": "woman_19_mix_quiet_01_not_breathing:stt"
+  },
+  {
+   "text": "हाँ, breathing normal है",
+   "intent": "breathing_normal",
+   "src": "woman_19_mix_quiet_02_breathing_normal"
+  },
+  {
+   "text": "हाँ ब्रीटिंग नॉर्मल है",
+   "intent": "breathing_normal",
+   "src": "woman_19_mix_quiet_02_breathing_normal:stt"
+  },
+  {
+   "text": "gasping जैसा कर रहा है",
+   "intent": "gasping",
+   "src": "woman_19_mix_quiet_03_gasping"
+  },
+  {
+   "text": "गास्पेटिस्ट कर रहा है",
+   "intent": "gasping",
+   "src": "woman_19_mix_quiet_03_gasping:stt"
+  }
+ ]
+}
